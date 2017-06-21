@@ -1,0 +1,789 @@
+CompilerOracle: excludec2 org.springframework.core.ResolvableType::as
+Listening for transport dt_socket at address: 8787
+21-Jun-2017 18:52:47.369 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.33
+21-Jun-2017 18:52:47.370 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 18 2016 20:31:49 UTC
+21-Jun-2017 18:52:47.370 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.33.0
+21-Jun-2017 18:52:47.370 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+21-Jun-2017 18:52:47.370 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            3.10.0-327.36.3.el7.x86_64
+21-Jun-2017 18:52:47.370 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+21-Jun-2017 18:52:47.370 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /opt/zing/zing-jdk1.8.0-16.12.3.0-2-x86_64/jre
+21-Jun-2017 18:52:47.370 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0-zing_16.12.3.0-b2
+21-Jun-2017 18:52:47.371 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Azul Systems, Inc.
+21-Jun-2017 18:52:47.371 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /usr/local/kronos/tomcat
+21-Jun-2017 18:52:47.371 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /usr/local/kronos/tomcat
+21-Jun-2017 18:52:47.371 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/usr/local/kronos/tomcat/conf/logging.properties
+21-Jun-2017 18:52:47.371 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+21-Jun-2017 18:52:47.371 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms512m
+21-Jun-2017 18:52:47.371 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx32768m
+21-Jun-2017 18:52:47.371 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -DAPPSERVER_INSTANCE_NAME=wfc
+21-Jun-2017 18:52:47.371 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -DWFC_ROOT=/usr/local/kronos
+21-Jun-2017 18:52:47.371 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -DWFC_DIR=/usr/local/kronos/wfc
+21-Jun-2017 18:52:47.372 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dinstall.dir=/usr/local/kronos
+21-Jun-2017 18:52:47.372 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dinstance.name=wfc
+21-Jun-2017 18:52:47.372 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.el.parser.SKIP_IDENTIFIER_CHECK=true
+21-Jun-2017 18:52:47.372 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.security.auth.login.config=/usr/local/kronos/tomcat/conf/kronos.conf
+21-Jun-2017 18:52:47.372 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcloud=true
+21-Jun-2017 18:52:47.372 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Duser.timezone=UTC
+21-Jun-2017 18:52:47.372 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote
+21-Jun-2017 18:52:47.372 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote.port=9002
+21-Jun-2017 18:52:47.372 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote.rmi.port=9002
+21-Jun-2017 18:52:47.372 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote.ssl=false
+21-Jun-2017 18:52:47.372 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote.authenticate=false
+21-Jun-2017 18:52:47.372 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote.password.file=/usr/local/kronos/tomcat/conf/jmxremote.password
+21-Jun-2017 18:52:47.373 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote.access.file=/usr/local/kronos/tomcat/conf/jmxremote.access
+21-Jun-2017 18:52:47.373 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.rmi.server.hostname=cxseed-a-back.int.prf.mykronos.com
+21-Jun-2017 18:52:47.373 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -agentlib:jdwp=transport=dt_socket,address=8787,server=y,suspend=n
+21-Jun-2017 18:52:47.373 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dmessaging.failure.bypass=false
+21-Jun-2017 18:52:47.373 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:CompileCommand=excludec2,org.springframework.core.ResolvableType::as
+21-Jun-2017 18:52:47.373 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=/usr/local/kronos/tomcat/endorsed
+21-Jun-2017 18:52:47.373 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/usr/local/kronos/tomcat
+21-Jun-2017 18:52:47.373 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/usr/local/kronos/tomcat
+21-Jun-2017 18:52:47.373 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/usr/local/kronos/tomcat/temp
+21-Jun-2017 18:52:47.373 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: :/usr/local/ssl/lib:/usr/local/kronos/flexlm:/usr/local/kronos/Xpress-Optimizer/bin:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+21-Jun-2017 18:52:47.643 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+21-Jun-2017 18:52:47.674 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+21-Jun-2017 18:52:47.676 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+21-Jun-2017 18:52:47.678 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+21-Jun-2017 18:52:47.678 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 785 ms
+21-Jun-2017 18:52:47.691 WARNING [main] org.apache.tomcat.jdbc.pool.DataSourceFactory.parsePoolProperties poolPreparedStatements is not a valid setting, it will have no effect.
+21-Jun-2017 18:52:47.801 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+21-Jun-2017 18:52:47.802 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.33
+21-Jun-2017 18:52:47.838 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /usr/local/kronos/tomcat/webapps/ROOT
+21-Jun-2017 18:52:48.278 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+21-Jun-2017 18:52:48.319 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /usr/local/kronos/tomcat/webapps/ROOT has finished in 481 ms
+21-Jun-2017 18:52:48.320 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /usr/local/kronos/tomcat/webapps/docs
+21-Jun-2017 18:52:48.517 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+21-Jun-2017 18:52:48.518 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /usr/local/kronos/tomcat/webapps/docs has finished in 198 ms
+21-Jun-2017 18:52:48.518 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /usr/local/kronos/tomcat/webapps/examples
+21-Jun-2017 18:52:49.970 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+21-Jun-2017 18:52:50.001 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /usr/local/kronos/tomcat/webapps/examples has finished in 1,483 ms
+21-Jun-2017 18:52:50.001 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /usr/local/kronos/tomcat/webapps/host-manager
+21-Jun-2017 18:52:50.159 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+21-Jun-2017 18:52:50.162 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /usr/local/kronos/tomcat/webapps/host-manager has finished in 161 ms
+21-Jun-2017 18:52:50.162 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /usr/local/kronos/tomcat/webapps/manager
+21-Jun-2017 18:52:50.314 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+21-Jun-2017 18:52:50.316 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /usr/local/kronos/tomcat/webapps/manager has finished in 154 ms
+21-Jun-2017 18:52:50.316 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /usr/local/kronos/tomcat/webapps/wfc
+21-Jun-2017 18:53:34.723 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2017-06-21 18:53:35,893 DEBUG Starting configuration XmlConfiguration[location=/usr/local/kronos/tomcat/webapps/wfc/WEB-INF/classes/log4j2.xml]
+2017-06-21 18:53:35,894 DEBUG PluginManager 'Core' found 71 plugins
+2017-06-21 18:53:35,894 DEBUG PluginManager 'Level' found 0 plugins
+2017-06-21 18:53:35,904 DEBUG PluginManager 'Lookup' found 10 plugins
+2017-06-21 18:53:35,908 DEBUG Building Plugin[name=layout, class=org.apache.logging.log4j.core.layout.PatternLayout]. Searching for builder factory method...
+2017-06-21 18:53:35,914 DEBUG Found builder factory method [newBuilder]: public static org.apache.logging.log4j.core.layout.PatternLayout$Builder org.apache.logging.log4j.core.layout.PatternLayout.newBuilder().
+2017-06-21 18:53:35,931 DEBUG TypeConverterRegistry initializing.
+2017-06-21 18:53:35,931 DEBUG PluginManager 'TypeConverter' found 21 plugins
+2017-06-21 18:53:35,967 DEBUG Calling build() on class class org.apache.logging.log4j.core.layout.PatternLayout$Builder for element PatternLayout with params(name="%d %-5p [%t] %C{2} (%F:%L) - %m%n", Configuration(/usr/local/kronos/tomcat/webapps/wfc/WEB-INF/classes/log4j2.xml), null, name="null", name="null", name="null", name="null", name="null")
+2017-06-21 18:53:35,967 DEBUG PluginManager 'Converter' found 36 plugins
+2017-06-21 18:53:35,968 DEBUG Built Plugin[name=layout] OK from builder factory method.
+2017-06-21 18:53:35,968 DEBUG Building Plugin[name=appender, class=org.apache.logging.log4j.core.appender.ConsoleAppender]. Searching for builder factory method...
+2017-06-21 18:53:35,976 INFO Log4j appears to be running in a Servlet environment, but there's no log4j-web module available. If you want better web container support, please add the log4j-web JAR to your web archive or server lib directory.
+2017-06-21 18:53:35,976 DEBUG PluginManager 'Converter' found 36 plugins
+2017-06-21 18:53:35,976 DEBUG Found builder factory method [newBuilder]: public static org.apache.logging.log4j.core.appender.ConsoleAppender$Builder org.apache.logging.log4j.core.appender.ConsoleAppender.newBuilder().
+2017-06-21 18:53:35,983 DEBUG No PluginVisitorStrategy found on annotation [interface org.apache.logging.log4j.core.config.plugins.validation.constraints.Required]. Ignoring.
+2017-06-21 18:53:35,984 DEBUG Encountered type [org.apache.logging.log4j.core.layout.PatternLayout] which can only be checked for null.
+2017-06-21 18:53:35,986 DEBUG No PluginVisitorStrategy found on annotation [interface org.apache.logging.log4j.core.config.plugins.validation.constraints.Required]. Ignoring.
+2017-06-21 18:53:35,987 DEBUG Encountered type [org.apache.logging.log4j.core.appender.ConsoleAppender$Target] which can only be checked for null.
+2017-06-21 18:53:35,987 DEBUG No PluginVisitorStrategy found on annotation [interface org.apache.logging.log4j.core.config.plugins.validation.constraints.Required]. Ignoring.
+2017-06-21 18:53:35,987 DEBUG Calling build() on class class org.apache.logging.log4j.core.appender.ConsoleAppender$Builder for element Console with params(PatternLayout(%d %-5p [%t] %C{2} (%F:%L) - %m%n), null, name="SYSTEM_OUT", name="STDOUT", name="null", name="null")
+2017-06-21 18:53:35,988 DEBUG Built Plugin[name=appender] OK from builder factory method.
+2017-06-21 18:53:35,988 DEBUG Building Plugin[name=layout, class=org.apache.logging.log4j.core.layout.PatternLayout]. Searching for builder factory method...
+2017-06-21 18:53:35,988 DEBUG Found builder factory method [newBuilder]: public static org.apache.logging.log4j.core.layout.PatternLayout$Builder org.apache.logging.log4j.core.layout.PatternLayout.newBuilder().
+2017-06-21 18:53:35,989 DEBUG Calling build() on class class org.apache.logging.log4j.core.layout.PatternLayout$Builder for element PatternLayout with params(name="{"ts":"%d{MM dd yyyy HH:mm:ss.SSS}","th":"%t","tenant":"%TID","user":"%user","trxid":"%X{KTID}","level":"%level","logger":"%logger{36}","msg":%msg %X{MDC_ERR} %X{XMSG}}%n", Configuration(/usr/local/kronos/tomcat/webapps/wfc/WEB-INF/classes/log4j2.xml), null, name="null", name="null", name="null", name="null", name="null")
+2017-06-21 18:53:35,989 DEBUG Built Plugin[name=layout] OK from builder factory method.
+2017-06-21 18:53:35,990 DEBUG Building Plugin[name=SizeBasedTriggeringPolicy, class=org.apache.logging.log4j.core.appender.rolling.SizeBasedTriggeringPolicy]. Searching for builder factory method...
+2017-06-21 18:53:35,993 DEBUG No builder factory method found in class org.apache.logging.log4j.core.appender.rolling.SizeBasedTriggeringPolicy. Going to try finding a factory method instead.
+2017-06-21 18:53:35,993 DEBUG Still building Plugin[name=SizeBasedTriggeringPolicy, class=org.apache.logging.log4j.core.appender.rolling.SizeBasedTriggeringPolicy]. Searching for factory method...
+2017-06-21 18:53:35,993 DEBUG Found factory method [createPolicy]: public static org.apache.logging.log4j.core.appender.rolling.SizeBasedTriggeringPolicy org.apache.logging.log4j.core.appender.rolling.SizeBasedTriggeringPolicy.createPolicy(java.lang.String).
+2017-06-21 18:53:35,999 DEBUG Calling createPolicy on class org.apache.logging.log4j.core.appender.rolling.SizeBasedTriggeringPolicy for element SizeBasedTriggeringPolicy with params(name="5000KB")
+2017-06-21 18:53:36,000 DEBUG Built Plugin[name=SizeBasedTriggeringPolicy] OK from factory method.
+2017-06-21 18:53:36,000 DEBUG Building Plugin[name=Policies, class=org.apache.logging.log4j.core.appender.rolling.CompositeTriggeringPolicy]. Searching for builder factory method...
+2017-06-21 18:53:36,001 DEBUG No builder factory method found in class org.apache.logging.log4j.core.appender.rolling.CompositeTriggeringPolicy. Going to try finding a factory method instead.
+2017-06-21 18:53:36,001 DEBUG Still building Plugin[name=Policies, class=org.apache.logging.log4j.core.appender.rolling.CompositeTriggeringPolicy]. Searching for factory method...
+2017-06-21 18:53:36,001 DEBUG Found factory method [createPolicy]: public static org.apache.logging.log4j.core.appender.rolling.CompositeTriggeringPolicy org.apache.logging.log4j.core.appender.rolling.CompositeTriggeringPolicy.createPolicy(org.apache.logging.log4j.core.appender.rolling.TriggeringPolicy[]).
+2017-06-21 18:53:36,001 DEBUG Calling createPolicy on class org.apache.logging.log4j.core.appender.rolling.CompositeTriggeringPolicy for element Policies with params(={SizeBasedTriggeringPolicy(size=5120000)})
+2017-06-21 18:53:36,001 DEBUG Built Plugin[name=Policies] OK from factory method.
+2017-06-21 18:53:36,002 DEBUG Building Plugin[name=DefaultRolloverStrategy, class=org.apache.logging.log4j.core.appender.rolling.DefaultRolloverStrategy]. Searching for builder factory method...
+2017-06-21 18:53:36,005 DEBUG No builder factory method found in class org.apache.logging.log4j.core.appender.rolling.DefaultRolloverStrategy. Going to try finding a factory method instead.
+2017-06-21 18:53:36,005 DEBUG Still building Plugin[name=DefaultRolloverStrategy, class=org.apache.logging.log4j.core.appender.rolling.DefaultRolloverStrategy]. Searching for factory method...
+2017-06-21 18:53:36,005 DEBUG Found factory method [createStrategy]: public static org.apache.logging.log4j.core.appender.rolling.DefaultRolloverStrategy org.apache.logging.log4j.core.appender.rolling.DefaultRolloverStrategy.createStrategy(java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.apache.logging.log4j.core.config.Configuration).
+2017-06-21 18:53:36,005 DEBUG Calling createStrategy on class org.apache.logging.log4j.core.appender.rolling.DefaultRolloverStrategy for element DefaultRolloverStrategy with params(name="10", name="null", name="null", name="null", Configuration(/usr/local/kronos/tomcat/webapps/wfc/WEB-INF/classes/log4j2.xml))
+2017-06-21 18:53:36,007 DEBUG Built Plugin[name=DefaultRolloverStrategy] OK from factory method.
+2017-06-21 18:53:36,007 DEBUG Building Plugin[name=appender, class=org.apache.logging.log4j.core.appender.RollingFileAppender]. Searching for builder factory method...
+2017-06-21 18:53:36,007 DEBUG No builder factory method found in class org.apache.logging.log4j.core.appender.RollingFileAppender. Going to try finding a factory method instead.
+2017-06-21 18:53:36,007 DEBUG Still building Plugin[name=appender, class=org.apache.logging.log4j.core.appender.RollingFileAppender]. Searching for factory method...
+2017-06-21 18:53:36,008 DEBUG Found factory method [createAppender]: public static org.apache.logging.log4j.core.appender.RollingFileAppender org.apache.logging.log4j.core.appender.RollingFileAppender.createAppender(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.apache.logging.log4j.core.appender.rolling.TriggeringPolicy,org.apache.logging.log4j.core.appender.rolling.RolloverStrategy,org.apache.logging.log4j.core.Layout,org.apache.logging.log4j.core.Filter,java.lang.String,java.lang.String,java.lang.String,org.apache.logging.log4j.core.config.Configuration).
+2017-06-21 18:53:36,009 DEBUG Calling createAppender on class org.apache.logging.log4j.core.appender.RollingFileAppender for element RollingFile with params(name="/usr/local/kronos/wfc/logs/wfc.log", name="/usr/local/kronos/wfc/logs/wfc-%i.log", name="null", name="WFC_FILE", name="null", name="null", name="null", Policies(CompositeTriggeringPolicy{SizeBasedTriggeringPolicy(size=5120000)}), DefaultRolloverStrategy(DefaultRolloverStrategy(min=1, max=10)), PatternLayout({"ts":"%d{MM dd yyyy HH:mm:ss.SSS}","th":"%t","tenant":"%TID","user":"%user","trxid":"%X{KTID}","level":"%level","logger":"%logger{36}","msg":%msg %X{MDC_ERR} %X{XMSG}}%n), null, name="null", name="null", name="null", Configuration(/usr/local/kronos/tomcat/webapps/wfc/WEB-INF/classes/log4j2.xml))
+2017-06-21 18:53:36,015 DEBUG Starting RollingFileManager /usr/local/kronos/wfc/logs/wfc.log
+2017-06-21 18:53:36,017 DEBUG PluginManager 'FileConverter' found 2 plugins
+2017-06-21 18:53:36,018 DEBUG Built Plugin[name=appender] OK from factory method.
+2017-06-21 18:53:36,018 DEBUG Building Plugin[name=layout, class=org.apache.logging.log4j.core.layout.PatternLayout]. Searching for builder factory method...
+2017-06-21 18:53:36,018 DEBUG Found builder factory method [newBuilder]: public static org.apache.logging.log4j.core.layout.PatternLayout$Builder org.apache.logging.log4j.core.layout.PatternLayout.newBuilder().
+2017-06-21 18:53:36,019 DEBUG Calling build() on class class org.apache.logging.log4j.core.layout.PatternLayout$Builder for element PatternLayout with params(name="{"ts":"%d{MM dd yyyy HH:mm:ss.SSS}","th":"%t","tenant":"%TID","user":"%user","trxid":"%X{KTID}","level":"%level","logger":"%logger{36}","msg":%msg %X{MDC_ERR} %X{XMSG}}%n", Configuration(/usr/local/kronos/tomcat/webapps/wfc/WEB-INF/classes/log4j2.xml), null, name="null", name="null", name="null", name="null", name="null")
+2017-06-21 18:53:36,019 DEBUG Built Plugin[name=layout] OK from builder factory method.
+2017-06-21 18:53:36,019 DEBUG Building Plugin[name=SizeBasedTriggeringPolicy, class=org.apache.logging.log4j.core.appender.rolling.SizeBasedTriggeringPolicy]. Searching for builder factory method...
+2017-06-21 18:53:36,019 DEBUG No builder factory method found in class org.apache.logging.log4j.core.appender.rolling.SizeBasedTriggeringPolicy. Going to try finding a factory method instead.
+2017-06-21 18:53:36,019 DEBUG Still building Plugin[name=SizeBasedTriggeringPolicy, class=org.apache.logging.log4j.core.appender.rolling.SizeBasedTriggeringPolicy]. Searching for factory method...
+2017-06-21 18:53:36,020 DEBUG Found factory method [createPolicy]: public static org.apache.logging.log4j.core.appender.rolling.SizeBasedTriggeringPolicy org.apache.logging.log4j.core.appender.rolling.SizeBasedTriggeringPolicy.createPolicy(java.lang.String).
+2017-06-21 18:53:36,020 DEBUG Calling createPolicy on class org.apache.logging.log4j.core.appender.rolling.SizeBasedTriggeringPolicy for element SizeBasedTriggeringPolicy with params(name="5000KB")
+2017-06-21 18:53:36,021 DEBUG Built Plugin[name=SizeBasedTriggeringPolicy] OK from factory method.
+2017-06-21 18:53:36,021 DEBUG Building Plugin[name=Policies, class=org.apache.logging.log4j.core.appender.rolling.CompositeTriggeringPolicy]. Searching for builder factory method...
+2017-06-21 18:53:36,021 DEBUG No builder factory method found in class org.apache.logging.log4j.core.appender.rolling.CompositeTriggeringPolicy. Going to try finding a factory method instead.
+2017-06-21 18:53:36,021 DEBUG Still building Plugin[name=Policies, class=org.apache.logging.log4j.core.appender.rolling.CompositeTriggeringPolicy]. Searching for factory method...
+2017-06-21 18:53:36,021 DEBUG Found factory method [createPolicy]: public static org.apache.logging.log4j.core.appender.rolling.CompositeTriggeringPolicy org.apache.logging.log4j.core.appender.rolling.CompositeTriggeringPolicy.createPolicy(org.apache.logging.log4j.core.appender.rolling.TriggeringPolicy[]).
+2017-06-21 18:53:36,022 DEBUG Calling createPolicy on class org.apache.logging.log4j.core.appender.rolling.CompositeTriggeringPolicy for element Policies with params(={SizeBasedTriggeringPolicy(size=5120000)})
+2017-06-21 18:53:36,022 DEBUG Built Plugin[name=Policies] OK from factory method.
+2017-06-21 18:53:36,022 DEBUG Building Plugin[name=DefaultRolloverStrategy, class=org.apache.logging.log4j.core.appender.rolling.DefaultRolloverStrategy]. Searching for builder factory method...
+2017-06-21 18:53:36,022 DEBUG No builder factory method found in class org.apache.logging.log4j.core.appender.rolling.DefaultRolloverStrategy. Going to try finding a factory method instead.
+2017-06-21 18:53:36,022 DEBUG Still building Plugin[name=DefaultRolloverStrategy, class=org.apache.logging.log4j.core.appender.rolling.DefaultRolloverStrategy]. Searching for factory method...
+2017-06-21 18:53:36,022 DEBUG Found factory method [createStrategy]: public static org.apache.logging.log4j.core.appender.rolling.DefaultRolloverStrategy org.apache.logging.log4j.core.appender.rolling.DefaultRolloverStrategy.createStrategy(java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.apache.logging.log4j.core.config.Configuration).
+2017-06-21 18:53:36,023 DEBUG Calling createStrategy on class org.apache.logging.log4j.core.appender.rolling.DefaultRolloverStrategy for element DefaultRolloverStrategy with params(name="10", name="null", name="null", name="null", Configuration(/usr/local/kronos/tomcat/webapps/wfc/WEB-INF/classes/log4j2.xml))
+2017-06-21 18:53:36,023 DEBUG Built Plugin[name=DefaultRolloverStrategy] OK from factory method.
+2017-06-21 18:53:36,023 DEBUG Building Plugin[name=appender, class=org.apache.logging.log4j.core.appender.RollingFileAppender]. Searching for builder factory method...
+2017-06-21 18:53:36,023 DEBUG No builder factory method found in class org.apache.logging.log4j.core.appender.RollingFileAppender. Going to try finding a factory method instead.
+2017-06-21 18:53:36,024 DEBUG Still building Plugin[name=appender, class=org.apache.logging.log4j.core.appender.RollingFileAppender]. Searching for factory method...
+2017-06-21 18:53:36,024 DEBUG Found factory method [createAppender]: public static org.apache.logging.log4j.core.appender.RollingFileAppender org.apache.logging.log4j.core.appender.RollingFileAppender.createAppender(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.apache.logging.log4j.core.appender.rolling.TriggeringPolicy,org.apache.logging.log4j.core.appender.rolling.RolloverStrategy,org.apache.logging.log4j.core.Layout,org.apache.logging.log4j.core.Filter,java.lang.String,java.lang.String,java.lang.String,org.apache.logging.log4j.core.config.Configuration).
+2017-06-21 18:53:36,025 DEBUG Calling createAppender on class org.apache.logging.log4j.core.appender.RollingFileAppender for element RollingFile with params(name="/usr/local/kronos/wfc/logs/StartupInfo.log", name="/usr/local/kronos/wfc/logs/StartupInfo-%i.log", name="null", name="STARTUP_INFO_FILE", name="null", name="null", name="null", Policies(CompositeTriggeringPolicy{SizeBasedTriggeringPolicy(size=5120000)}), DefaultRolloverStrategy(DefaultRolloverStrategy(min=1, max=10)), PatternLayout({"ts":"%d{MM dd yyyy HH:mm:ss.SSS}","th":"%t","tenant":"%TID","user":"%user","trxid":"%X{KTID}","level":"%level","logger":"%logger{36}","msg":%msg %X{MDC_ERR} %X{XMSG}}%n), null, name="null", name="null", name="null", Configuration(/usr/local/kronos/tomcat/webapps/wfc/WEB-INF/classes/log4j2.xml))
+2017-06-21 18:53:36,025 DEBUG Starting RollingFileManager /usr/local/kronos/wfc/logs/StartupInfo.log
+2017-06-21 18:53:36,025 DEBUG PluginManager 'FileConverter' found 2 plugins
+2017-06-21 18:53:36,025 DEBUG Built Plugin[name=appender] OK from factory method.
+2017-06-21 18:53:36,025 DEBUG Building Plugin[name=layout, class=org.apache.logging.log4j.core.layout.PatternLayout]. Searching for builder factory method...
+2017-06-21 18:53:36,026 DEBUG Found builder factory method [newBuilder]: public static org.apache.logging.log4j.core.layout.PatternLayout$Builder org.apache.logging.log4j.core.layout.PatternLayout.newBuilder().
+2017-06-21 18:53:36,026 DEBUG Calling build() on class class org.apache.logging.log4j.core.layout.PatternLayout$Builder for element PatternLayout with params(name="{"ts":"%d{MM dd yyyy HH:mm:ss.SSS}","th":"%t","tenant":"%TID","user":"%user","trxid":"%X{KTID}","level":"%level","logger":"%logger{36}","msg":%msg %X{MDC_ERR} %X{XMSG}}%n", Configuration(/usr/local/kronos/tomcat/webapps/wfc/WEB-INF/classes/log4j2.xml), null, name="null", name="null", name="null", name="null", name="null")
+2017-06-21 18:53:36,027 DEBUG Built Plugin[name=layout] OK from builder factory method.
+2017-06-21 18:53:36,027 DEBUG Building Plugin[name=SizeBasedTriggeringPolicy, class=org.apache.logging.log4j.core.appender.rolling.SizeBasedTriggeringPolicy]. Searching for builder factory method...
+2017-06-21 18:53:36,027 DEBUG No builder factory method found in class org.apache.logging.log4j.core.appender.rolling.SizeBasedTriggeringPolicy. Going to try finding a factory method instead.
+2017-06-21 18:53:36,027 DEBUG Still building Plugin[name=SizeBasedTriggeringPolicy, class=org.apache.logging.log4j.core.appender.rolling.SizeBasedTriggeringPolicy]. Searching for factory method...
+2017-06-21 18:53:36,027 DEBUG Found factory method [createPolicy]: public static org.apache.logging.log4j.core.appender.rolling.SizeBasedTriggeringPolicy org.apache.logging.log4j.core.appender.rolling.SizeBasedTriggeringPolicy.createPolicy(java.lang.String).
+2017-06-21 18:53:36,027 DEBUG Calling createPolicy on class org.apache.logging.log4j.core.appender.rolling.SizeBasedTriggeringPolicy for element SizeBasedTriggeringPolicy with params(name="1000KB")
+2017-06-21 18:53:36,028 DEBUG Built Plugin[name=SizeBasedTriggeringPolicy] OK from factory method.
+2017-06-21 18:53:36,028 DEBUG Building Plugin[name=Policies, class=org.apache.logging.log4j.core.appender.rolling.CompositeTriggeringPolicy]. Searching for builder factory method...
+2017-06-21 18:53:36,028 DEBUG No builder factory method found in class org.apache.logging.log4j.core.appender.rolling.CompositeTriggeringPolicy. Going to try finding a factory method instead.
+2017-06-21 18:53:36,029 DEBUG Still building Plugin[name=Policies, class=org.apache.logging.log4j.core.appender.rolling.CompositeTriggeringPolicy]. Searching for factory method...
+2017-06-21 18:53:36,029 DEBUG Found factory method [createPolicy]: public static org.apache.logging.log4j.core.appender.rolling.CompositeTriggeringPolicy org.apache.logging.log4j.core.appender.rolling.CompositeTriggeringPolicy.createPolicy(org.apache.logging.log4j.core.appender.rolling.TriggeringPolicy[]).
+2017-06-21 18:53:36,029 DEBUG Calling createPolicy on class org.apache.logging.log4j.core.appender.rolling.CompositeTriggeringPolicy for element Policies with params(={SizeBasedTriggeringPolicy(size=1024000)})
+2017-06-21 18:53:36,030 DEBUG Built Plugin[name=Policies] OK from factory method.
+2017-06-21 18:53:36,030 DEBUG Building Plugin[name=DefaultRolloverStrategy, class=org.apache.logging.log4j.core.appender.rolling.DefaultRolloverStrategy]. Searching for builder factory method...
+2017-06-21 18:53:36,030 DEBUG No builder factory method found in class org.apache.logging.log4j.core.appender.rolling.DefaultRolloverStrategy. Going to try finding a factory method instead.
+2017-06-21 18:53:36,030 DEBUG Still building Plugin[name=DefaultRolloverStrategy, class=org.apache.logging.log4j.core.appender.rolling.DefaultRolloverStrategy]. Searching for factory method...
+2017-06-21 18:53:36,030 DEBUG Found factory method [createStrategy]: public static org.apache.logging.log4j.core.appender.rolling.DefaultRolloverStrategy org.apache.logging.log4j.core.appender.rolling.DefaultRolloverStrategy.createStrategy(java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.apache.logging.log4j.core.config.Configuration).
+2017-06-21 18:53:36,031 DEBUG Calling createStrategy on class org.apache.logging.log4j.core.appender.rolling.DefaultRolloverStrategy for element DefaultRolloverStrategy with params(name="5", name="null", name="null", name="null", Configuration(/usr/local/kronos/tomcat/webapps/wfc/WEB-INF/classes/log4j2.xml))
+2017-06-21 18:53:36,031 DEBUG Built Plugin[name=DefaultRolloverStrategy] OK from factory method.
+2017-06-21 18:53:36,031 DEBUG Building Plugin[name=appender, class=org.apache.logging.log4j.core.appender.RollingFileAppender]. Searching for builder factory method...
+2017-06-21 18:53:36,031 DEBUG No builder factory method found in class org.apache.logging.log4j.core.appender.RollingFileAppender. Going to try finding a factory method instead.
+2017-06-21 18:53:36,031 DEBUG Still building Plugin[name=appender, class=org.apache.logging.log4j.core.appender.RollingFileAppender]. Searching for factory method...
+2017-06-21 18:53:36,032 DEBUG Found factory method [createAppender]: public static org.apache.logging.log4j.core.appender.RollingFileAppender org.apache.logging.log4j.core.appender.RollingFileAppender.createAppender(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.apache.logging.log4j.core.appender.rolling.TriggeringPolicy,org.apache.logging.log4j.core.appender.rolling.RolloverStrategy,org.apache.logging.log4j.core.Layout,org.apache.logging.log4j.core.Filter,java.lang.String,java.lang.String,java.lang.String,org.apache.logging.log4j.core.config.Configuration).
+2017-06-21 18:53:36,033 DEBUG Calling createAppender on class org.apache.logging.log4j.core.appender.RollingFileAppender for element RollingFile with params(name="/usr/local/kronos/wfc/logs/StartupError.log", name="/usr/local/kronos/wfc/logs/StartupError-%i.log", name="null", name="STARTUP_ERROR_FILE", name="null", name="null", name="null", Policies(CompositeTriggeringPolicy{SizeBasedTriggeringPolicy(size=1024000)}), DefaultRolloverStrategy(DefaultRolloverStrategy(min=1, max=5)), PatternLayout({"ts":"%d{MM dd yyyy HH:mm:ss.SSS}","th":"%t","tenant":"%TID","user":"%user","trxid":"%X{KTID}","level":"%level","logger":"%logger{36}","msg":%msg %X{MDC_ERR} %X{XMSG}}%n), null, name="null", name="null", name="null", Configuration(/usr/local/kronos/tomcat/webapps/wfc/WEB-INF/classes/log4j2.xml))
+2017-06-21 18:53:36,033 DEBUG Starting RollingFileManager /usr/local/kronos/wfc/logs/StartupError.log
+2017-06-21 18:53:36,033 DEBUG PluginManager 'FileConverter' found 2 plugins
+2017-06-21 18:53:36,033 DEBUG Built Plugin[name=appender] OK from factory method.
+2017-06-21 18:53:36,034 DEBUG Building Plugin[name=layout, class=org.apache.logging.log4j.core.layout.PatternLayout]. Searching for builder factory method...
+2017-06-21 18:53:36,034 DEBUG Found builder factory method [newBuilder]: public static org.apache.logging.log4j.core.layout.PatternLayout$Builder org.apache.logging.log4j.core.layout.PatternLayout.newBuilder().
+2017-06-21 18:53:36,034 DEBUG Calling build() on class class org.apache.logging.log4j.core.layout.PatternLayout$Builder for element PatternLayout with params(name="{"ts":"%d{MM dd yyyy HH:mm:ss.SSS}","th":"%t","tenant":"%TID","user":"%user","trxid":"%X{KTID}","level":"%level","logger":"%logger{36}","msg":%msg %X{MDC_ERR} %X{XMSG}}%n", Configuration(/usr/local/kronos/tomcat/webapps/wfc/WEB-INF/classes/log4j2.xml), null, name="null", name="null", name="null", name="null", name="null")
+2017-06-21 18:53:36,034 DEBUG Built Plugin[name=layout] OK from builder factory method.
+2017-06-21 18:53:36,035 DEBUG Building Plugin[name=SizeBasedTriggeringPolicy, class=org.apache.logging.log4j.core.appender.rolling.SizeBasedTriggeringPolicy]. Searching for builder factory method...
+2017-06-21 18:53:36,035 DEBUG No builder factory method found in class org.apache.logging.log4j.core.appender.rolling.SizeBasedTriggeringPolicy. Going to try finding a factory method instead.
+2017-06-21 18:53:36,035 DEBUG Still building Plugin[name=SizeBasedTriggeringPolicy, class=org.apache.logging.log4j.core.appender.rolling.SizeBasedTriggeringPolicy]. Searching for factory method...
+2017-06-21 18:53:36,035 DEBUG Found factory method [createPolicy]: public static org.apache.logging.log4j.core.appender.rolling.SizeBasedTriggeringPolicy org.apache.logging.log4j.core.appender.rolling.SizeBasedTriggeringPolicy.createPolicy(java.lang.String).
+2017-06-21 18:53:36,035 DEBUG Calling createPolicy on class org.apache.logging.log4j.core.appender.rolling.SizeBasedTriggeringPolicy for element SizeBasedTriggeringPolicy with params(name="1000KB")
+2017-06-21 18:53:36,036 DEBUG Built Plugin[name=SizeBasedTriggeringPolicy] OK from factory method.
+2017-06-21 18:53:36,036 DEBUG Building Plugin[name=Policies, class=org.apache.logging.log4j.core.appender.rolling.CompositeTriggeringPolicy]. Searching for builder factory method...
+2017-06-21 18:53:36,036 DEBUG No builder factory method found in class org.apache.logging.log4j.core.appender.rolling.CompositeTriggeringPolicy. Going to try finding a factory method instead.
+2017-06-21 18:53:36,036 DEBUG Still building Plugin[name=Policies, class=org.apache.logging.log4j.core.appender.rolling.CompositeTriggeringPolicy]. Searching for factory method...
+2017-06-21 18:53:36,036 DEBUG Found factory method [createPolicy]: public static org.apache.logging.log4j.core.appender.rolling.CompositeTriggeringPolicy org.apache.logging.log4j.core.appender.rolling.CompositeTriggeringPolicy.createPolicy(org.apache.logging.log4j.core.appender.rolling.TriggeringPolicy[]).
+2017-06-21 18:53:36,037 DEBUG Calling createPolicy on class org.apache.logging.log4j.core.appender.rolling.CompositeTriggeringPolicy for element Policies with params(={SizeBasedTriggeringPolicy(size=1024000)})
+2017-06-21 18:53:36,037 DEBUG Built Plugin[name=Policies] OK from factory method.
+2017-06-21 18:53:36,037 DEBUG Building Plugin[name=DefaultRolloverStrategy, class=org.apache.logging.log4j.core.appender.rolling.DefaultRolloverStrategy]. Searching for builder factory method...
+2017-06-21 18:53:36,037 DEBUG No builder factory method found in class org.apache.logging.log4j.core.appender.rolling.DefaultRolloverStrategy. Going to try finding a factory method instead.
+2017-06-21 18:53:36,037 DEBUG Still building Plugin[name=DefaultRolloverStrategy, class=org.apache.logging.log4j.core.appender.rolling.DefaultRolloverStrategy]. Searching for factory method...
+2017-06-21 18:53:36,037 DEBUG Found factory method [createStrategy]: public static org.apache.logging.log4j.core.appender.rolling.DefaultRolloverStrategy org.apache.logging.log4j.core.appender.rolling.DefaultRolloverStrategy.createStrategy(java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.apache.logging.log4j.core.config.Configuration).
+2017-06-21 18:53:36,038 DEBUG Calling createStrategy on class org.apache.logging.log4j.core.appender.rolling.DefaultRolloverStrategy for element DefaultRolloverStrategy with params(name="10", name="null", name="null", name="null", Configuration(/usr/local/kronos/tomcat/webapps/wfc/WEB-INF/classes/log4j2.xml))
+2017-06-21 18:53:36,038 DEBUG Built Plugin[name=DefaultRolloverStrategy] OK from factory method.
+2017-06-21 18:53:36,038 DEBUG Building Plugin[name=appender, class=org.apache.logging.log4j.core.appender.RollingFileAppender]. Searching for builder factory method...
+2017-06-21 18:53:36,038 DEBUG No builder factory method found in class org.apache.logging.log4j.core.appender.RollingFileAppender. Going to try finding a factory method instead.
+2017-06-21 18:53:36,038 DEBUG Still building Plugin[name=appender, class=org.apache.logging.log4j.core.appender.RollingFileAppender]. Searching for factory method...
+2017-06-21 18:53:36,039 DEBUG Found factory method [createAppender]: public static org.apache.logging.log4j.core.appender.RollingFileAppender org.apache.logging.log4j.core.appender.RollingFileAppender.createAppender(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.apache.logging.log4j.core.appender.rolling.TriggeringPolicy,org.apache.logging.log4j.core.appender.rolling.RolloverStrategy,org.apache.logging.log4j.core.Layout,org.apache.logging.log4j.core.Filter,java.lang.String,java.lang.String,java.lang.String,org.apache.logging.log4j.core.config.Configuration).
+2017-06-21 18:53:36,040 DEBUG Calling createAppender on class org.apache.logging.log4j.core.appender.RollingFileAppender for element RollingFile with params(name="/usr/local/kronos/wfc/logs/BestPractices.log", name="/usr/local/kronos/wfc/logs/BestPractices-%i.log", name="null", name="BEST_PRACTICES_FILE", name="null", name="null", name="null", Policies(CompositeTriggeringPolicy{SizeBasedTriggeringPolicy(size=1024000)}), DefaultRolloverStrategy(DefaultRolloverStrategy(min=1, max=10)), PatternLayout({"ts":"%d{MM dd yyyy HH:mm:ss.SSS}","th":"%t","tenant":"%TID","user":"%user","trxid":"%X{KTID}","level":"%level","logger":"%logger{36}","msg":%msg %X{MDC_ERR} %X{XMSG}}%n), null, name="null", name="null", name="null", Configuration(/usr/local/kronos/tomcat/webapps/wfc/WEB-INF/classes/log4j2.xml))
+2017-06-21 18:53:36,040 DEBUG Starting RollingFileManager /usr/local/kronos/wfc/logs/BestPractices.log
+2017-06-21 18:53:36,040 DEBUG PluginManager 'FileConverter' found 2 plugins
+2017-06-21 18:53:36,040 DEBUG Built Plugin[name=appender] OK from factory method.
+2017-06-21 18:53:36,040 DEBUG Building Plugin[name=layout, class=org.apache.logging.log4j.core.layout.PatternLayout]. Searching for builder factory method...
+2017-06-21 18:53:36,041 DEBUG Found builder factory method [newBuilder]: public static org.apache.logging.log4j.core.layout.PatternLayout$Builder org.apache.logging.log4j.core.layout.PatternLayout.newBuilder().
+2017-06-21 18:53:36,041 DEBUG Calling build() on class class org.apache.logging.log4j.core.layout.PatternLayout$Builder for element PatternLayout with params(name="{"ts":"%d{MM dd yyyy HH:mm:ss.SSS}","th":"%t","tenant":"%TID","user":"%user","trxid":"%X{KTID}","level":"%level","logger":"%logger{36}","msg":%msg %X{MDC_ERR} %X{XMSG}}%n", Configuration(/usr/local/kronos/tomcat/webapps/wfc/WEB-INF/classes/log4j2.xml), null, name="null", name="null", name="null", name="null", name="null")
+2017-06-21 18:53:36,041 DEBUG Built Plugin[name=layout] OK from builder factory method.
+2017-06-21 18:53:36,041 DEBUG Building Plugin[name=SizeBasedTriggeringPolicy, class=org.apache.logging.log4j.core.appender.rolling.SizeBasedTriggeringPolicy]. Searching for builder factory method...
+2017-06-21 18:53:36,042 DEBUG No builder factory method found in class org.apache.logging.log4j.core.appender.rolling.SizeBasedTriggeringPolicy. Going to try finding a factory method instead.
+2017-06-21 18:53:36,042 DEBUG Still building Plugin[name=SizeBasedTriggeringPolicy, class=org.apache.logging.log4j.core.appender.rolling.SizeBasedTriggeringPolicy]. Searching for factory method...
+2017-06-21 18:53:36,042 DEBUG Found factory method [createPolicy]: public static org.apache.logging.log4j.core.appender.rolling.SizeBasedTriggeringPolicy org.apache.logging.log4j.core.appender.rolling.SizeBasedTriggeringPolicy.createPolicy(java.lang.String).
+2017-06-21 18:53:36,042 DEBUG Calling createPolicy on class org.apache.logging.log4j.core.appender.rolling.SizeBasedTriggeringPolicy for element SizeBasedTriggeringPolicy with params(name="1000KB")
+2017-06-21 18:53:36,042 DEBUG Built Plugin[name=SizeBasedTriggeringPolicy] OK from factory method.
+2017-06-21 18:53:36,043 DEBUG Building Plugin[name=Policies, class=org.apache.logging.log4j.core.appender.rolling.CompositeTriggeringPolicy]. Searching for builder factory method...
+2017-06-21 18:53:36,043 DEBUG No builder factory method found in class org.apache.logging.log4j.core.appender.rolling.CompositeTriggeringPolicy. Going to try finding a factory method instead.
+2017-06-21 18:53:36,043 DEBUG Still building Plugin[name=Policies, class=org.apache.logging.log4j.core.appender.rolling.CompositeTriggeringPolicy]. Searching for factory method...
+2017-06-21 18:53:36,043 DEBUG Found factory method [createPolicy]: public static org.apache.logging.log4j.core.appender.rolling.CompositeTriggeringPolicy org.apache.logging.log4j.core.appender.rolling.CompositeTriggeringPolicy.createPolicy(org.apache.logging.log4j.core.appender.rolling.TriggeringPolicy[]).
+2017-06-21 18:53:36,043 DEBUG Calling createPolicy on class org.apache.logging.log4j.core.appender.rolling.CompositeTriggeringPolicy for element Policies with params(={SizeBasedTriggeringPolicy(size=1024000)})
+2017-06-21 18:53:36,043 DEBUG Built Plugin[name=Policies] OK from factory method.
+2017-06-21 18:53:36,044 DEBUG Building Plugin[name=DefaultRolloverStrategy, class=org.apache.logging.log4j.core.appender.rolling.DefaultRolloverStrategy]. Searching for builder factory method...
+2017-06-21 18:53:36,044 DEBUG No builder factory method found in class org.apache.logging.log4j.core.appender.rolling.DefaultRolloverStrategy. Going to try finding a factory method instead.
+2017-06-21 18:53:36,044 DEBUG Still building Plugin[name=DefaultRolloverStrategy, class=org.apache.logging.log4j.core.appender.rolling.DefaultRolloverStrategy]. Searching for factory method...
+2017-06-21 18:53:36,044 DEBUG Found factory method [createStrategy]: public static org.apache.logging.log4j.core.appender.rolling.DefaultRolloverStrategy org.apache.logging.log4j.core.appender.rolling.DefaultRolloverStrategy.createStrategy(java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.apache.logging.log4j.core.config.Configuration).
+2017-06-21 18:53:36,045 DEBUG Calling createStrategy on class org.apache.logging.log4j.core.appender.rolling.DefaultRolloverStrategy for element DefaultRolloverStrategy with params(name="10", name="null", name="null", name="null", Configuration(/usr/local/kronos/tomcat/webapps/wfc/WEB-INF/classes/log4j2.xml))
+2017-06-21 18:53:36,045 DEBUG Built Plugin[name=DefaultRolloverStrategy] OK from factory method.
+2017-06-21 18:53:36,045 DEBUG Building Plugin[name=appender, class=org.apache.logging.log4j.core.appender.RollingFileAppender]. Searching for builder factory method...
+2017-06-21 18:53:36,045 DEBUG No builder factory method found in class org.apache.logging.log4j.core.appender.RollingFileAppender. Going to try finding a factory method instead.
+2017-06-21 18:53:36,045 DEBUG Still building Plugin[name=appender, class=org.apache.logging.log4j.core.appender.RollingFileAppender]. Searching for factory method...
+2017-06-21 18:53:36,045 DEBUG Found factory method [createAppender]: public static org.apache.logging.log4j.core.appender.RollingFileAppender org.apache.logging.log4j.core.appender.RollingFileAppender.createAppender(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.apache.logging.log4j.core.appender.rolling.TriggeringPolicy,org.apache.logging.log4j.core.appender.rolling.RolloverStrategy,org.apache.logging.log4j.core.Layout,org.apache.logging.log4j.core.Filter,java.lang.String,java.lang.String,java.lang.String,org.apache.logging.log4j.core.config.Configuration).
+2017-06-21 18:53:36,046 DEBUG Calling createAppender on class org.apache.logging.log4j.core.appender.RollingFileAppender for element RollingFile with params(name="/usr/local/kronos/wfc/logs/externalMessaging.log", name="/usr/local/kronos/wfc/logs/externalMessaging-%i.log", name="null", name="EXTERNAL_MESSAGING_FILE", name="null", name="null", name="null", Policies(CompositeTriggeringPolicy{SizeBasedTriggeringPolicy(size=1024000)}), DefaultRolloverStrategy(DefaultRolloverStrategy(min=1, max=10)), PatternLayout({"ts":"%d{MM dd yyyy HH:mm:ss.SSS}","th":"%t","tenant":"%TID","user":"%user","trxid":"%X{KTID}","level":"%level","logger":"%logger{36}","msg":%msg %X{MDC_ERR} %X{XMSG}}%n), null, name="null", name="null", name="null", Configuration(/usr/local/kronos/tomcat/webapps/wfc/WEB-INF/classes/log4j2.xml))
+2017-06-21 18:53:36,047 DEBUG Starting RollingFileManager /usr/local/kronos/wfc/logs/externalMessaging.log
+2017-06-21 18:53:36,047 DEBUG PluginManager 'FileConverter' found 2 plugins
+2017-06-21 18:53:36,047 DEBUG Built Plugin[name=appender] OK from factory method.
+2017-06-21 18:53:36,047 DEBUG Building Plugin[name=appenders, class=org.apache.logging.log4j.core.config.AppendersPlugin]. Searching for builder factory method...
+2017-06-21 18:53:36,048 DEBUG No builder factory method found in class org.apache.logging.log4j.core.config.AppendersPlugin. Going to try finding a factory method instead.
+2017-06-21 18:53:36,048 DEBUG Still building Plugin[name=appenders, class=org.apache.logging.log4j.core.config.AppendersPlugin]. Searching for factory method...
+2017-06-21 18:53:36,048 DEBUG Found factory method [createAppenders]: public static java.util.concurrent.ConcurrentMap org.apache.logging.log4j.core.config.AppendersPlugin.createAppenders(org.apache.logging.log4j.core.Appender[]).
+2017-06-21 18:53:36,048 DEBUG Calling createAppenders on class org.apache.logging.log4j.core.config.AppendersPlugin for element Appenders with params(={STDOUT, WFC_FILE, STARTUP_INFO_FILE, STARTUP_ERROR_FILE, BEST_PRACTICES_FILE, EXTERNAL_MESSAGING_FILE})
+2017-06-21 18:53:36,048 DEBUG Built Plugin[name=appenders] OK from factory method.
+2017-06-21 18:53:36,048 DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef]. Searching for builder factory method...
+2017-06-21 18:53:36,049 DEBUG No builder factory method found in class org.apache.logging.log4j.core.config.AppenderRef. Going to try finding a factory method instead.
+2017-06-21 18:53:36,049 DEBUG Still building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef]. Searching for factory method...
+2017-06-21 18:53:36,049 DEBUG Found factory method [createAppenderRef]: public static org.apache.logging.log4j.core.config.AppenderRef org.apache.logging.log4j.core.config.AppenderRef.createAppenderRef(java.lang.String,org.apache.logging.log4j.Level,org.apache.logging.log4j.core.Filter).
+2017-06-21 18:53:36,049 DEBUG Calling createAppenderRef on class org.apache.logging.log4j.core.config.AppenderRef for element AppenderRef with params(name="WFC_FILE", name="null", null)
+2017-06-21 18:53:36,050 DEBUG Built Plugin[name=AppenderRef] OK from factory method.
+2017-06-21 18:53:36,050 DEBUG Building Plugin[name=root, class=org.apache.logging.log4j.core.config.LoggerConfig$RootLogger]. Searching for builder factory method...
+2017-06-21 18:53:36,050 DEBUG No builder factory method found in class org.apache.logging.log4j.core.config.LoggerConfig$RootLogger. Going to try finding a factory method instead.
+2017-06-21 18:53:36,050 DEBUG Still building Plugin[name=root, class=org.apache.logging.log4j.core.config.LoggerConfig$RootLogger]. Searching for factory method...
+2017-06-21 18:53:36,050 DEBUG Found factory method [createLogger]: public static org.apache.logging.log4j.core.config.LoggerConfig org.apache.logging.log4j.core.config.LoggerConfig$RootLogger.createLogger(java.lang.String,org.apache.logging.log4j.Level,java.lang.String,org.apache.logging.log4j.core.config.AppenderRef[],org.apache.logging.log4j.core.config.Property[],org.apache.logging.log4j.core.config.Configuration,org.apache.logging.log4j.core.Filter).
+2017-06-21 18:53:36,051 DEBUG Calling createLogger on class org.apache.logging.log4j.core.config.LoggerConfig$RootLogger for element Root with params(name="false", name="ERROR", name="null", ={WFC_FILE}, ={}, Configuration(/usr/local/kronos/tomcat/webapps/wfc/WEB-INF/classes/log4j2.xml), null)
+2017-06-21 18:53:36,053 DEBUG Built Plugin[name=root] OK from factory method.
+2017-06-21 18:53:36,053 DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef]. Searching for builder factory method...
+2017-06-21 18:53:36,053 DEBUG No builder factory method found in class org.apache.logging.log4j.core.config.AppenderRef. Going to try finding a factory method instead.
+2017-06-21 18:53:36,054 DEBUG Still building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef]. Searching for factory method...
+2017-06-21 18:53:36,054 DEBUG Found factory method [createAppenderRef]: public static org.apache.logging.log4j.core.config.AppenderRef org.apache.logging.log4j.core.config.AppenderRef.createAppenderRef(java.lang.String,org.apache.logging.log4j.Level,org.apache.logging.log4j.core.Filter).
+2017-06-21 18:53:36,054 DEBUG Calling createAppenderRef on class org.apache.logging.log4j.core.config.AppenderRef for element AppenderRef with params(name="STARTUP_INFO_FILE", name="INFO", null)
+2017-06-21 18:53:36,054 DEBUG Built Plugin[name=AppenderRef] OK from factory method.
+2017-06-21 18:53:36,054 DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef]. Searching for builder factory method...
+2017-06-21 18:53:36,055 DEBUG No builder factory method found in class org.apache.logging.log4j.core.config.AppenderRef. Going to try finding a factory method instead.
+2017-06-21 18:53:36,055 DEBUG Still building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef]. Searching for factory method...
+2017-06-21 18:53:36,055 DEBUG Found factory method [createAppenderRef]: public static org.apache.logging.log4j.core.config.AppenderRef org.apache.logging.log4j.core.config.AppenderRef.createAppenderRef(java.lang.String,org.apache.logging.log4j.Level,org.apache.logging.log4j.core.Filter).
+2017-06-21 18:53:36,055 DEBUG Calling createAppenderRef on class org.apache.logging.log4j.core.config.AppenderRef for element AppenderRef with params(name="STARTUP_ERROR_FILE", name="ERROR", null)
+2017-06-21 18:53:36,055 DEBUG Built Plugin[name=AppenderRef] OK from factory method.
+2017-06-21 18:53:36,056 DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef]. Searching for builder factory method...
+2017-06-21 18:53:36,056 DEBUG No builder factory method found in class org.apache.logging.log4j.core.config.AppenderRef. Going to try finding a factory method instead.
+2017-06-21 18:53:36,056 DEBUG Still building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef]. Searching for factory method...
+2017-06-21 18:53:36,056 DEBUG Found factory method [createAppenderRef]: public static org.apache.logging.log4j.core.config.AppenderRef org.apache.logging.log4j.core.config.AppenderRef.createAppenderRef(java.lang.String,org.apache.logging.log4j.Level,org.apache.logging.log4j.core.Filter).
+2017-06-21 18:53:36,056 DEBUG Calling createAppenderRef on class org.apache.logging.log4j.core.config.AppenderRef for element AppenderRef with params(name="WFC_FILE", name="INFO", null)
+2017-06-21 18:53:36,057 DEBUG Built Plugin[name=AppenderRef] OK from factory method.
+2017-06-21 18:53:36,057 DEBUG Building Plugin[name=logger, class=org.apache.logging.log4j.core.config.LoggerConfig]. Searching for builder factory method...
+2017-06-21 18:53:36,057 DEBUG No builder factory method found in class org.apache.logging.log4j.core.config.LoggerConfig. Going to try finding a factory method instead.
+2017-06-21 18:53:36,057 DEBUG Still building Plugin[name=logger, class=org.apache.logging.log4j.core.config.LoggerConfig]. Searching for factory method...
+2017-06-21 18:53:36,057 DEBUG Found factory method [createLogger]: public static org.apache.logging.log4j.core.config.LoggerConfig org.apache.logging.log4j.core.config.LoggerConfig.createLogger(java.lang.String,org.apache.logging.log4j.Level,java.lang.String,java.lang.String,org.apache.logging.log4j.core.config.AppenderRef[],org.apache.logging.log4j.core.config.Property[],org.apache.logging.log4j.core.config.Configuration,org.apache.logging.log4j.core.Filter).
+2017-06-21 18:53:36,058 DEBUG Calling createLogger on class org.apache.logging.log4j.core.config.LoggerConfig for element Logger with params(name="false", name="DEBUG", name="WFC.STARTUP", name="null", ={STARTUP_INFO_FILE, STARTUP_ERROR_FILE, WFC_FILE}, ={}, Configuration(/usr/local/kronos/tomcat/webapps/wfc/WEB-INF/classes/log4j2.xml), null)
+2017-06-21 18:53:36,058 DEBUG Built Plugin[name=logger] OK from factory method.
+2017-06-21 18:53:36,058 DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef]. Searching for builder factory method...
+2017-06-21 18:53:36,058 DEBUG No builder factory method found in class org.apache.logging.log4j.core.config.AppenderRef. Going to try finding a factory method instead.
+2017-06-21 18:53:36,059 DEBUG Still building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef]. Searching for factory method...
+2017-06-21 18:53:36,059 DEBUG Found factory method [createAppenderRef]: public static org.apache.logging.log4j.core.config.AppenderRef org.apache.logging.log4j.core.config.AppenderRef.createAppenderRef(java.lang.String,org.apache.logging.log4j.Level,org.apache.logging.log4j.core.Filter).
+2017-06-21 18:53:36,059 DEBUG Calling createAppenderRef on class org.apache.logging.log4j.core.config.AppenderRef for element AppenderRef with params(name="WFC_FILE", name="null", null)
+2017-06-21 18:53:36,059 DEBUG Built Plugin[name=AppenderRef] OK from factory method.
+2017-06-21 18:53:36,059 DEBUG Building Plugin[name=logger, class=org.apache.logging.log4j.core.config.LoggerConfig]. Searching for builder factory method...
+2017-06-21 18:53:36,059 DEBUG No builder factory method found in class org.apache.logging.log4j.core.config.LoggerConfig. Going to try finding a factory method instead.
+2017-06-21 18:53:36,060 DEBUG Still building Plugin[name=logger, class=org.apache.logging.log4j.core.config.LoggerConfig]. Searching for factory method...
+2017-06-21 18:53:36,060 DEBUG Found factory method [createLogger]: public static org.apache.logging.log4j.core.config.LoggerConfig org.apache.logging.log4j.core.config.LoggerConfig.createLogger(java.lang.String,org.apache.logging.log4j.Level,java.lang.String,java.lang.String,org.apache.logging.log4j.core.config.AppenderRef[],org.apache.logging.log4j.core.config.Property[],org.apache.logging.log4j.core.config.Configuration,org.apache.logging.log4j.core.Filter).
+2017-06-21 18:53:36,060 DEBUG Calling createLogger on class org.apache.logging.log4j.core.config.LoggerConfig for element Logger with params(name="false", name="ERROR", name="WFC", name="null", ={WFC_FILE}, ={}, Configuration(/usr/local/kronos/tomcat/webapps/wfc/WEB-INF/classes/log4j2.xml), null)
+2017-06-21 18:53:36,060 DEBUG Built Plugin[name=logger] OK from factory method.
+2017-06-21 18:53:36,061 DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef]. Searching for builder factory method...
+2017-06-21 18:53:36,061 DEBUG No builder factory method found in class org.apache.logging.log4j.core.config.AppenderRef. Going to try finding a factory method instead.
+2017-06-21 18:53:36,061 DEBUG Still building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef]. Searching for factory method...
+2017-06-21 18:53:36,061 DEBUG Found factory method [createAppenderRef]: public static org.apache.logging.log4j.core.config.AppenderRef org.apache.logging.log4j.core.config.AppenderRef.createAppenderRef(java.lang.String,org.apache.logging.log4j.Level,org.apache.logging.log4j.core.Filter).
+2017-06-21 18:53:36,061 DEBUG Calling createAppenderRef on class org.apache.logging.log4j.core.config.AppenderRef for element AppenderRef with params(name="STARTUP_INFO_FILE", name="INFO", null)
+2017-06-21 18:53:36,062 DEBUG Built Plugin[name=AppenderRef] OK from factory method.
+2017-06-21 18:53:36,062 DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef]. Searching for builder factory method...
+2017-06-21 18:53:36,062 DEBUG No builder factory method found in class org.apache.logging.log4j.core.config.AppenderRef. Going to try finding a factory method instead.
+2017-06-21 18:53:36,062 DEBUG Still building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef]. Searching for factory method...
+2017-06-21 18:53:36,062 DEBUG Found factory method [createAppenderRef]: public static org.apache.logging.log4j.core.config.AppenderRef org.apache.logging.log4j.core.config.AppenderRef.createAppenderRef(java.lang.String,org.apache.logging.log4j.Level,org.apache.logging.log4j.core.Filter).
+2017-06-21 18:53:36,063 DEBUG Calling createAppenderRef on class org.apache.logging.log4j.core.config.AppenderRef for element AppenderRef with params(name="STARTUP_ERROR_FILE", name="ERROR", null)
+2017-06-21 18:53:36,063 DEBUG Built Plugin[name=AppenderRef] OK from factory method.
+2017-06-21 18:53:36,063 DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef]. Searching for builder factory method...
+2017-06-21 18:53:36,063 DEBUG No builder factory method found in class org.apache.logging.log4j.core.config.AppenderRef. Going to try finding a factory method instead.
+2017-06-21 18:53:36,063 DEBUG Still building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef]. Searching for factory method...
+2017-06-21 18:53:36,063 DEBUG Found factory method [createAppenderRef]: public static org.apache.logging.log4j.core.config.AppenderRef org.apache.logging.log4j.core.config.AppenderRef.createAppenderRef(java.lang.String,org.apache.logging.log4j.Level,org.apache.logging.log4j.core.Filter).
+2017-06-21 18:53:36,064 DEBUG Calling createAppenderRef on class org.apache.logging.log4j.core.config.AppenderRef for element AppenderRef with params(name="WFC_FILE", name="INFO", null)
+2017-06-21 18:53:36,064 DEBUG Built Plugin[name=AppenderRef] OK from factory method.
+2017-06-21 18:53:36,064 DEBUG Building Plugin[name=logger, class=org.apache.logging.log4j.core.config.LoggerConfig]. Searching for builder factory method...
+2017-06-21 18:53:36,064 DEBUG No builder factory method found in class org.apache.logging.log4j.core.config.LoggerConfig. Going to try finding a factory method instead.
+2017-06-21 18:53:36,064 DEBUG Still building Plugin[name=logger, class=org.apache.logging.log4j.core.config.LoggerConfig]. Searching for factory method...
+2017-06-21 18:53:36,064 DEBUG Found factory method [createLogger]: public static org.apache.logging.log4j.core.config.LoggerConfig org.apache.logging.log4j.core.config.LoggerConfig.createLogger(java.lang.String,org.apache.logging.log4j.Level,java.lang.String,java.lang.String,org.apache.logging.log4j.core.config.AppenderRef[],org.apache.logging.log4j.core.config.Property[],org.apache.logging.log4j.core.config.Configuration,org.apache.logging.log4j.core.Filter).
+2017-06-21 18:53:36,065 DEBUG Calling createLogger on class org.apache.logging.log4j.core.config.LoggerConfig for element Logger with params(name="false", name="INFO", name="WFC.ALM-WAT", name="null", ={STARTUP_INFO_FILE, STARTUP_ERROR_FILE, WFC_FILE}, ={}, Configuration(/usr/local/kronos/tomcat/webapps/wfc/WEB-INF/classes/log4j2.xml), null)
+2017-06-21 18:53:36,065 DEBUG Built Plugin[name=logger] OK from factory method.
+2017-06-21 18:53:36,065 DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef]. Searching for builder factory method...
+2017-06-21 18:53:36,065 DEBUG No builder factory method found in class org.apache.logging.log4j.core.config.AppenderRef. Going to try finding a factory method instead.
+2017-06-21 18:53:36,065 DEBUG Still building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef]. Searching for factory method...
+2017-06-21 18:53:36,066 DEBUG Found factory method [createAppenderRef]: public static org.apache.logging.log4j.core.config.AppenderRef org.apache.logging.log4j.core.config.AppenderRef.createAppenderRef(java.lang.String,org.apache.logging.log4j.Level,org.apache.logging.log4j.core.Filter).
+2017-06-21 18:53:36,066 DEBUG Calling createAppenderRef on class org.apache.logging.log4j.core.config.AppenderRef for element AppenderRef with params(name="STARTUP_INFO_FILE", name="INFO", null)
+2017-06-21 18:53:36,066 DEBUG Built Plugin[name=AppenderRef] OK from factory method.
+2017-06-21 18:53:36,066 DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef]. Searching for builder factory method...
+2017-06-21 18:53:36,066 DEBUG No builder factory method found in class org.apache.logging.log4j.core.config.AppenderRef. Going to try finding a factory method instead.
+2017-06-21 18:53:36,067 DEBUG Still building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef]. Searching for factory method...
+2017-06-21 18:53:36,067 DEBUG Found factory method [createAppenderRef]: public static org.apache.logging.log4j.core.config.AppenderRef org.apache.logging.log4j.core.config.AppenderRef.createAppenderRef(java.lang.String,org.apache.logging.log4j.Level,org.apache.logging.log4j.core.Filter).
+2017-06-21 18:53:36,067 DEBUG Calling createAppenderRef on class org.apache.logging.log4j.core.config.AppenderRef for element AppenderRef with params(name="STARTUP_ERROR_FILE", name="ERROR", null)
+2017-06-21 18:53:36,067 DEBUG Built Plugin[name=AppenderRef] OK from factory method.
+2017-06-21 18:53:36,068 DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef]. Searching for builder factory method...
+2017-06-21 18:53:36,068 DEBUG No builder factory method found in class org.apache.logging.log4j.core.config.AppenderRef. Going to try finding a factory method instead.
+2017-06-21 18:53:36,068 DEBUG Still building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef]. Searching for factory method...
+2017-06-21 18:53:36,068 DEBUG Found factory method [createAppenderRef]: public static org.apache.logging.log4j.core.config.AppenderRef org.apache.logging.log4j.core.config.AppenderRef.createAppenderRef(java.lang.String,org.apache.logging.log4j.Level,org.apache.logging.log4j.core.Filter).
+2017-06-21 18:53:36,068 DEBUG Calling createAppenderRef on class org.apache.logging.log4j.core.config.AppenderRef for element AppenderRef with params(name="WFC_FILE", name="INFO", null)
+2017-06-21 18:53:36,068 DEBUG Built Plugin[name=AppenderRef] OK from factory method.
+2017-06-21 18:53:36,069 DEBUG Building Plugin[name=logger, class=org.apache.logging.log4j.core.config.LoggerConfig]. Searching for builder factory method...
+2017-06-21 18:53:36,069 DEBUG No builder factory method found in class org.apache.logging.log4j.core.config.LoggerConfig. Going to try finding a factory method instead.
+2017-06-21 18:53:36,069 DEBUG Still building Plugin[name=logger, class=org.apache.logging.log4j.core.config.LoggerConfig]. Searching for factory method...
+2017-06-21 18:53:36,069 DEBUG Found factory method [createLogger]: public static org.apache.logging.log4j.core.config.LoggerConfig org.apache.logging.log4j.core.config.LoggerConfig.createLogger(java.lang.String,org.apache.logging.log4j.Level,java.lang.String,java.lang.String,org.apache.logging.log4j.core.config.AppenderRef[],org.apache.logging.log4j.core.config.Property[],org.apache.logging.log4j.core.config.Configuration,org.apache.logging.log4j.core.Filter).
+2017-06-21 18:53:36,070 DEBUG Calling createLogger on class org.apache.logging.log4j.core.config.LoggerConfig for element Logger with params(name="false", name="INFO", name="WFC.PROPERTIES", name="null", ={STARTUP_INFO_FILE, STARTUP_ERROR_FILE, WFC_FILE}, ={}, Configuration(/usr/local/kronos/tomcat/webapps/wfc/WEB-INF/classes/log4j2.xml), null)
+2017-06-21 18:53:36,070 DEBUG Built Plugin[name=logger] OK from factory method.
+2017-06-21 18:53:36,070 DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef]. Searching for builder factory method...
+2017-06-21 18:53:36,070 DEBUG No builder factory method found in class org.apache.logging.log4j.core.config.AppenderRef. Going to try finding a factory method instead.
+2017-06-21 18:53:36,070 DEBUG Still building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef]. Searching for factory method...
+2017-06-21 18:53:36,071 DEBUG Found factory method [createAppenderRef]: public static org.apache.logging.log4j.core.config.AppenderRef org.apache.logging.log4j.core.config.AppenderRef.createAppenderRef(java.lang.String,org.apache.logging.log4j.Level,org.apache.logging.log4j.core.Filter).
+2017-06-21 18:53:36,071 DEBUG Calling createAppenderRef on class org.apache.logging.log4j.core.config.AppenderRef for element AppenderRef with params(name="WFC_FILE", name="null", null)
+2017-06-21 18:53:36,071 DEBUG Built Plugin[name=AppenderRef] OK from factory method.
+2017-06-21 18:53:36,071 DEBUG Building Plugin[name=logger, class=org.apache.logging.log4j.core.config.LoggerConfig]. Searching for builder factory method...
+2017-06-21 18:53:36,071 DEBUG No builder factory method found in class org.apache.logging.log4j.core.config.LoggerConfig. Going to try finding a factory method instead.
+2017-06-21 18:53:36,072 DEBUG Still building Plugin[name=logger, class=org.apache.logging.log4j.core.config.LoggerConfig]. Searching for factory method...
+2017-06-21 18:53:36,072 DEBUG Found factory method [createLogger]: public static org.apache.logging.log4j.core.config.LoggerConfig org.apache.logging.log4j.core.config.LoggerConfig.createLogger(java.lang.String,org.apache.logging.log4j.Level,java.lang.String,java.lang.String,org.apache.logging.log4j.core.config.AppenderRef[],org.apache.logging.log4j.core.config.Property[],org.apache.logging.log4j.core.config.Configuration,org.apache.logging.log4j.core.Filter).
+2017-06-21 18:53:36,072 DEBUG Calling createLogger on class org.apache.logging.log4j.core.config.LoggerConfig for element Logger with params(name="false", name="ERROR", name="WFC.API", name="null", ={WFC_FILE}, ={}, Configuration(/usr/local/kronos/tomcat/webapps/wfc/WEB-INF/classes/log4j2.xml), null)
+2017-06-21 18:53:36,072 DEBUG Built Plugin[name=logger] OK from factory method.
+2017-06-21 18:53:36,073 DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef]. Searching for builder factory method...
+2017-06-21 18:53:36,073 DEBUG No builder factory method found in class org.apache.logging.log4j.core.config.AppenderRef. Going to try finding a factory method instead.
+2017-06-21 18:53:36,073 DEBUG Still building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef]. Searching for factory method...
+2017-06-21 18:53:36,073 DEBUG Found factory method [createAppenderRef]: public static org.apache.logging.log4j.core.config.AppenderRef org.apache.logging.log4j.core.config.AppenderRef.createAppenderRef(java.lang.String,org.apache.logging.log4j.Level,org.apache.logging.log4j.core.Filter).
+2017-06-21 18:53:36,073 DEBUG Calling createAppenderRef on class org.apache.logging.log4j.core.config.AppenderRef for element AppenderRef with params(name="WFC_FILE", name="null", null)
+2017-06-21 18:53:36,073 DEBUG Built Plugin[name=AppenderRef] OK from factory method.
+2017-06-21 18:53:36,074 DEBUG Building Plugin[name=logger, class=org.apache.logging.log4j.core.config.LoggerConfig]. Searching for builder factory method...
+2017-06-21 18:53:36,074 DEBUG No builder factory method found in class org.apache.logging.log4j.core.config.LoggerConfig. Going to try finding a factory method instead.
+2017-06-21 18:53:36,074 DEBUG Still building Plugin[name=logger, class=org.apache.logging.log4j.core.config.LoggerConfig]. Searching for factory method...
+2017-06-21 18:53:36,074 DEBUG Found factory method [createLogger]: public static org.apache.logging.log4j.core.config.LoggerConfig org.apache.logging.log4j.core.config.LoggerConfig.createLogger(java.lang.String,org.apache.logging.log4j.Level,java.lang.String,java.lang.String,org.apache.logging.log4j.core.config.AppenderRef[],org.apache.logging.log4j.core.config.Property[],org.apache.logging.log4j.core.config.Configuration,org.apache.logging.log4j.core.Filter).
+2017-06-21 18:53:36,075 DEBUG Calling createLogger on class org.apache.logging.log4j.core.config.LoggerConfig for element Logger with params(name="false", name="ERROR", name="WFC.UI", name="null", ={WFC_FILE}, ={}, Configuration(/usr/local/kronos/tomcat/webapps/wfc/WEB-INF/classes/log4j2.xml), null)
+2017-06-21 18:53:36,075 DEBUG Built Plugin[name=logger] OK from factory method.
+2017-06-21 18:53:36,075 DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef]. Searching for builder factory method...
+2017-06-21 18:53:36,075 DEBUG No builder factory method found in class org.apache.logging.log4j.core.config.AppenderRef. Going to try finding a factory method instead.
+2017-06-21 18:53:36,075 DEBUG Still building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef]. Searching for factory method...
+2017-06-21 18:53:36,076 DEBUG Found factory method [createAppenderRef]: public static org.apache.logging.log4j.core.config.AppenderRef org.apache.logging.log4j.core.config.AppenderRef.createAppenderRef(java.lang.String,org.apache.logging.log4j.Level,org.apache.logging.log4j.core.Filter).
+2017-06-21 18:53:36,076 DEBUG Calling createAppenderRef on class org.apache.logging.log4j.core.config.AppenderRef for element AppenderRef with params(name="WFC_FILE", name="null", null)
+2017-06-21 18:53:36,076 DEBUG Built Plugin[name=AppenderRef] OK from factory method.
+2017-06-21 18:53:36,076 DEBUG Building Plugin[name=logger, class=org.apache.logging.log4j.core.config.LoggerConfig]. Searching for builder factory method...
+2017-06-21 18:53:36,076 DEBUG No builder factory method found in class org.apache.logging.log4j.core.config.LoggerConfig. Going to try finding a factory method instead.
+2017-06-21 18:53:36,076 DEBUG Still building Plugin[name=logger, class=org.apache.logging.log4j.core.config.LoggerConfig]. Searching for factory method...
+2017-06-21 18:53:36,077 DEBUG Found factory method [createLogger]: public static org.apache.logging.log4j.core.config.LoggerConfig org.apache.logging.log4j.core.config.LoggerConfig.createLogger(java.lang.String,org.apache.logging.log4j.Level,java.lang.String,java.lang.String,org.apache.logging.log4j.core.config.AppenderRef[],org.apache.logging.log4j.core.config.Property[],org.apache.logging.log4j.core.config.Configuration,org.apache.logging.log4j.core.Filter).
+2017-06-21 18:53:36,078 DEBUG Calling createLogger on class org.apache.logging.log4j.core.config.LoggerConfig for element Logger with params(name="false", name="ERROR", name="WFC.WBAP", name="null", ={WFC_FILE}, ={}, Configuration(/usr/local/kronos/tomcat/webapps/wfc/WEB-INF/classes/log4j2.xml), null)
+2017-06-21 18:53:36,078 DEBUG Built Plugin[name=logger] OK from factory method.
+2017-06-21 18:53:36,078 DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef]. Searching for builder factory method...
+2017-06-21 18:53:36,078 DEBUG No builder factory method found in class org.apache.logging.log4j.core.config.AppenderRef. Going to try finding a factory method instead.
+2017-06-21 18:53:36,078 DEBUG Still building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef]. Searching for factory method...
+2017-06-21 18:53:36,079 DEBUG Found factory method [createAppenderRef]: public static org.apache.logging.log4j.core.config.AppenderRef org.apache.logging.log4j.core.config.AppenderRef.createAppenderRef(java.lang.String,org.apache.logging.log4j.Level,org.apache.logging.log4j.core.Filter).
+2017-06-21 18:53:36,079 DEBUG Calling createAppenderRef on class org.apache.logging.log4j.core.config.AppenderRef for element AppenderRef with params(name="WFC_FILE", name="null", null)
+2017-06-21 18:53:36,079 DEBUG Built Plugin[name=AppenderRef] OK from factory method.
+2017-06-21 18:53:36,079 DEBUG Building Plugin[name=logger, class=org.apache.logging.log4j.core.config.LoggerConfig]. Searching for builder factory method...
+2017-06-21 18:53:36,079 DEBUG No builder factory method found in class org.apache.logging.log4j.core.config.LoggerConfig. Going to try finding a factory method instead.
+2017-06-21 18:53:36,079 DEBUG Still building Plugin[name=logger, class=org.apache.logging.log4j.core.config.LoggerConfig]. Searching for factory method...
+2017-06-21 18:53:36,080 DEBUG Found factory method [createLogger]: public static org.apache.logging.log4j.core.config.LoggerConfig org.apache.logging.log4j.core.config.LoggerConfig.createLogger(java.lang.String,org.apache.logging.log4j.Level,java.lang.String,java.lang.String,org.apache.logging.log4j.core.config.AppenderRef[],org.apache.logging.log4j.core.config.Property[],org.apache.logging.log4j.core.config.Configuration,org.apache.logging.log4j.core.Filter).
+2017-06-21 18:53:36,080 DEBUG Calling createLogger on class org.apache.logging.log4j.core.config.LoggerConfig for element Logger with params(name="false", name="WARN", name="WFC.WBAP.PROCESSENGINE", name="null", ={WFC_FILE}, ={}, Configuration(/usr/local/kronos/tomcat/webapps/wfc/WEB-INF/classes/log4j2.xml), null)
+2017-06-21 18:53:36,080 DEBUG Built Plugin[name=logger] OK from factory method.
+2017-06-21 18:53:36,080 DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef]. Searching for builder factory method...
+2017-06-21 18:53:36,081 DEBUG No builder factory method found in class org.apache.logging.log4j.core.config.AppenderRef. Going to try finding a factory method instead.
+2017-06-21 18:53:36,081 DEBUG Still building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef]. Searching for factory method...
+2017-06-21 18:53:36,081 DEBUG Found factory method [createAppenderRef]: public static org.apache.logging.log4j.core.config.AppenderRef org.apache.logging.log4j.core.config.AppenderRef.createAppenderRef(java.lang.String,org.apache.logging.log4j.Level,org.apache.logging.log4j.core.Filter).
+2017-06-21 18:53:36,081 DEBUG Calling createAppenderRef on class org.apache.logging.log4j.core.config.AppenderRef for element AppenderRef with params(name="WFC_FILE", name="null", null)
+2017-06-21 18:53:36,082 DEBUG Built Plugin[name=AppenderRef] OK from factory method.
+2017-06-21 18:53:36,082 DEBUG Building Plugin[name=logger, class=org.apache.logging.log4j.core.config.LoggerConfig]. Searching for builder factory method...
+2017-06-21 18:53:36,082 DEBUG No builder factory method found in class org.apache.logging.log4j.core.config.LoggerConfig. Going to try finding a factory method instead.
+2017-06-21 18:53:36,082 DEBUG Still building Plugin[name=logger, class=org.apache.logging.log4j.core.config.LoggerConfig]. Searching for factory method...
+2017-06-21 18:53:36,082 DEBUG Found factory method [createLogger]: public static org.apache.logging.log4j.core.config.LoggerConfig org.apache.logging.log4j.core.config.LoggerConfig.createLogger(java.lang.String,org.apache.logging.log4j.Level,java.lang.String,java.lang.String,org.apache.logging.log4j.core.config.AppenderRef[],org.apache.logging.log4j.core.config.Property[],org.apache.logging.log4j.core.config.Configuration,org.apache.logging.log4j.core.Filter).
+2017-06-21 18:53:36,083 DEBUG Calling createLogger on class org.apache.logging.log4j.core.config.LoggerConfig for element Logger with params(name="false", name="ERROR", name="WFC.BUSINESS.NGA", name="null", ={WFC_FILE}, ={}, Configuration(/usr/local/kronos/tomcat/webapps/wfc/WEB-INF/classes/log4j2.xml), null)
+2017-06-21 18:53:36,083 DEBUG Built Plugin[name=logger] OK from factory method.
+2017-06-21 18:53:36,083 DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef]. Searching for builder factory method...
+2017-06-21 18:53:36,083 DEBUG No builder factory method found in class org.apache.logging.log4j.core.config.AppenderRef. Going to try finding a factory method instead.
+2017-06-21 18:53:36,083 DEBUG Still building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef]. Searching for factory method...
+2017-06-21 18:53:36,084 DEBUG Found factory method [createAppenderRef]: public static org.apache.logging.log4j.core.config.AppenderRef org.apache.logging.log4j.core.config.AppenderRef.createAppenderRef(java.lang.String,org.apache.logging.log4j.Level,org.apache.logging.log4j.core.Filter).
+2017-06-21 18:53:36,084 DEBUG Calling createAppenderRef on class org.apache.logging.log4j.core.config.AppenderRef for element AppenderRef with params(name="BEST_PRACTICES_FILE", name="null", null)
+2017-06-21 18:53:36,084 DEBUG Built Plugin[name=AppenderRef] OK from factory method.
+2017-06-21 18:53:36,084 DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef]. Searching for builder factory method...
+2017-06-21 18:53:36,084 DEBUG No builder factory method found in class org.apache.logging.log4j.core.config.AppenderRef. Going to try finding a factory method instead.
+2017-06-21 18:53:36,084 DEBUG Still building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef]. Searching for factory method...
+2017-06-21 18:53:36,085 DEBUG Found factory method [createAppenderRef]: public static org.apache.logging.log4j.core.config.AppenderRef org.apache.logging.log4j.core.config.AppenderRef.createAppenderRef(java.lang.String,org.apache.logging.log4j.Level,org.apache.logging.log4j.core.Filter).
+2017-06-21 18:53:36,085 DEBUG Calling createAppenderRef on class org.apache.logging.log4j.core.config.AppenderRef for element AppenderRef with params(name="WFC_FILE", name="INFO", null)
+2017-06-21 18:53:36,085 DEBUG Built Plugin[name=AppenderRef] OK from factory method.
+2017-06-21 18:53:36,085 DEBUG Building Plugin[name=logger, class=org.apache.logging.log4j.core.config.LoggerConfig]. Searching for builder factory method...
+2017-06-21 18:53:36,085 DEBUG No builder factory method found in class org.apache.logging.log4j.core.config.LoggerConfig. Going to try finding a factory method instead.
+2017-06-21 18:53:36,085 DEBUG Still building Plugin[name=logger, class=org.apache.logging.log4j.core.config.LoggerConfig]. Searching for factory method...
+2017-06-21 18:53:36,086 DEBUG Found factory method [createLogger]: public static org.apache.logging.log4j.core.config.LoggerConfig org.apache.logging.log4j.core.config.LoggerConfig.createLogger(java.lang.String,org.apache.logging.log4j.Level,java.lang.String,java.lang.String,org.apache.logging.log4j.core.config.AppenderRef[],org.apache.logging.log4j.core.config.Property[],org.apache.logging.log4j.core.config.Configuration,org.apache.logging.log4j.core.Filter).
+2017-06-21 18:53:36,086 DEBUG Calling createLogger on class org.apache.logging.log4j.core.config.LoggerConfig for element Logger with params(name="false", name="INFO", name="SERVICEABILITY", name="null", ={BEST_PRACTICES_FILE, WFC_FILE}, ={}, Configuration(/usr/local/kronos/tomcat/webapps/wfc/WEB-INF/classes/log4j2.xml), null)
+2017-06-21 18:53:36,086 DEBUG Built Plugin[name=logger] OK from factory method.
+2017-06-21 18:53:36,086 DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef]. Searching for builder factory method...
+2017-06-21 18:53:36,086 DEBUG No builder factory method found in class org.apache.logging.log4j.core.config.AppenderRef. Going to try finding a factory method instead.
+2017-06-21 18:53:36,087 DEBUG Still building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef]. Searching for factory method...
+2017-06-21 18:53:36,087 DEBUG Found factory method [createAppenderRef]: public static org.apache.logging.log4j.core.config.AppenderRef org.apache.logging.log4j.core.config.AppenderRef.createAppenderRef(java.lang.String,org.apache.logging.log4j.Level,org.apache.logging.log4j.core.Filter).
+2017-06-21 18:53:36,087 DEBUG Calling createAppenderRef on class org.apache.logging.log4j.core.config.AppenderRef for element AppenderRef with params(name="EXTERNAL_MESSAGING_FILE", name="null", null)
+2017-06-21 18:53:36,087 DEBUG Built Plugin[name=AppenderRef] OK from factory method.
+2017-06-21 18:53:36,087 DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef]. Searching for builder factory method...
+2017-06-21 18:53:36,088 DEBUG No builder factory method found in class org.apache.logging.log4j.core.config.AppenderRef. Going to try finding a factory method instead.
+2017-06-21 18:53:36,088 DEBUG Still building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef]. Searching for factory method...
+2017-06-21 18:53:36,088 DEBUG Found factory method [createAppenderRef]: public static org.apache.logging.log4j.core.config.AppenderRef org.apache.logging.log4j.core.config.AppenderRef.createAppenderRef(java.lang.String,org.apache.logging.log4j.Level,org.apache.logging.log4j.core.Filter).
+2017-06-21 18:53:36,088 DEBUG Calling createAppenderRef on class org.apache.logging.log4j.core.config.AppenderRef for element AppenderRef with params(name="WFC_FILE", name="INFO", null)
+2017-06-21 18:53:36,088 DEBUG Built Plugin[name=AppenderRef] OK from factory method.
+2017-06-21 18:53:36,088 DEBUG Building Plugin[name=logger, class=org.apache.logging.log4j.core.config.LoggerConfig]. Searching for builder factory method...
+2017-06-21 18:53:36,089 DEBUG No builder factory method found in class org.apache.logging.log4j.core.config.LoggerConfig. Going to try finding a factory method instead.
+2017-06-21 18:53:36,089 DEBUG Still building Plugin[name=logger, class=org.apache.logging.log4j.core.config.LoggerConfig]. Searching for factory method...
+2017-06-21 18:53:36,089 DEBUG Found factory method [createLogger]: public static org.apache.logging.log4j.core.config.LoggerConfig org.apache.logging.log4j.core.config.LoggerConfig.createLogger(java.lang.String,org.apache.logging.log4j.Level,java.lang.String,java.lang.String,org.apache.logging.log4j.core.config.AppenderRef[],org.apache.logging.log4j.core.config.Property[],org.apache.logging.log4j.core.config.Configuration,org.apache.logging.log4j.core.Filter).
+2017-06-21 18:53:36,089 DEBUG Calling createLogger on class org.apache.logging.log4j.core.config.LoggerConfig for element Logger with params(name="false", name="INFO", name="EXTERNALMESSAGING", name="null", ={EXTERNAL_MESSAGING_FILE, WFC_FILE}, ={}, Configuration(/usr/local/kronos/tomcat/webapps/wfc/WEB-INF/classes/log4j2.xml), null)
+2017-06-21 18:53:36,089 DEBUG Built Plugin[name=logger] OK from factory method.
+2017-06-21 18:53:36,090 DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef]. Searching for builder factory method...
+2017-06-21 18:53:36,090 DEBUG No builder factory method found in class org.apache.logging.log4j.core.config.AppenderRef. Going to try finding a factory method instead.
+2017-06-21 18:53:36,090 DEBUG Still building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef]. Searching for factory method...
+2017-06-21 18:53:36,090 DEBUG Found factory method [createAppenderRef]: public static org.apache.logging.log4j.core.config.AppenderRef org.apache.logging.log4j.core.config.AppenderRef.createAppenderRef(java.lang.String,org.apache.logging.log4j.Level,org.apache.logging.log4j.core.Filter).
+2017-06-21 18:53:36,090 DEBUG Calling createAppenderRef on class org.apache.logging.log4j.core.config.AppenderRef for element AppenderRef with params(name="WFC_FILE", name="null", null)
+2017-06-21 18:53:36,090 DEBUG Built Plugin[name=AppenderRef] OK from factory method.
+2017-06-21 18:53:36,091 DEBUG Building Plugin[name=logger, class=org.apache.logging.log4j.core.config.LoggerConfig]. Searching for builder factory method...
+2017-06-21 18:53:36,091 DEBUG No builder factory method found in class org.apache.logging.log4j.core.config.LoggerConfig. Going to try finding a factory method instead.
+2017-06-21 18:53:36,091 DEBUG Still building Plugin[name=logger, class=org.apache.logging.log4j.core.config.LoggerConfig]. Searching for factory method...
+2017-06-21 18:53:36,091 DEBUG Found factory method [createLogger]: public static org.apache.logging.log4j.core.config.LoggerConfig org.apache.logging.log4j.core.config.LoggerConfig.createLogger(java.lang.String,org.apache.logging.log4j.Level,java.lang.String,java.lang.String,org.apache.logging.log4j.core.config.AppenderRef[],org.apache.logging.log4j.core.config.Property[],org.apache.logging.log4j.core.config.Configuration,org.apache.logging.log4j.core.Filter).
+2017-06-21 18:53:36,091 DEBUG Calling createLogger on class org.apache.logging.log4j.core.config.LoggerConfig for element Logger with params(name="false", name="INFO", name="WFC.COMMONAPP.REPORTING.CMS", name="null", ={WFC_FILE}, ={}, Configuration(/usr/local/kronos/tomcat/webapps/wfc/WEB-INF/classes/log4j2.xml), null)
+2017-06-21 18:53:36,092 DEBUG Built Plugin[name=logger] OK from factory method.
+2017-06-21 18:53:36,092 DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef]. Searching for builder factory method...
+2017-06-21 18:53:36,092 DEBUG No builder factory method found in class org.apache.logging.log4j.core.config.AppenderRef. Going to try finding a factory method instead.
+2017-06-21 18:53:36,092 DEBUG Still building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef]. Searching for factory method...
+2017-06-21 18:53:36,092 DEBUG Found factory method [createAppenderRef]: public static org.apache.logging.log4j.core.config.AppenderRef org.apache.logging.log4j.core.config.AppenderRef.createAppenderRef(java.lang.String,org.apache.logging.log4j.Level,org.apache.logging.log4j.core.Filter).
+2017-06-21 18:53:36,092 DEBUG Calling createAppenderRef on class org.apache.logging.log4j.core.config.AppenderRef for element AppenderRef with params(name="WFC_FILE", name="null", null)
+2017-06-21 18:53:36,093 DEBUG Built Plugin[name=AppenderRef] OK from factory method.
+2017-06-21 18:53:36,093 DEBUG Building Plugin[name=logger, class=org.apache.logging.log4j.core.config.LoggerConfig]. Searching for builder factory method...
+2017-06-21 18:53:36,093 DEBUG No builder factory method found in class org.apache.logging.log4j.core.config.LoggerConfig. Going to try finding a factory method instead.
+2017-06-21 18:53:36,093 DEBUG Still building Plugin[name=logger, class=org.apache.logging.log4j.core.config.LoggerConfig]. Searching for factory method...
+2017-06-21 18:53:36,093 DEBUG Found factory method [createLogger]: public static org.apache.logging.log4j.core.config.LoggerConfig org.apache.logging.log4j.core.config.LoggerConfig.createLogger(java.lang.String,org.apache.logging.log4j.Level,java.lang.String,java.lang.String,org.apache.logging.log4j.core.config.AppenderRef[],org.apache.logging.log4j.core.config.Property[],org.apache.logging.log4j.core.config.Configuration,org.apache.logging.log4j.core.Filter).
+2017-06-21 18:53:36,094 DEBUG Calling createLogger on class org.apache.logging.log4j.core.config.LoggerConfig for element Logger with params(name="false", name="ERROR", name="WFC.COMMONAPP.REPORTING", name="null", ={WFC_FILE}, ={}, Configuration(/usr/local/kronos/tomcat/webapps/wfc/WEB-INF/classes/log4j2.xml), null)
+2017-06-21 18:53:36,094 DEBUG Built Plugin[name=logger] OK from factory method.
+2017-06-21 18:53:36,094 DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef]. Searching for builder factory method...
+2017-06-21 18:53:36,094 DEBUG No builder factory method found in class org.apache.logging.log4j.core.config.AppenderRef. Going to try finding a factory method instead.
+2017-06-21 18:53:36,094 DEBUG Still building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef]. Searching for factory method...
+2017-06-21 18:53:36,094 DEBUG Found factory method [createAppenderRef]: public static org.apache.logging.log4j.core.config.AppenderRef org.apache.logging.log4j.core.config.AppenderRef.createAppenderRef(java.lang.String,org.apache.logging.log4j.Level,org.apache.logging.log4j.core.Filter).
+2017-06-21 18:53:36,095 DEBUG Calling createAppenderRef on class org.apache.logging.log4j.core.config.AppenderRef for element AppenderRef with params(name="WFC_FILE", name="null", null)
+2017-06-21 18:53:36,095 DEBUG Built Plugin[name=AppenderRef] OK from factory method.
+2017-06-21 18:53:36,095 DEBUG Building Plugin[name=logger, class=org.apache.logging.log4j.core.config.LoggerConfig]. Searching for builder factory method...
+2017-06-21 18:53:36,095 DEBUG No builder factory method found in class org.apache.logging.log4j.core.config.LoggerConfig. Going to try finding a factory method instead.
+2017-06-21 18:53:36,095 DEBUG Still building Plugin[name=logger, class=org.apache.logging.log4j.core.config.LoggerConfig]. Searching for factory method...
+2017-06-21 18:53:36,095 DEBUG Found factory method [createLogger]: public static org.apache.logging.log4j.core.config.LoggerConfig org.apache.logging.log4j.core.config.LoggerConfig.createLogger(java.lang.String,org.apache.logging.log4j.Level,java.lang.String,java.lang.String,org.apache.logging.log4j.core.config.AppenderRef[],org.apache.logging.log4j.core.config.Property[],org.apache.logging.log4j.core.config.Configuration,org.apache.logging.log4j.core.Filter).
+2017-06-21 18:53:36,096 DEBUG Calling createLogger on class org.apache.logging.log4j.core.config.LoggerConfig for element Logger with params(name="false", name="INFO", name="WFC.APP.DBMANAGER", name="null", ={WFC_FILE}, ={}, Configuration(/usr/local/kronos/tomcat/webapps/wfc/WEB-INF/classes/log4j2.xml), null)
+2017-06-21 18:53:36,096 DEBUG Built Plugin[name=logger] OK from factory method.
+2017-06-21 18:53:36,096 DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef]. Searching for builder factory method...
+2017-06-21 18:53:36,096 DEBUG No builder factory method found in class org.apache.logging.log4j.core.config.AppenderRef. Going to try finding a factory method instead.
+2017-06-21 18:53:36,096 DEBUG Still building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef]. Searching for factory method...
+2017-06-21 18:53:36,096 DEBUG Found factory method [createAppenderRef]: public static org.apache.logging.log4j.core.config.AppenderRef org.apache.logging.log4j.core.config.AppenderRef.createAppenderRef(java.lang.String,org.apache.logging.log4j.Level,org.apache.logging.log4j.core.Filter).
+2017-06-21 18:53:36,097 DEBUG Calling createAppenderRef on class org.apache.logging.log4j.core.config.AppenderRef for element AppenderRef with params(name="WFC_FILE", name="null", null)
+2017-06-21 18:53:36,097 DEBUG Built Plugin[name=AppenderRef] OK from factory method.
+2017-06-21 18:53:36,097 DEBUG Building Plugin[name=logger, class=org.apache.logging.log4j.core.config.LoggerConfig]. Searching for builder factory method...
+2017-06-21 18:53:36,097 DEBUG No builder factory method found in class org.apache.logging.log4j.core.config.LoggerConfig. Going to try finding a factory method instead.
+2017-06-21 18:53:36,097 DEBUG Still building Plugin[name=logger, class=org.apache.logging.log4j.core.config.LoggerConfig]. Searching for factory method...
+2017-06-21 18:53:36,097 DEBUG Found factory method [createLogger]: public static org.apache.logging.log4j.core.config.LoggerConfig org.apache.logging.log4j.core.config.LoggerConfig.createLogger(java.lang.String,org.apache.logging.log4j.Level,java.lang.String,java.lang.String,org.apache.logging.log4j.core.config.AppenderRef[],org.apache.logging.log4j.core.config.Property[],org.apache.logging.log4j.core.config.Configuration,org.apache.logging.log4j.core.Filter).
+2017-06-21 18:53:36,098 DEBUG Calling createLogger on class org.apache.logging.log4j.core.config.LoggerConfig for element Logger with params(name="false", name="INFO", name="WFC.BUSINESS.EXTERNAL_VALIDATOR", name="null", ={WFC_FILE}, ={}, Configuration(/usr/local/kronos/tomcat/webapps/wfc/WEB-INF/classes/log4j2.xml), null)
+2017-06-21 18:53:36,098 DEBUG Built Plugin[name=logger] OK from factory method.
+2017-06-21 18:53:36,098 DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef]. Searching for builder factory method...
+2017-06-21 18:53:36,098 DEBUG No builder factory method found in class org.apache.logging.log4j.core.config.AppenderRef. Going to try finding a factory method instead.
+2017-06-21 18:53:36,098 DEBUG Still building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef]. Searching for factory method...
+2017-06-21 18:53:36,098 DEBUG Found factory method [createAppenderRef]: public static org.apache.logging.log4j.core.config.AppenderRef org.apache.logging.log4j.core.config.AppenderRef.createAppenderRef(java.lang.String,org.apache.logging.log4j.Level,org.apache.logging.log4j.core.Filter).
+2017-06-21 18:53:36,099 DEBUG Calling createAppenderRef on class org.apache.logging.log4j.core.config.AppenderRef for element AppenderRef with params(name="WFC_FILE", name="null", null)
+2017-06-21 18:53:36,099 DEBUG Built Plugin[name=AppenderRef] OK from factory method.
+2017-06-21 18:53:36,099 DEBUG Building Plugin[name=logger, class=org.apache.logging.log4j.core.config.LoggerConfig]. Searching for builder factory method...
+2017-06-21 18:53:36,099 DEBUG No builder factory method found in class org.apache.logging.log4j.core.config.LoggerConfig. Going to try finding a factory method instead.
+2017-06-21 18:53:36,099 DEBUG Still building Plugin[name=logger, class=org.apache.logging.log4j.core.config.LoggerConfig]. Searching for factory method...
+2017-06-21 18:53:36,100 DEBUG Found factory method [createLogger]: public static org.apache.logging.log4j.core.config.LoggerConfig org.apache.logging.log4j.core.config.LoggerConfig.createLogger(java.lang.String,org.apache.logging.log4j.Level,java.lang.String,java.lang.String,org.apache.logging.log4j.core.config.AppenderRef[],org.apache.logging.log4j.core.config.Property[],org.apache.logging.log4j.core.config.Configuration,org.apache.logging.log4j.core.Filter).
+2017-06-21 18:53:36,100 DEBUG Calling createLogger on class org.apache.logging.log4j.core.config.LoggerConfig for element Logger with params(name="false", name="ERROR", name="WFC.API.XML", name="null", ={WFC_FILE}, ={}, Configuration(/usr/local/kronos/tomcat/webapps/wfc/WEB-INF/classes/log4j2.xml), null)
+2017-06-21 18:53:36,101 DEBUG Built Plugin[name=logger] OK from factory method.
+2017-06-21 18:53:36,101 DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef]. Searching for builder factory method...
+2017-06-21 18:53:36,101 DEBUG No builder factory method found in class org.apache.logging.log4j.core.config.AppenderRef. Going to try finding a factory method instead.
+2017-06-21 18:53:36,101 DEBUG Still building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef]. Searching for factory method...
+2017-06-21 18:53:36,101 DEBUG Found factory method [createAppenderRef]: public static org.apache.logging.log4j.core.config.AppenderRef org.apache.logging.log4j.core.config.AppenderRef.createAppenderRef(java.lang.String,org.apache.logging.log4j.Level,org.apache.logging.log4j.core.Filter).
+2017-06-21 18:53:36,102 DEBUG Calling createAppenderRef on class org.apache.logging.log4j.core.config.AppenderRef for element AppenderRef with params(name="WFC_FILE", name="null", null)
+2017-06-21 18:53:36,102 DEBUG Built Plugin[name=AppenderRef] OK from factory method.
+2017-06-21 18:53:36,102 DEBUG Building Plugin[name=logger, class=org.apache.logging.log4j.core.config.LoggerConfig]. Searching for builder factory method...
+2017-06-21 18:53:36,102 DEBUG No builder factory method found in class org.apache.logging.log4j.core.config.LoggerConfig. Going to try finding a factory method instead.
+2017-06-21 18:53:36,102 DEBUG Still building Plugin[name=logger, class=org.apache.logging.log4j.core.config.LoggerConfig]. Searching for factory method...
+2017-06-21 18:53:36,102 DEBUG Found factory method [createLogger]: public static org.apache.logging.log4j.core.config.LoggerConfig org.apache.logging.log4j.core.config.LoggerConfig.createLogger(java.lang.String,org.apache.logging.log4j.Level,java.lang.String,java.lang.String,org.apache.logging.log4j.core.config.AppenderRef[],org.apache.logging.log4j.core.config.Property[],org.apache.logging.log4j.core.config.Configuration,org.apache.logging.log4j.core.Filter).
+2017-06-21 18:53:36,103 DEBUG Calling createLogger on class org.apache.logging.log4j.core.config.LoggerConfig for element Logger with params(name="false", name="INFO", name="WFC.PERSISTENCE", name="null", ={WFC_FILE}, ={}, Configuration(/usr/local/kronos/tomcat/webapps/wfc/WEB-INF/classes/log4j2.xml), null)
+2017-06-21 18:53:36,103 DEBUG Built Plugin[name=logger] OK from factory method.
+2017-06-21 18:53:36,103 DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef]. Searching for builder factory method...
+2017-06-21 18:53:36,103 DEBUG No builder factory method found in class org.apache.logging.log4j.core.config.AppenderRef. Going to try finding a factory method instead.
+2017-06-21 18:53:36,103 DEBUG Still building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef]. Searching for factory method...
+2017-06-21 18:53:36,104 DEBUG Found factory method [createAppenderRef]: public static org.apache.logging.log4j.core.config.AppenderRef org.apache.logging.log4j.core.config.AppenderRef.createAppenderRef(java.lang.String,org.apache.logging.log4j.Level,org.apache.logging.log4j.core.Filter).
+2017-06-21 18:53:36,104 DEBUG Calling createAppenderRef on class org.apache.logging.log4j.core.config.AppenderRef for element AppenderRef with params(name="WFC_FILE", name="null", null)
+2017-06-21 18:53:36,104 DEBUG Built Plugin[name=AppenderRef] OK from factory method.
+2017-06-21 18:53:36,104 DEBUG Building Plugin[name=logger, class=org.apache.logging.log4j.core.config.LoggerConfig]. Searching for builder factory method...
+2017-06-21 18:53:36,104 DEBUG No builder factory method found in class org.apache.logging.log4j.core.config.LoggerConfig. Going to try finding a factory method instead.
+2017-06-21 18:53:36,104 DEBUG Still building Plugin[name=logger, class=org.apache.logging.log4j.core.config.LoggerConfig]. Searching for factory method...
+2017-06-21 18:53:36,104 DEBUG Found factory method [createLogger]: public static org.apache.logging.log4j.core.config.LoggerConfig org.apache.logging.log4j.core.config.LoggerConfig.createLogger(java.lang.String,org.apache.logging.log4j.Level,java.lang.String,java.lang.String,org.apache.logging.log4j.core.config.AppenderRef[],org.apache.logging.log4j.core.config.Property[],org.apache.logging.log4j.core.config.Configuration,org.apache.logging.log4j.core.Filter).
+2017-06-21 18:53:36,106 DEBUG Calling createLogger on class org.apache.logging.log4j.core.config.LoggerConfig for element Logger with params(name="false", name="ERROR", name="WFC.PERSISTENCE.SQLTRACING", name="null", ={WFC_FILE}, ={}, Configuration(/usr/local/kronos/tomcat/webapps/wfc/WEB-INF/classes/log4j2.xml), null)
+2017-06-21 18:53:36,106 DEBUG Built Plugin[name=logger] OK from factory method.
+2017-06-21 18:53:36,106 DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef]. Searching for builder factory method...
+2017-06-21 18:53:36,106 DEBUG No builder factory method found in class org.apache.logging.log4j.core.config.AppenderRef. Going to try finding a factory method instead.
+2017-06-21 18:53:36,106 DEBUG Still building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef]. Searching for factory method...
+2017-06-21 18:53:36,106 DEBUG Found factory method [createAppenderRef]: public static org.apache.logging.log4j.core.config.AppenderRef org.apache.logging.log4j.core.config.AppenderRef.createAppenderRef(java.lang.String,org.apache.logging.log4j.Level,org.apache.logging.log4j.core.Filter).
+2017-06-21 18:53:36,107 DEBUG Calling createAppenderRef on class org.apache.logging.log4j.core.config.AppenderRef for element AppenderRef with params(name="WFC_FILE", name="null", null)
+2017-06-21 18:53:36,107 DEBUG Built Plugin[name=AppenderRef] OK from factory method.
+2017-06-21 18:53:36,107 DEBUG Building Plugin[name=logger, class=org.apache.logging.log4j.core.config.LoggerConfig]. Searching for builder factory method...
+2017-06-21 18:53:36,107 DEBUG No builder factory method found in class org.apache.logging.log4j.core.config.LoggerConfig. Going to try finding a factory method instead.
+2017-06-21 18:53:36,107 DEBUG Still building Plugin[name=logger, class=org.apache.logging.log4j.core.config.LoggerConfig]. Searching for factory method...
+2017-06-21 18:53:36,107 DEBUG Found factory method [createLogger]: public static org.apache.logging.log4j.core.config.LoggerConfig org.apache.logging.log4j.core.config.LoggerConfig.createLogger(java.lang.String,org.apache.logging.log4j.Level,java.lang.String,java.lang.String,org.apache.logging.log4j.core.config.AppenderRef[],org.apache.logging.log4j.core.config.Property[],org.apache.logging.log4j.core.config.Configuration,org.apache.logging.log4j.core.Filter).
+2017-06-21 18:53:36,108 DEBUG Calling createLogger on class org.apache.logging.log4j.core.config.LoggerConfig for element Logger with params(name="false", name="ERROR", name="WFC.DAG.PERSIST", name="null", ={WFC_FILE}, ={}, Configuration(/usr/local/kronos/tomcat/webapps/wfc/WEB-INF/classes/log4j2.xml), null)
+2017-06-21 18:53:36,108 DEBUG Built Plugin[name=logger] OK from factory method.
+2017-06-21 18:53:36,108 DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef]. Searching for builder factory method...
+2017-06-21 18:53:36,108 DEBUG No builder factory method found in class org.apache.logging.log4j.core.config.AppenderRef. Going to try finding a factory method instead.
+2017-06-21 18:53:36,108 DEBUG Still building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef]. Searching for factory method...
+2017-06-21 18:53:36,109 DEBUG Found factory method [createAppenderRef]: public static org.apache.logging.log4j.core.config.AppenderRef org.apache.logging.log4j.core.config.AppenderRef.createAppenderRef(java.lang.String,org.apache.logging.log4j.Level,org.apache.logging.log4j.core.Filter).
+2017-06-21 18:53:36,109 DEBUG Calling createAppenderRef on class org.apache.logging.log4j.core.config.AppenderRef for element AppenderRef with params(name="WFC_FILE", name="null", null)
+2017-06-21 18:53:36,109 DEBUG Built Plugin[name=AppenderRef] OK from factory method.
+2017-06-21 18:53:36,109 DEBUG Building Plugin[name=logger, class=org.apache.logging.log4j.core.config.LoggerConfig]. Searching for builder factory method...
+2017-06-21 18:53:36,109 DEBUG No builder factory method found in class org.apache.logging.log4j.core.config.LoggerConfig. Going to try finding a factory method instead.
+2017-06-21 18:53:36,109 DEBUG Still building Plugin[name=logger, class=org.apache.logging.log4j.core.config.LoggerConfig]. Searching for factory method...
+2017-06-21 18:53:36,110 DEBUG Found factory method [createLogger]: public static org.apache.logging.log4j.core.config.LoggerConfig org.apache.logging.log4j.core.config.LoggerConfig.createLogger(java.lang.String,org.apache.logging.log4j.Level,java.lang.String,java.lang.String,org.apache.logging.log4j.core.config.AppenderRef[],org.apache.logging.log4j.core.config.Property[],org.apache.logging.log4j.core.config.Configuration,org.apache.logging.log4j.core.Filter).
+2017-06-21 18:53:36,110 DEBUG Calling createLogger on class org.apache.logging.log4j.core.config.LoggerConfig for element Logger with params(name="false", name="ERROR", name="WFC.APP.DBARCHIVE", name="null", ={WFC_FILE}, ={}, Configuration(/usr/local/kronos/tomcat/webapps/wfc/WEB-INF/classes/log4j2.xml), null)
+2017-06-21 18:53:36,110 DEBUG Built Plugin[name=logger] OK from factory method.
+2017-06-21 18:53:36,110 DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef]. Searching for builder factory method...
+2017-06-21 18:53:36,110 DEBUG No builder factory method found in class org.apache.logging.log4j.core.config.AppenderRef. Going to try finding a factory method instead.
+2017-06-21 18:53:36,111 DEBUG Still building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef]. Searching for factory method...
+2017-06-21 18:53:36,111 DEBUG Found factory method [createAppenderRef]: public static org.apache.logging.log4j.core.config.AppenderRef org.apache.logging.log4j.core.config.AppenderRef.createAppenderRef(java.lang.String,org.apache.logging.log4j.Level,org.apache.logging.log4j.core.Filter).
+2017-06-21 18:53:36,111 DEBUG Calling createAppenderRef on class org.apache.logging.log4j.core.config.AppenderRef for element AppenderRef with params(name="WFC_FILE", name="null", null)
+2017-06-21 18:53:36,111 DEBUG Built Plugin[name=AppenderRef] OK from factory method.
+2017-06-21 18:53:36,111 DEBUG Building Plugin[name=logger, class=org.apache.logging.log4j.core.config.LoggerConfig]. Searching for builder factory method...
+2017-06-21 18:53:36,111 DEBUG No builder factory method found in class org.apache.logging.log4j.core.config.LoggerConfig. Going to try finding a factory method instead.
+2017-06-21 18:53:36,111 DEBUG Still building Plugin[name=logger, class=org.apache.logging.log4j.core.config.LoggerConfig]. Searching for factory method...
+2017-06-21 18:53:36,112 DEBUG Found factory method [createLogger]: public static org.apache.logging.log4j.core.config.LoggerConfig org.apache.logging.log4j.core.config.LoggerConfig.createLogger(java.lang.String,org.apache.logging.log4j.Level,java.lang.String,java.lang.String,org.apache.logging.log4j.core.config.AppenderRef[],org.apache.logging.log4j.core.config.Property[],org.apache.logging.log4j.core.config.Configuration,org.apache.logging.log4j.core.Filter).
+2017-06-21 18:53:36,112 DEBUG Calling createLogger on class org.apache.logging.log4j.core.config.LoggerConfig for element Logger with params(name="false", name="ERROR", name="WFC.WFP", name="null", ={WFC_FILE}, ={}, Configuration(/usr/local/kronos/tomcat/webapps/wfc/WEB-INF/classes/log4j2.xml), null)
+2017-06-21 18:53:36,112 DEBUG Built Plugin[name=logger] OK from factory method.
+2017-06-21 18:53:36,112 DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef]. Searching for builder factory method...
+2017-06-21 18:53:36,112 DEBUG No builder factory method found in class org.apache.logging.log4j.core.config.AppenderRef. Going to try finding a factory method instead.
+2017-06-21 18:53:36,113 DEBUG Still building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef]. Searching for factory method...
+2017-06-21 18:53:36,113 DEBUG Found factory method [createAppenderRef]: public static org.apache.logging.log4j.core.config.AppenderRef org.apache.logging.log4j.core.config.AppenderRef.createAppenderRef(java.lang.String,org.apache.logging.log4j.Level,org.apache.logging.log4j.core.Filter).
+2017-06-21 18:53:36,113 DEBUG Calling createAppenderRef on class org.apache.logging.log4j.core.config.AppenderRef for element AppenderRef with params(name="WFC_FILE", name="null", null)
+2017-06-21 18:53:36,113 DEBUG Built Plugin[name=AppenderRef] OK from factory method.
+2017-06-21 18:53:36,113 DEBUG Building Plugin[name=logger, class=org.apache.logging.log4j.core.config.LoggerConfig]. Searching for builder factory method...
+2017-06-21 18:53:36,113 DEBUG No builder factory method found in class org.apache.logging.log4j.core.config.LoggerConfig. Going to try finding a factory method instead.
+2017-06-21 18:53:36,114 DEBUG Still building Plugin[name=logger, class=org.apache.logging.log4j.core.config.LoggerConfig]. Searching for factory method...
+2017-06-21 18:53:36,114 DEBUG Found factory method [createLogger]: public static org.apache.logging.log4j.core.config.LoggerConfig org.apache.logging.log4j.core.config.LoggerConfig.createLogger(java.lang.String,org.apache.logging.log4j.Level,java.lang.String,java.lang.String,org.apache.logging.log4j.core.config.AppenderRef[],org.apache.logging.log4j.core.config.Property[],org.apache.logging.log4j.core.config.Configuration,org.apache.logging.log4j.core.Filter).
+2017-06-21 18:53:36,114 DEBUG Calling createLogger on class org.apache.logging.log4j.core.config.LoggerConfig for element Logger with params(name="false", name="ERROR", name="WFC.BUSINESS", name="null", ={WFC_FILE}, ={}, Configuration(/usr/local/kronos/tomcat/webapps/wfc/WEB-INF/classes/log4j2.xml), null)
+2017-06-21 18:53:36,114 DEBUG Built Plugin[name=logger] OK from factory method.
+2017-06-21 18:53:36,114 DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef]. Searching for builder factory method...
+2017-06-21 18:53:36,115 DEBUG No builder factory method found in class org.apache.logging.log4j.core.config.AppenderRef. Going to try finding a factory method instead.
+2017-06-21 18:53:36,115 DEBUG Still building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef]. Searching for factory method...
+2017-06-21 18:53:36,115 DEBUG Found factory method [createAppenderRef]: public static org.apache.logging.log4j.core.config.AppenderRef org.apache.logging.log4j.core.config.AppenderRef.createAppenderRef(java.lang.String,org.apache.logging.log4j.Level,org.apache.logging.log4j.core.Filter).
+2017-06-21 18:53:36,115 DEBUG Calling createAppenderRef on class org.apache.logging.log4j.core.config.AppenderRef for element AppenderRef with params(name="WFC_FILE", name="null", null)
+2017-06-21 18:53:36,115 DEBUG Built Plugin[name=AppenderRef] OK from factory method.
+2017-06-21 18:53:36,115 DEBUG Building Plugin[name=logger, class=org.apache.logging.log4j.core.config.LoggerConfig]. Searching for builder factory method...
+2017-06-21 18:53:36,115 DEBUG No builder factory method found in class org.apache.logging.log4j.core.config.LoggerConfig. Going to try finding a factory method instead.
+2017-06-21 18:53:36,116 DEBUG Still building Plugin[name=logger, class=org.apache.logging.log4j.core.config.LoggerConfig]. Searching for factory method...
+2017-06-21 18:53:36,116 DEBUG Found factory method [createLogger]: public static org.apache.logging.log4j.core.config.LoggerConfig org.apache.logging.log4j.core.config.LoggerConfig.createLogger(java.lang.String,org.apache.logging.log4j.Level,java.lang.String,java.lang.String,org.apache.logging.log4j.core.config.AppenderRef[],org.apache.logging.log4j.core.config.Property[],org.apache.logging.log4j.core.config.Configuration,org.apache.logging.log4j.core.Filter).
+2017-06-21 18:53:36,116 DEBUG Calling createLogger on class org.apache.logging.log4j.core.config.LoggerConfig for element Logger with params(name="false", name="ERROR", name="org.apache", name="null", ={WFC_FILE}, ={}, Configuration(/usr/local/kronos/tomcat/webapps/wfc/WEB-INF/classes/log4j2.xml), null)
+2017-06-21 18:53:36,116 DEBUG Built Plugin[name=logger] OK from factory method.
+2017-06-21 18:53:36,116 DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef]. Searching for builder factory method...
+2017-06-21 18:53:36,117 DEBUG No builder factory method found in class org.apache.logging.log4j.core.config.AppenderRef. Going to try finding a factory method instead.
+2017-06-21 18:53:36,117 DEBUG Still building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef]. Searching for factory method...
+2017-06-21 18:53:36,117 DEBUG Found factory method [createAppenderRef]: public static org.apache.logging.log4j.core.config.AppenderRef org.apache.logging.log4j.core.config.AppenderRef.createAppenderRef(java.lang.String,org.apache.logging.log4j.Level,org.apache.logging.log4j.core.Filter).
+2017-06-21 18:53:36,117 DEBUG Calling createAppenderRef on class org.apache.logging.log4j.core.config.AppenderRef for element AppenderRef with params(name="WFC_FILE", name="null", null)
+2017-06-21 18:53:36,117 DEBUG Built Plugin[name=AppenderRef] OK from factory method.
+2017-06-21 18:53:36,117 DEBUG Building Plugin[name=logger, class=org.apache.logging.log4j.core.config.LoggerConfig]. Searching for builder factory method...
+2017-06-21 18:53:36,118 DEBUG No builder factory method found in class org.apache.logging.log4j.core.config.LoggerConfig. Going to try finding a factory method instead.
+2017-06-21 18:53:36,118 DEBUG Still building Plugin[name=logger, class=org.apache.logging.log4j.core.config.LoggerConfig]. Searching for factory method...
+2017-06-21 18:53:36,118 DEBUG Found factory method [createLogger]: public static org.apache.logging.log4j.core.config.LoggerConfig org.apache.logging.log4j.core.config.LoggerConfig.createLogger(java.lang.String,org.apache.logging.log4j.Level,java.lang.String,java.lang.String,org.apache.logging.log4j.core.config.AppenderRef[],org.apache.logging.log4j.core.config.Property[],org.apache.logging.log4j.core.config.Configuration,org.apache.logging.log4j.core.Filter).
+2017-06-21 18:53:36,119 DEBUG Calling createLogger on class org.apache.logging.log4j.core.config.LoggerConfig for element Logger with params(name="false", name="WARN", name="org.apache.activemq.store.kahadb.MessageDatabase", name="null", ={WFC_FILE}, ={}, Configuration(/usr/local/kronos/tomcat/webapps/wfc/WEB-INF/classes/log4j2.xml), null)
+2017-06-21 18:53:36,119 DEBUG Built Plugin[name=logger] OK from factory method.
+2017-06-21 18:53:36,119 DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef]. Searching for builder factory method...
+2017-06-21 18:53:36,119 DEBUG No builder factory method found in class org.apache.logging.log4j.core.config.AppenderRef. Going to try finding a factory method instead.
+2017-06-21 18:53:36,119 DEBUG Still building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef]. Searching for factory method...
+2017-06-21 18:53:36,119 DEBUG Found factory method [createAppenderRef]: public static org.apache.logging.log4j.core.config.AppenderRef org.apache.logging.log4j.core.config.AppenderRef.createAppenderRef(java.lang.String,org.apache.logging.log4j.Level,org.apache.logging.log4j.core.Filter).
+2017-06-21 18:53:36,119 DEBUG Calling createAppenderRef on class org.apache.logging.log4j.core.config.AppenderRef for element AppenderRef with params(name="WFC_FILE", name="null", null)
+2017-06-21 18:53:36,120 DEBUG Built Plugin[name=AppenderRef] OK from factory method.
+2017-06-21 18:53:36,120 DEBUG Building Plugin[name=logger, class=org.apache.logging.log4j.core.config.LoggerConfig]. Searching for builder factory method...
+2017-06-21 18:53:36,120 DEBUG No builder factory method found in class org.apache.logging.log4j.core.config.LoggerConfig. Going to try finding a factory method instead.
+2017-06-21 18:53:36,120 DEBUG Still building Plugin[name=logger, class=org.apache.logging.log4j.core.config.LoggerConfig]. Searching for factory method...
+2017-06-21 18:53:36,120 DEBUG Found factory method [createLogger]: public static org.apache.logging.log4j.core.config.LoggerConfig org.apache.logging.log4j.core.config.LoggerConfig.createLogger(java.lang.String,org.apache.logging.log4j.Level,java.lang.String,java.lang.String,org.apache.logging.log4j.core.config.AppenderRef[],org.apache.logging.log4j.core.config.Property[],org.apache.logging.log4j.core.config.Configuration,org.apache.logging.log4j.core.Filter).
+2017-06-21 18:53:36,121 DEBUG Calling createLogger on class org.apache.logging.log4j.core.config.LoggerConfig for element Logger with params(name="false", name="INFO", name="com.kronos.logging.impl.filter.PayLoadLoggerFilter", name="null", ={WFC_FILE}, ={}, Configuration(/usr/local/kronos/tomcat/webapps/wfc/WEB-INF/classes/log4j2.xml), null)
+2017-06-21 18:53:36,121 DEBUG Built Plugin[name=logger] OK from factory method.
+2017-06-21 18:53:36,121 DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef]. Searching for builder factory method...
+2017-06-21 18:53:36,121 DEBUG No builder factory method found in class org.apache.logging.log4j.core.config.AppenderRef. Going to try finding a factory method instead.
+2017-06-21 18:53:36,121 DEBUG Still building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef]. Searching for factory method...
+2017-06-21 18:53:36,121 DEBUG Found factory method [createAppenderRef]: public static org.apache.logging.log4j.core.config.AppenderRef org.apache.logging.log4j.core.config.AppenderRef.createAppenderRef(java.lang.String,org.apache.logging.log4j.Level,org.apache.logging.log4j.core.Filter).
+2017-06-21 18:53:36,121 DEBUG Calling createAppenderRef on class org.apache.logging.log4j.core.config.AppenderRef for element AppenderRef with params(name="WFC_FILE", name="null", null)
+2017-06-21 18:53:36,122 DEBUG Built Plugin[name=AppenderRef] OK from factory method.
+2017-06-21 18:53:36,122 DEBUG Building Plugin[name=logger, class=org.apache.logging.log4j.core.config.LoggerConfig]. Searching for builder factory method...
+2017-06-21 18:53:36,122 DEBUG No builder factory method found in class org.apache.logging.log4j.core.config.LoggerConfig. Going to try finding a factory method instead.
+2017-06-21 18:53:36,122 DEBUG Still building Plugin[name=logger, class=org.apache.logging.log4j.core.config.LoggerConfig]. Searching for factory method...
+2017-06-21 18:53:36,122 DEBUG Found factory method [createLogger]: public static org.apache.logging.log4j.core.config.LoggerConfig org.apache.logging.log4j.core.config.LoggerConfig.createLogger(java.lang.String,org.apache.logging.log4j.Level,java.lang.String,java.lang.String,org.apache.logging.log4j.core.config.AppenderRef[],org.apache.logging.log4j.core.config.Property[],org.apache.logging.log4j.core.config.Configuration,org.apache.logging.log4j.core.Filter).
+2017-06-21 18:53:36,122 DEBUG Calling createLogger on class org.apache.logging.log4j.core.config.LoggerConfig for element Logger with params(name="false", name="ERROR", name="org.hibernate", name="null", ={WFC_FILE}, ={}, Configuration(/usr/local/kronos/tomcat/webapps/wfc/WEB-INF/classes/log4j2.xml), null)
+2017-06-21 18:53:36,123 DEBUG Built Plugin[name=logger] OK from factory method.
+2017-06-21 18:53:36,123 DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef]. Searching for builder factory method...
+2017-06-21 18:53:36,123 DEBUG No builder factory method found in class org.apache.logging.log4j.core.config.AppenderRef. Going to try finding a factory method instead.
+2017-06-21 18:53:36,123 DEBUG Still building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef]. Searching for factory method...
+2017-06-21 18:53:36,123 DEBUG Found factory method [createAppenderRef]: public static org.apache.logging.log4j.core.config.AppenderRef org.apache.logging.log4j.core.config.AppenderRef.createAppenderRef(java.lang.String,org.apache.logging.log4j.Level,org.apache.logging.log4j.core.Filter).
+2017-06-21 18:53:36,123 DEBUG Calling createAppenderRef on class org.apache.logging.log4j.core.config.AppenderRef for element AppenderRef with params(name="WFC_FILE", name="null", null)
+2017-06-21 18:53:36,124 DEBUG Built Plugin[name=AppenderRef] OK from factory method.
+2017-06-21 18:53:36,124 DEBUG Building Plugin[name=logger, class=org.apache.logging.log4j.core.config.LoggerConfig]. Searching for builder factory method...
+2017-06-21 18:53:36,124 DEBUG No builder factory method found in class org.apache.logging.log4j.core.config.LoggerConfig. Going to try finding a factory method instead.
+2017-06-21 18:53:36,124 DEBUG Still building Plugin[name=logger, class=org.apache.logging.log4j.core.config.LoggerConfig]. Searching for factory method...
+2017-06-21 18:53:36,124 DEBUG Found factory method [createLogger]: public static org.apache.logging.log4j.core.config.LoggerConfig org.apache.logging.log4j.core.config.LoggerConfig.createLogger(java.lang.String,org.apache.logging.log4j.Level,java.lang.String,java.lang.String,org.apache.logging.log4j.core.config.AppenderRef[],org.apache.logging.log4j.core.config.Property[],org.apache.logging.log4j.core.config.Configuration,org.apache.logging.log4j.core.Filter).
+2017-06-21 18:53:36,125 DEBUG Calling createLogger on class org.apache.logging.log4j.core.config.LoggerConfig for element Logger with params(name="false", name="ERROR", name="org.hibernate.SQL", name="null", ={WFC_FILE}, ={}, Configuration(/usr/local/kronos/tomcat/webapps/wfc/WEB-INF/classes/log4j2.xml), null)
+2017-06-21 18:53:36,125 DEBUG Built Plugin[name=logger] OK from factory method.
+2017-06-21 18:53:36,125 DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef]. Searching for builder factory method...
+2017-06-21 18:53:36,125 DEBUG No builder factory method found in class org.apache.logging.log4j.core.config.AppenderRef. Going to try finding a factory method instead.
+2017-06-21 18:53:36,125 DEBUG Still building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef]. Searching for factory method...
+2017-06-21 18:53:36,125 DEBUG Found factory method [createAppenderRef]: public static org.apache.logging.log4j.core.config.AppenderRef org.apache.logging.log4j.core.config.AppenderRef.createAppenderRef(java.lang.String,org.apache.logging.log4j.Level,org.apache.logging.log4j.core.Filter).
+2017-06-21 18:53:36,125 DEBUG Calling createAppenderRef on class org.apache.logging.log4j.core.config.AppenderRef for element AppenderRef with params(name="WFC_FILE", name="null", null)
+2017-06-21 18:53:36,126 DEBUG Built Plugin[name=AppenderRef] OK from factory method.
+2017-06-21 18:53:36,126 DEBUG Building Plugin[name=logger, class=org.apache.logging.log4j.core.config.LoggerConfig]. Searching for builder factory method...
+2017-06-21 18:53:36,126 DEBUG No builder factory method found in class org.apache.logging.log4j.core.config.LoggerConfig. Going to try finding a factory method instead.
+2017-06-21 18:53:36,126 DEBUG Still building Plugin[name=logger, class=org.apache.logging.log4j.core.config.LoggerConfig]. Searching for factory method...
+2017-06-21 18:53:36,126 DEBUG Found factory method [createLogger]: public static org.apache.logging.log4j.core.config.LoggerConfig org.apache.logging.log4j.core.config.LoggerConfig.createLogger(java.lang.String,org.apache.logging.log4j.Level,java.lang.String,java.lang.String,org.apache.logging.log4j.core.config.AppenderRef[],org.apache.logging.log4j.core.config.Property[],org.apache.logging.log4j.core.config.Configuration,org.apache.logging.log4j.core.Filter).
+2017-06-21 18:53:36,127 DEBUG Calling createLogger on class org.apache.logging.log4j.core.config.LoggerConfig for element Logger with params(name="false", name="ERROR", name="org.hibernate.type", name="null", ={WFC_FILE}, ={}, Configuration(/usr/local/kronos/tomcat/webapps/wfc/WEB-INF/classes/log4j2.xml), null)
+2017-06-21 18:53:36,127 DEBUG Built Plugin[name=logger] OK from factory method.
+2017-06-21 18:53:36,127 DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef]. Searching for builder factory method...
+2017-06-21 18:53:36,127 DEBUG No builder factory method found in class org.apache.logging.log4j.core.config.AppenderRef. Going to try finding a factory method instead.
+2017-06-21 18:53:36,127 DEBUG Still building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef]. Searching for factory method...
+2017-06-21 18:53:36,127 DEBUG Found factory method [createAppenderRef]: public static org.apache.logging.log4j.core.config.AppenderRef org.apache.logging.log4j.core.config.AppenderRef.createAppenderRef(java.lang.String,org.apache.logging.log4j.Level,org.apache.logging.log4j.core.Filter).
+2017-06-21 18:53:36,127 DEBUG Calling createAppenderRef on class org.apache.logging.log4j.core.config.AppenderRef for element AppenderRef with params(name="WFC_FILE", name="null", null)
+2017-06-21 18:53:36,128 DEBUG Built Plugin[name=AppenderRef] OK from factory method.
+2017-06-21 18:53:36,128 DEBUG Building Plugin[name=logger, class=org.apache.logging.log4j.core.config.LoggerConfig]. Searching for builder factory method...
+2017-06-21 18:53:36,128 DEBUG No builder factory method found in class org.apache.logging.log4j.core.config.LoggerConfig. Going to try finding a factory method instead.
+2017-06-21 18:53:36,128 DEBUG Still building Plugin[name=logger, class=org.apache.logging.log4j.core.config.LoggerConfig]. Searching for factory method...
+2017-06-21 18:53:36,128 DEBUG Found factory method [createLogger]: public static org.apache.logging.log4j.core.config.LoggerConfig org.apache.logging.log4j.core.config.LoggerConfig.createLogger(java.lang.String,org.apache.logging.log4j.Level,java.lang.String,java.lang.String,org.apache.logging.log4j.core.config.AppenderRef[],org.apache.logging.log4j.core.config.Property[],org.apache.logging.log4j.core.config.Configuration,org.apache.logging.log4j.core.Filter).
+2017-06-21 18:53:36,128 DEBUG Calling createLogger on class org.apache.logging.log4j.core.config.LoggerConfig for element Logger with params(name="false", name="ERROR", name="com.kronos.attendance", name="null", ={WFC_FILE}, ={}, Configuration(/usr/local/kronos/tomcat/webapps/wfc/WEB-INF/classes/log4j2.xml), null)
+2017-06-21 18:53:36,129 DEBUG Built Plugin[name=logger] OK from factory method.
+2017-06-21 18:53:36,129 DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef]. Searching for builder factory method...
+2017-06-21 18:53:36,129 DEBUG No builder factory method found in class org.apache.logging.log4j.core.config.AppenderRef. Going to try finding a factory method instead.
+2017-06-21 18:53:36,129 DEBUG Still building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef]. Searching for factory method...
+2017-06-21 18:53:36,129 DEBUG Found factory method [createAppenderRef]: public static org.apache.logging.log4j.core.config.AppenderRef org.apache.logging.log4j.core.config.AppenderRef.createAppenderRef(java.lang.String,org.apache.logging.log4j.Level,org.apache.logging.log4j.core.Filter).
+2017-06-21 18:53:36,129 DEBUG Calling createAppenderRef on class org.apache.logging.log4j.core.config.AppenderRef for element AppenderRef with params(name="WFC_FILE", name="null", null)
+2017-06-21 18:53:36,130 DEBUG Built Plugin[name=AppenderRef] OK from factory method.
+2017-06-21 18:53:36,130 DEBUG Building Plugin[name=logger, class=org.apache.logging.log4j.core.config.LoggerConfig]. Searching for builder factory method...
+2017-06-21 18:53:36,130 DEBUG No builder factory method found in class org.apache.logging.log4j.core.config.LoggerConfig. Going to try finding a factory method instead.
+2017-06-21 18:53:36,130 DEBUG Still building Plugin[name=logger, class=org.apache.logging.log4j.core.config.LoggerConfig]. Searching for factory method...
+2017-06-21 18:53:36,130 DEBUG Found factory method [createLogger]: public static org.apache.logging.log4j.core.config.LoggerConfig org.apache.logging.log4j.core.config.LoggerConfig.createLogger(java.lang.String,org.apache.logging.log4j.Level,java.lang.String,java.lang.String,org.apache.logging.log4j.core.config.AppenderRef[],org.apache.logging.log4j.core.config.Property[],org.apache.logging.log4j.core.config.Configuration,org.apache.logging.log4j.core.Filter).
+2017-06-21 18:53:36,131 DEBUG Calling createLogger on class org.apache.logging.log4j.core.config.LoggerConfig for element Logger with params(name="false", name="ERROR", name="com.kronos.leave", name="null", ={WFC_FILE}, ={}, Configuration(/usr/local/kronos/tomcat/webapps/wfc/WEB-INF/classes/log4j2.xml), null)
+2017-06-21 18:53:36,131 DEBUG Built Plugin[name=logger] OK from factory method.
+2017-06-21 18:53:36,132 DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef]. Searching for builder factory method...
+2017-06-21 18:53:36,132 DEBUG No builder factory method found in class org.apache.logging.log4j.core.config.AppenderRef. Going to try finding a factory method instead.
+2017-06-21 18:53:36,132 DEBUG Still building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef]. Searching for factory method...
+2017-06-21 18:53:36,132 DEBUG Found factory method [createAppenderRef]: public static org.apache.logging.log4j.core.config.AppenderRef org.apache.logging.log4j.core.config.AppenderRef.createAppenderRef(java.lang.String,org.apache.logging.log4j.Level,org.apache.logging.log4j.core.Filter).
+2017-06-21 18:53:36,132 DEBUG Calling createAppenderRef on class org.apache.logging.log4j.core.config.AppenderRef for element AppenderRef with params(name="WFC_FILE", name="null", null)
+2017-06-21 18:53:36,132 DEBUG Built Plugin[name=AppenderRef] OK from factory method.
+2017-06-21 18:53:36,132 DEBUG Building Plugin[name=logger, class=org.apache.logging.log4j.core.config.LoggerConfig]. Searching for builder factory method...
+2017-06-21 18:53:36,133 DEBUG No builder factory method found in class org.apache.logging.log4j.core.config.LoggerConfig. Going to try finding a factory method instead.
+2017-06-21 18:53:36,133 DEBUG Still building Plugin[name=logger, class=org.apache.logging.log4j.core.config.LoggerConfig]. Searching for factory method...
+2017-06-21 18:53:36,133 DEBUG Found factory method [createLogger]: public static org.apache.logging.log4j.core.config.LoggerConfig org.apache.logging.log4j.core.config.LoggerConfig.createLogger(java.lang.String,org.apache.logging.log4j.Level,java.lang.String,java.lang.String,org.apache.logging.log4j.core.config.AppenderRef[],org.apache.logging.log4j.core.config.Property[],org.apache.logging.log4j.core.config.Configuration,org.apache.logging.log4j.core.Filter).
+2017-06-21 18:53:36,133 DEBUG Calling createLogger on class org.apache.logging.log4j.core.config.LoggerConfig for element Logger with params(name="false", name="INFO", name="com.kronos.commonapp.laborcategory", name="null", ={WFC_FILE}, ={}, Configuration(/usr/local/kronos/tomcat/webapps/wfc/WEB-INF/classes/log4j2.xml), null)
+2017-06-21 18:53:36,133 DEBUG Built Plugin[name=logger] OK from factory method.
+2017-06-21 18:53:36,134 DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef]. Searching for builder factory method...
+2017-06-21 18:53:36,134 DEBUG No builder factory method found in class org.apache.logging.log4j.core.config.AppenderRef. Going to try finding a factory method instead.
+2017-06-21 18:53:36,134 DEBUG Still building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef]. Searching for factory method...
+2017-06-21 18:53:36,134 DEBUG Found factory method [createAppenderRef]: public static org.apache.logging.log4j.core.config.AppenderRef org.apache.logging.log4j.core.config.AppenderRef.createAppenderRef(java.lang.String,org.apache.logging.log4j.Level,org.apache.logging.log4j.core.Filter).
+2017-06-21 18:53:36,134 DEBUG Calling createAppenderRef on class org.apache.logging.log4j.core.config.AppenderRef for element AppenderRef with params(name="WFC_FILE", name="null", null)
+2017-06-21 18:53:36,134 DEBUG Built Plugin[name=AppenderRef] OK from factory method.
+2017-06-21 18:53:36,134 DEBUG Building Plugin[name=logger, class=org.apache.logging.log4j.core.config.LoggerConfig]. Searching for builder factory method...
+2017-06-21 18:53:36,135 DEBUG No builder factory method found in class org.apache.logging.log4j.core.config.LoggerConfig. Going to try finding a factory method instead.
+2017-06-21 18:53:36,135 DEBUG Still building Plugin[name=logger, class=org.apache.logging.log4j.core.config.LoggerConfig]. Searching for factory method...
+2017-06-21 18:53:36,135 DEBUG Found factory method [createLogger]: public static org.apache.logging.log4j.core.config.LoggerConfig org.apache.logging.log4j.core.config.LoggerConfig.createLogger(java.lang.String,org.apache.logging.log4j.Level,java.lang.String,java.lang.String,org.apache.logging.log4j.core.config.AppenderRef[],org.apache.logging.log4j.core.config.Property[],org.apache.logging.log4j.core.config.Configuration,org.apache.logging.log4j.core.Filter).
+2017-06-21 18:53:36,135 DEBUG Calling createLogger on class org.apache.logging.log4j.core.config.LoggerConfig for element Logger with params(name="false", name="INFO", name="com.kronos.commonapp.labortransfer", name="null", ={WFC_FILE}, ={}, Configuration(/usr/local/kronos/tomcat/webapps/wfc/WEB-INF/classes/log4j2.xml), null)
+2017-06-21 18:53:36,135 DEBUG Built Plugin[name=logger] OK from factory method.
+2017-06-21 18:53:36,136 DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef]. Searching for builder factory method...
+2017-06-21 18:53:36,136 DEBUG No builder factory method found in class org.apache.logging.log4j.core.config.AppenderRef. Going to try finding a factory method instead.
+2017-06-21 18:53:36,136 DEBUG Still building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef]. Searching for factory method...
+2017-06-21 18:53:36,136 DEBUG Found factory method [createAppenderRef]: public static org.apache.logging.log4j.core.config.AppenderRef org.apache.logging.log4j.core.config.AppenderRef.createAppenderRef(java.lang.String,org.apache.logging.log4j.Level,org.apache.logging.log4j.core.Filter).
+2017-06-21 18:53:36,136 DEBUG Calling createAppenderRef on class org.apache.logging.log4j.core.config.AppenderRef for element AppenderRef with params(name="WFC_FILE", name="null", null)
+2017-06-21 18:53:36,136 DEBUG Built Plugin[name=AppenderRef] OK from factory method.
+2017-06-21 18:53:36,136 DEBUG Building Plugin[name=logger, class=org.apache.logging.log4j.core.config.LoggerConfig]. Searching for builder factory method...
+2017-06-21 18:53:36,137 DEBUG No builder factory method found in class org.apache.logging.log4j.core.config.LoggerConfig. Going to try finding a factory method instead.
+2017-06-21 18:53:36,137 DEBUG Still building Plugin[name=logger, class=org.apache.logging.log4j.core.config.LoggerConfig]. Searching for factory method...
+2017-06-21 18:53:36,137 DEBUG Found factory method [createLogger]: public static org.apache.logging.log4j.core.config.LoggerConfig org.apache.logging.log4j.core.config.LoggerConfig.createLogger(java.lang.String,org.apache.logging.log4j.Level,java.lang.String,java.lang.String,org.apache.logging.log4j.core.config.AppenderRef[],org.apache.logging.log4j.core.config.Property[],org.apache.logging.log4j.core.config.Configuration,org.apache.logging.log4j.core.Filter).
+2017-06-21 18:53:36,137 DEBUG Calling createLogger on class org.apache.logging.log4j.core.config.LoggerConfig for element Logger with params(name="false", name="INFO", name="com.kronos.wfc.timekeeping", name="null", ={WFC_FILE}, ={}, Configuration(/usr/local/kronos/tomcat/webapps/wfc/WEB-INF/classes/log4j2.xml), null)
+2017-06-21 18:53:36,137 DEBUG Built Plugin[name=logger] OK from factory method.
+2017-06-21 18:53:36,137 DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef]. Searching for builder factory method...
+2017-06-21 18:53:36,138 DEBUG No builder factory method found in class org.apache.logging.log4j.core.config.AppenderRef. Going to try finding a factory method instead.
+2017-06-21 18:53:36,138 DEBUG Still building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef]. Searching for factory method...
+2017-06-21 18:53:36,138 DEBUG Found factory method [createAppenderRef]: public static org.apache.logging.log4j.core.config.AppenderRef org.apache.logging.log4j.core.config.AppenderRef.createAppenderRef(java.lang.String,org.apache.logging.log4j.Level,org.apache.logging.log4j.core.Filter).
+2017-06-21 18:53:36,138 DEBUG Calling createAppenderRef on class org.apache.logging.log4j.core.config.AppenderRef for element AppenderRef with params(name="WFC_FILE", name="null", null)
+2017-06-21 18:53:36,138 DEBUG Built Plugin[name=AppenderRef] OK from factory method.
+2017-06-21 18:53:36,138 DEBUG Building Plugin[name=logger, class=org.apache.logging.log4j.core.config.LoggerConfig]. Searching for builder factory method...
+2017-06-21 18:53:36,138 DEBUG No builder factory method found in class org.apache.logging.log4j.core.config.LoggerConfig. Going to try finding a factory method instead.
+2017-06-21 18:53:36,139 DEBUG Still building Plugin[name=logger, class=org.apache.logging.log4j.core.config.LoggerConfig]. Searching for factory method...
+2017-06-21 18:53:36,139 DEBUG Found factory method [createLogger]: public static org.apache.logging.log4j.core.config.LoggerConfig org.apache.logging.log4j.core.config.LoggerConfig.createLogger(java.lang.String,org.apache.logging.log4j.Level,java.lang.String,java.lang.String,org.apache.logging.log4j.core.config.AppenderRef[],org.apache.logging.log4j.core.config.Property[],org.apache.logging.log4j.core.config.Configuration,org.apache.logging.log4j.core.Filter).
+2017-06-21 18:53:36,139 DEBUG Calling createLogger on class org.apache.logging.log4j.core.config.LoggerConfig for element Logger with params(name="false", name="ERROR", name="com.kronos.report", name="null", ={WFC_FILE}, ={}, Configuration(/usr/local/kronos/tomcat/webapps/wfc/WEB-INF/classes/log4j2.xml), null)
+2017-06-21 18:53:36,139 DEBUG Built Plugin[name=logger] OK from factory method.
+2017-06-21 18:53:36,139 DEBUG Building Plugin[name=loggers, class=org.apache.logging.log4j.core.config.LoggersPlugin]. Searching for builder factory method...
+2017-06-21 18:53:36,141 DEBUG No builder factory method found in class org.apache.logging.log4j.core.config.LoggersPlugin. Going to try finding a factory method instead.
+2017-06-21 18:53:36,141 DEBUG Still building Plugin[name=loggers, class=org.apache.logging.log4j.core.config.LoggersPlugin]. Searching for factory method...
+2017-06-21 18:53:36,141 DEBUG Found factory method [createLoggers]: public static org.apache.logging.log4j.core.config.Loggers org.apache.logging.log4j.core.config.LoggersPlugin.createLoggers(org.apache.logging.log4j.core.config.LoggerConfig[]).
+2017-06-21 18:53:36,141 DEBUG Calling createLoggers on class org.apache.logging.log4j.core.config.LoggersPlugin for element Loggers with params(={root, WFC.STARTUP, WFC, WFC.ALM-WAT, WFC.PROPERTIES, WFC.API, WFC.UI, WFC.WBAP, WFC.WBAP.PROCESSENGINE, WFC.BUSINESS.NGA, SERVICEABILITY, EXTERNALMESSAGING, WFC.COMMONAPP.REPORTING.CMS, WFC.COMMONAPP.REPORTING, WFC.APP.DBMANAGER, WFC.BUSINESS.EXTERNAL_VALIDATOR, WFC.API.XML, WFC.PERSISTENCE, WFC.PERSISTENCE.SQLTRACING, WFC.DAG.PERSIST, WFC.APP.DBARCHIVE, WFC.WFP, WFC.BUSINESS, org.apache, org.apache.activemq.store.kahadb.MessageDatabase, com.kronos.logging.impl.filter.PayLoadLoggerFilter, org.hibernate, org.hibernate.SQL, org.hibernate.type, com.kronos.attendance, com.kronos.leave, com.kronos.commonapp.laborcategory, com.kronos.commonapp.labortransfer, com.kronos.wfc.timekeeping, com.kronos.report})
+2017-06-21 18:53:36,141 DEBUG Built Plugin[name=loggers] OK from factory method.
+2017-06-21 18:53:36,144 DEBUG Started configuration XmlConfiguration[location=/usr/local/kronos/tomcat/webapps/wfc/WEB-INF/classes/log4j2.xml] OK.
+2017-06-21 18:53:36,144 DEBUG Stopped org.apache.logging.log4j.core.config.DefaultConfiguration@3ce78e6f OK
+2017-06-21 18:53:36,150 DEBUG Registering MBean org.apache.logging.log4j2:type=1785761150
+2017-06-21 18:53:36,155 DEBUG Registering MBean org.apache.logging.log4j2:type=1785761150,component=StatusLogger
+2017-06-21 18:53:36,158 DEBUG Registering MBean org.apache.logging.log4j2:type=1785761150,component=ContextSelector
+2017-06-21 18:53:36,161 DEBUG Registering MBean org.apache.logging.log4j2:type=1785761150,component=Loggers,name=
+2017-06-21 18:53:36,162 DEBUG Registering MBean org.apache.logging.log4j2:type=1785761150,component=Loggers,name=com.kronos.commonapp.laborcategory
+2017-06-21 18:53:36,162 DEBUG Registering MBean org.apache.logging.log4j2:type=1785761150,component=Loggers,name=WFC.UI
+2017-06-21 18:53:36,162 DEBUG Registering MBean org.apache.logging.log4j2:type=1785761150,component=Loggers,name=WFC.ALM-WAT
+2017-06-21 18:53:36,162 DEBUG Registering MBean org.apache.logging.log4j2:type=1785761150,component=Loggers,name=WFC.PERSISTENCE
+2017-06-21 18:53:36,163 DEBUG Registering MBean org.apache.logging.log4j2:type=1785761150,component=Loggers,name=org.apache.activemq.store.kahadb.MessageDatabase
+2017-06-21 18:53:36,163 DEBUG Registering MBean org.apache.logging.log4j2:type=1785761150,component=Loggers,name=com.kronos.attendance
+2017-06-21 18:53:36,163 DEBUG Registering MBean org.apache.logging.log4j2:type=1785761150,component=Loggers,name=com.kronos.report
+2017-06-21 18:53:36,163 DEBUG Registering MBean org.apache.logging.log4j2:type=1785761150,component=Loggers,name=org.hibernate
+2017-06-21 18:53:36,164 DEBUG Registering MBean org.apache.logging.log4j2:type=1785761150,component=Loggers,name=WFC.DAG.PERSIST
+2017-06-21 18:53:36,164 DEBUG Registering MBean org.apache.logging.log4j2:type=1785761150,component=Loggers,name=WFC.PROPERTIES
+2017-06-21 18:53:36,164 DEBUG Registering MBean org.apache.logging.log4j2:type=1785761150,component=Loggers,name=com.kronos.leave
+2017-06-21 18:53:36,164 DEBUG Registering MBean org.apache.logging.log4j2:type=1785761150,component=Loggers,name=WFC.WBAP.PROCESSENGINE
+2017-06-21 18:53:36,165 DEBUG Registering MBean org.apache.logging.log4j2:type=1785761150,component=Loggers,name=org.hibernate.type
+2017-06-21 18:53:36,165 DEBUG Registering MBean org.apache.logging.log4j2:type=1785761150,component=Loggers,name=WFC
+2017-06-21 18:53:36,165 DEBUG Registering MBean org.apache.logging.log4j2:type=1785761150,component=Loggers,name=WFC.API
+2017-06-21 18:53:36,165 DEBUG Registering MBean org.apache.logging.log4j2:type=1785761150,component=Loggers,name=EXTERNALMESSAGING
+2017-06-21 18:53:36,165 DEBUG Registering MBean org.apache.logging.log4j2:type=1785761150,component=Loggers,name=WFC.APP.DBARCHIVE
+2017-06-21 18:53:36,166 DEBUG Registering MBean org.apache.logging.log4j2:type=1785761150,component=Loggers,name=WFC.COMMONAPP.REPORTING
+2017-06-21 18:53:36,166 DEBUG Registering MBean org.apache.logging.log4j2:type=1785761150,component=Loggers,name=com.kronos.wfc.timekeeping
+2017-06-21 18:53:36,166 DEBUG Registering MBean org.apache.logging.log4j2:type=1785761150,component=Loggers,name=WFC.STARTUP
+2017-06-21 18:53:36,166 DEBUG Registering MBean org.apache.logging.log4j2:type=1785761150,component=Loggers,name=WFC.PERSISTENCE.SQLTRACING
+2017-06-21 18:53:36,167 DEBUG Registering MBean org.apache.logging.log4j2:type=1785761150,component=Loggers,name=org.hibernate.SQL
+2017-06-21 18:53:36,167 DEBUG Registering MBean org.apache.logging.log4j2:type=1785761150,component=Loggers,name=SERVICEABILITY
+2017-06-21 18:53:36,167 DEBUG Registering MBean org.apache.logging.log4j2:type=1785761150,component=Loggers,name=WFC.API.XML
+2017-06-21 18:53:36,167 DEBUG Registering MBean org.apache.logging.log4j2:type=1785761150,component=Loggers,name=WFC.WBAP
+2017-06-21 18:53:36,167 DEBUG Registering MBean org.apache.logging.log4j2:type=1785761150,component=Loggers,name=WFC.BUSINESS
+2017-06-21 18:53:36,168 DEBUG Registering MBean org.apache.logging.log4j2:type=1785761150,component=Loggers,name=WFC.APP.DBMANAGER
+2017-06-21 18:53:36,168 DEBUG Registering MBean org.apache.logging.log4j2:type=1785761150,component=Loggers,name=com.kronos.logging.impl.filter.PayLoadLoggerFilter
+2017-06-21 18:53:36,168 DEBUG Registering MBean org.apache.logging.log4j2:type=1785761150,component=Loggers,name=WFC.WFP
+2017-06-21 18:53:36,169 DEBUG Registering MBean org.apache.logging.log4j2:type=1785761150,component=Loggers,name=WFC.COMMONAPP.REPORTING.CMS
+2017-06-21 18:53:36,169 DEBUG Registering MBean org.apache.logging.log4j2:type=1785761150,component=Loggers,name=WFC.BUSINESS.EXTERNAL_VALIDATOR
+2017-06-21 18:53:36,169 DEBUG Registering MBean org.apache.logging.log4j2:type=1785761150,component=Loggers,name=com.kronos.commonapp.labortransfer
+2017-06-21 18:53:36,169 DEBUG Registering MBean org.apache.logging.log4j2:type=1785761150,component=Loggers,name=WFC.BUSINESS.NGA
+2017-06-21 18:53:36,170 DEBUG Registering MBean org.apache.logging.log4j2:type=1785761150,component=Loggers,name=org.apache
+2017-06-21 18:53:36,172 DEBUG Registering MBean org.apache.logging.log4j2:type=1785761150,component=Appenders,name=BEST_PRACTICES_FILE
+2017-06-21 18:53:36,173 DEBUG Registering MBean org.apache.logging.log4j2:type=1785761150,component=Appenders,name=STARTUP_ERROR_FILE
+2017-06-21 18:53:36,173 DEBUG Registering MBean org.apache.logging.log4j2:type=1785761150,component=Appenders,name=EXTERNAL_MESSAGING_FILE
+2017-06-21 18:53:36,173 DEBUG Registering MBean org.apache.logging.log4j2:type=1785761150,component=Appenders,name=STDOUT
+2017-06-21 18:53:36,173 DEBUG Registering MBean org.apache.logging.log4j2:type=1785761150,component=Appenders,name=STARTUP_INFO_FILE
+2017-06-21 18:53:36,174 DEBUG Registering MBean org.apache.logging.log4j2:type=1785761150,component=Appenders,name=WFC_FILE
+2017-06-21 18:53:36,174 DEBUG Reconfiguration complete for context[name=1785761150] at null (org.apache.logging.log4j.core.LoggerContext@3ce58636) with optional ClassLoader: null
+2017-06-21 18:53:36,174 DEBUG Shutdown hook enabled. Registering a new one.
+2017-06-21 18:53:36,177 DEBUG LoggerContext[name=1785761150, org.apache.logging.log4j.core.LoggerContext@3ce58636] started OK.
+SpringContainerInitializer : Spring Container initialization is started.
+Registering Filters in SpringContainerInitializer
+SpringContainerInitializer : Spring Container initialization is done.
+21-Jun-2017 18:53:37.027 INFO [localhost-startStop-1] com.sun.xml.ws.transport.http.servlet.WSServletDelegate.<init> WSSERVLET14: JAX-WS servlet initializing
+2017-06-21 18:55:27,385 DEBUG Using default SystemClock for timestamps
+21-Jun-2017 18:58:36.154 INFO [localhost-startStop-1] redis.clients.jedis.JedisSentinelPool.initSentinels Trying to find master from available Sentinels...
+21-Jun-2017 18:58:36.199 INFO [localhost-startStop-1] redis.clients.jedis.JedisSentinelPool.initSentinels Redis master running at 10.3.80.116:6379, starting Sentinel listeners...
+21-Jun-2017 18:58:36.212 INFO [localhost-startStop-1] redis.clients.jedis.JedisSentinelPool.initPool Created JedisPool to master at 10.3.80.116:6379
+21-Jun-2017 19:04:36.944 INFO [localhost-startStop-1] com.sun.xml.ws.transport.http.servlet.WSServletContextListener.contextInitialized WSSERVLET12: JAX-WS context listener initializing
+21-Jun-2017 19:04:40.307 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /usr/local/kronos/tomcat/webapps/wfc has finished in 709,991 ms
+21-Jun-2017 19:04:40.314 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+21-Jun-2017 19:04:40.324 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+21-Jun-2017 19:04:40.325 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 712646 ms
+osgiLauncherThread: to clean up OSGi workspace.
+osgiLauncherThread: OSGi workspace cleanup completed.
+Starting uicontainer...
+uicontainer started.
+AlertnotificationService()
+21-Jun-2017 19:05:16.551 WARNING [Start Level Event Dispatcher] org.apache.cxf.dosgi.dsw.OsgiUtils.getPublishableInterfaces ignoring publish interface, com.kronos.wfc.services.request.IOpenShiftRequestRetrievalServiceForREST, not exposed by service
+no support for compresion
+osgi> *** WFC Server has been started in Online Mode ***
