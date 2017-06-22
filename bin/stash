@@ -1,0 +1,30 @@
+#!/bin/bash
+
+# Put all your git repository under your home/projects (see git training)
+# and this script will 'git pull' all of them one by one
+# Stash was the previous version of bitbucket.
+# I created this utility while using it, so now you know the reason.
+
+export WORKDIR=~/projects
+
+export REPOS="$(find ${WORKDIR}/ -name .git)"
+
+for repo in ${REPOS};do
+    cd ${repo};cd ..;echo " ";echo " * $(pwd)"
+    git pull | grep -v "Already up-to-date"
+    git status | \
+        grep -v "nothing to commit, working directory clean" | \
+        grep -v "Your branch is up-to-date with"
+    echo " "
+done
+
+echo " "
+echo "----------------------------"
+echo "Inventory of \$HOME/projects"
+echo " "
+
+for repo in ${REPOS};do
+    cd ${repo};cd .. #;echo " ";echo " * $(pwd)"
+    git remote -v | grep fetch | awk 'BEGIN { printf "git clone "} {print $2}'
+    git branch # | awk 'BEGIN { printf "git checkout "} {print $2}'
+done
