@@ -7,15 +7,17 @@
 (defn fname_content [fname]
   (-> fname (slurp) (clojure.string/split #"\n")))
 
-(def
-  simulation-dir
-  "resources/")
 
 (def logs
-  {:wfc      (str simulation-dir "wfc.log")
-   :catalina (str simulation-dir "catalina.out")
-   :access   (str simulation-dir "access.log")})
+  (let [simulation-dir "resources/"]
+    {:wfc      (str simulation-dir "wfc.log")
+     :catalina (str simulation-dir "catalina.out")
+     :access   (str simulation-dir "access.log")}))
 
+(def samples {:line1
+              "10.129.62.6 - - 21/Jun/2017:19:02:35 +0000 \"POST /wfc/XmlService?tenantId=healthcare HTTP/1.1\" 499 0"
+              :line8
+              "10.129.62.6 - - 21/Jun/2017:19:28:56 +0000 \"POST /wfc/restcall/v1/scheduling/schedule/multi_read HTTP/1.1\" 200 933246"})
 
 (deftest logs-exist-test
   (testing "wfc.log file exist"
@@ -24,10 +26,6 @@
     (is (.exists (clojure.java.io/file (logs :access))))))
 
 
-(def samples {:line1
-              "10.129.62.6 - - 21/Jun/2017:19:02:35 +0000 \"POST /wfc/XmlService?tenantId=healthcare HTTP/1.1\" 499 0"
-              :line8
-              "10.129.62.6 - - 21/Jun/2017:19:28:56 +0000 \"POST /wfc/restcall/v1/scheduling/schedule/multi_read HTTP/1.1\" 200 933246"})
 
 
 ;;
