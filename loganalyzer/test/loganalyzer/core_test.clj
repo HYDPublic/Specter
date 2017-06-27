@@ -7,28 +7,23 @@
 (defn fname_content [fname]
   (-> fname (slurp) (clojure.string/split #"\n")))
 
-(def
-  simulation-dir
-  "resources/")
 
 (def logs
-  {:wfc      (str simulation-dir "wfc.log")
-   :catalina (str simulation-dir "catalina.out")
-   :access   (str simulation-dir "access.log")})
-
-
-(deftest logs-exist-test
-  (testing "wfc.log file exist"
-    (is (.exists (clojure.java.io/file (logs :wfc))))
-    (is (.exists (clojure.java.io/file (logs :catalina))))
-    (is (.exists (clojure.java.io/file (logs :access))))))
-
+  (let [simulation-dir "resources/"]
+    {:wfc      (str simulation-dir "wfc.log")
+     :catalina (str simulation-dir "catalina.out")
+     :access   (str simulation-dir "access.log")}))
 
 (def samples {:line1
               "10.129.62.6 - - 21/Jun/2017:19:02:35 +0000 \"POST /wfc/XmlService?tenantId=healthcare HTTP/1.1\" 499 0"
               :line8
               "10.129.62.6 - - 21/Jun/2017:19:28:56 +0000 \"POST /wfc/restcall/v1/scheduling/schedule/multi_read HTTP/1.1\" 200 933246"})
 
+(deftest logs-exist-test
+  (testing "wfc.log file exist"
+    (is (.exists (clojure.java.io/file (logs :wfc))))
+    (is (.exists (clojure.java.io/file (logs :catalina))))
+    (is (.exists (clojure.java.io/file (logs :access))))))
 
 ;;
 ;;remote_addr dummy remote_user $time_local time_local2 "$request" $status $body_bytes_sent $request_time
@@ -40,7 +35,7 @@
 
 ;; TODO implement a memento here instead
 (defn access_structurify
-  [fname]                                        ; do something here
+  [fname]
   (map (fn[x]
          (let [p      (clojure.string/split x #"\"")
                p1     (clojure.string/split (first p) #"\s")
@@ -65,14 +60,18 @@
 
 (deftest log-access-is-parsable
   (testing "access.log from nginx is parsable"
-    (let [content  (access_structurify (logs :access))
-          presplit content]
-            (is (=
-           {:ts          "21/Jun/2017:19:02:35 +0000"
-            :remote-addr "10.129.62.6"
-            :request     "/wfc/XmlService?tenantId=healthcare"
-            :verb        "POST"
-            :http-status    "499"
-            :body-byte-sent "0"
-            }
-           (nth presplit 1))))))
+    (let [access-log  (access_structurify (logs :access))]
+      (is (= (nth access-log 1)
+             {:ts          "21/Jun/2017:19:02:35 +0000"
+              :remote-addr "10.129.62.6"
+              :request     "/wfc/XmlService?tenantId=healthcare"
+              :verb        "POST"
+              :http-status    "499"
+              :body-byte-sent "0"}))
+      (is (= (nth access-log 8)
+             {:ts          "21/Jun/2017:19:28:56 +0000"
+              :remote-addr "10.129.62.6"
+              :request     "/wfc/restcall/v1/scheduling/schedule/multi_read"
+              :verb        "POST"
+              :http-status    "200"
+              :body-byte-sent "933246"})))))
