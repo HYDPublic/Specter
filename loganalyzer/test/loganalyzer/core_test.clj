@@ -9,6 +9,32 @@
 (defn fname_content [fname]
   (-> fname (slurp) (clojure.string/split #"\n")))
 
+;; TODO implement a memento here instead
+(defn access_structurify
+  [fname]
+  (map (fn[x]
+         (let [p      (clojure.string/split x #"\"")
+               p1     (clojure.string/split (first p) #"\s")
+               p2     (clojure.string/split (nth p 1) #"\s")
+               p3     (clojure.string/split (nth p 2) #"\s")
+               remote-addr (nth p1 0)
+               tstamp (str (nth p1 3) " " (nth p1 4))
+               verb    (nth p2 0)
+               request (nth p2 1)
+               status          (nth p3 1)
+               body-byte-sent  (nth p3 2)
+               ]
+           {:ts (str (f/parse
+                      (f/formatter
+                       "d/MMM/yyyy:H:m:s +0000") tstamp))
+            :remote-addr remote-addr
+            :verb        verb
+            :request     request
+            :http-status status
+            :body-byte-sent body-byte-sent}))
+       (fname_content fname)))
+
+
 
 (def logs
   (let [simulation-dir "resources/"]
@@ -34,31 +60,6 @@
     (let [content (fname_content (logs :access))]
       (is (= (samples :line1) (nth content 1)))
       (is (= (samples :line8) (nth content 8))))))
-
-;; TODO implement a memento here instead
-(defn access_structurify
-  [fname]
-  (map (fn[x]
-         (let [p      (clojure.string/split x #"\"")
-               p1     (clojure.string/split (first p) #"\s")
-               p2     (clojure.string/split (nth p 1) #"\s")
-               p3     (clojure.string/split (nth p 2) #"\s")
-               remote-addr (nth p1 0)
-               tstamp (str (nth p1 3) " " (nth p1 4))
-               verb    (nth p2 0)
-               request (nth p2 1)
-               status          (nth p3 1)
-               body-byte-sent  (nth p3 2)
-               ]
-           {:ts (str (f/parse
-                      (f/formatter
-                       "d/MMM/yyyy:H:m:s +0000") tstamp))
-            :remote-addr remote-addr
-            :verb        verb
-            :request     request
-            :http-status status
-            :body-byte-sent body-byte-sent}))
-       (fname_content fname)))
 
 
 
