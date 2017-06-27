@@ -1,7 +1,9 @@
 (ns loganalyzer.core-test
   (:require [clojure.test :refer :all]
             [loganalyzer.core :refer :all]
-            [clojure.data.json :as json]))
+            [clojure.data.json :as json]
+            [clj-time.format :as f]))
+
 
 ;; MAYBE NOT THE RIGHT PLACE: TODO implement a memento here
 (defn fname_content [fname]
@@ -48,11 +50,13 @@
                status          (nth p3 1)
                body-byte-sent  (nth p3 2)
                ]
-           {:ts             tstamp
-            :remote-addr    remote-addr
-            :verb           verb
-            :request        request
-            :http-status    status
+           {:ts (str (f/parse
+                      (f/formatter
+                       "d/MMM/yyyy:H:m:s +0000") tstamp))
+            :remote-addr remote-addr
+            :verb        verb
+            :request     request
+            :http-status status
             :body-byte-sent body-byte-sent}))
        (fname_content fname)))
 
@@ -62,14 +66,14 @@
   (testing "access.log from nginx is parsable"
     (let [access-log  (access_structurify (logs :access))]
       (is (= (nth access-log 1)
-             {:ts          "21/Jun/2017:19:02:35 +0000"
+             {:ts          "2017-06-21T19:02:35.000Z"
               :remote-addr "10.129.62.6"
               :request     "/wfc/XmlService?tenantId=healthcare"
               :verb        "POST"
               :http-status    "499"
               :body-byte-sent "0"}))
       (is (= (nth access-log 8)
-             {:ts          "21/Jun/2017:19:28:56 +0000"
+             {:ts          "2017-06-21T19:28:56.000Z"
               :remote-addr "10.129.62.6"
               :request     "/wfc/restcall/v1/scheduling/schedule/multi_read"
               :verb        "POST"
