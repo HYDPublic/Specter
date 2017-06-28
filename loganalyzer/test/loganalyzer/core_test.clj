@@ -10,7 +10,7 @@
   (-> fname (slurp) (clojure.string/split #"\n")))
 
 ;; TODO implement a memento here instead
-(defn access_structurify
+(defn structurify_access
   [fname]
   (map (fn[x]
          (let [p      (clojure.string/split x #"\"")
@@ -34,6 +34,10 @@
             :body-byte-sent body-byte-sent}))
        (fname_content fname)))
 
+(defn structurify_wfc
+  [fname]
+  (let [rdr (clojure.java.io/reader fname)]
+    (json/read rdr)))
 
 
 (def logs
@@ -42,10 +46,17 @@
      :catalina (str simulation-dir "catalina.out")
      :access   (str simulation-dir "access.log")}))
 
-(def samples {:line1
+(def samples-access {:line1
               "10.129.62.6 - - 21/Jun/2017:19:02:35 +0000 \"POST /wfc/XmlService?tenantId=healthcare HTTP/1.1\" 499 0"
               :line8
               "10.129.62.6 - - 21/Jun/2017:19:28:56 +0000 \"POST /wfc/restcall/v1/scheduling/schedule/multi_read HTTP/1.1\" 200 933246"})
+
+
+(deftest log-wfc-content-test
+  (testing "wfc.log is parsable"
+    (let [content (structurify_wfc (logs :wfc))]
+      (is (= 1 (take 5 content))))))
+
 
 (deftest logs-exist-test
   (testing "wfc.log file exist"
@@ -58,14 +69,14 @@
 (deftest log-access-content-test
   (testing "access.log content from Nginx can be loaded in memory"
     (let [content (fname_content (logs :access))]
-      (is (= (samples :line1) (nth content 1)))
-      (is (= (samples :line8) (nth content 8))))))
+      (is (= (samples-access :line1) (nth content 1)))
+      (is (= (samples-access :line8) (nth content 8))))))
 
 
 
 (deftest log-access-is-parsable
   (testing "access.log from nginx is parsable"
-    (let [access-log  (access_structurify (logs :access))]
+    (let [access-log  (structurify_access (logs :access))]
       (is (= (nth access-log 1)
              {:ts          "2017-06-21T19:02:35.000Z"
               :remote-addr "10.129.62.6"
