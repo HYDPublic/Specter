@@ -1,0 +1,40 @@
+.nmon files do exist - process
+Parsing NMON files...
+	/home/stn/cache/cxseed/scheduling.schedule.MultiReadDesktopSimulation/nmon/cxseed-a_170630_0700.nmon... Complete
+	/home/stn/cache/cxseed/scheduling.schedule.MultiReadDesktopSimulation/nmon/cxseed-a-back_170630_0700.nmon... Complete
+	/home/stn/cache/cxseed/scheduling.schedule.MultiReadDesktopSimulation/nmon/keng01-prf01-ins01-dmc50-app01_170630_0700.nmon... Complete
+	/home/stn/cache/cxseed/scheduling.schedule.MultiReadDesktopSimulation/nmon/keng01-prf01-ins01-dmc50-app02_170630_0700.nmon... Complete
+	/home/stn/cache/cxseed/scheduling.schedule.MultiReadDesktopSimulation/nmon/keng01-prf01-ins01-dmc50-app03_170630_0700.nmon... Complete
+	/home/stn/cache/cxseed/scheduling.schedule.MultiReadDesktopSimulation/nmon/keng01-prf01-ins01-dmq50-ilb01_170630_0700.nmon... Complete
+	/home/stn/cache/cxseed/scheduling.schedule.MultiReadDesktopSimulation/nmon/keng01-prf01-wfm20-dbs02_170630_0700.nmon... Complete
+Parsing complete!
+
+Charting interval All Data: 07:00:34 Jun 30 - 07:01:28 Jun 30
+Writing charts to /home/stn/cache/cxseed/scheduling.schedule.MultiReadDesktopSimulation/nmon/charts
+	Creating summary charts .......... Complete (10/10)
+	Creating charts for cxseed-a ................... Complete (19/19)
+	Creating charts for cxseed-a-back ................... Complete (19/19)
+	Creating charts for keng01-prf01-ins01-dmc50-app01 ................... Complete (19/19)
+	Creating charts for keng01-prf01-ins01-dmc50-app02 ................... Complete (19/19)
+	Creating charts for keng01-prf01-ins01-dmc50-app03 ................... Complete (19/19)
+	Creating charts for keng01-prf01-ins01-dmq50-ilb01 ................... Complete (19/19)
+	Creating charts for keng01-prf01-wfm20-dbs02 ................... Complete (19/19)
+Charts complete!
+
+Writing data for interval All Data: 07:00:34 Jun 30 - 07:01:28 Jun 30
+Writing CSV files to /home/stn/cache/cxseed/scheduling.schedule.MultiReadDesktopSimulation/nmon/rawdata
+	Writing CSV for cxseed-a ... Complete
+Complete
+	Writing CSV for cxseed-a-back ... Complete
+Complete
+	Writing CSV for keng01-prf01-ins01-dmc50-app01 ... Complete
+Complete
+	Writing CSV for keng01-prf01-ins01-dmc50-app02 ... Complete
+Complete
+	Writing CSV for keng01-prf01-ins01-dmc50-app03 ... Complete
+Complete
+	Writing CSV for keng01-prf01-ins01-dmq50-ilb01 ... Complete
+Complete
+	Writing CSV for keng01-prf01-wfm20-dbs02 ... Complete
+Complete
+Raw data complete!

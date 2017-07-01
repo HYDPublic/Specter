@@ -1,0 +1,256 @@
+@Main();23:58:02; Version 1.0; Starting the Scalablity setup, which include WFM Deploy process, system setup
+@jenkins_destroy; 23:58:05; Processing WFM Terminate process:
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   311    0     0  100   311      0    251  0:00:01  0:00:01 --:--:--   251100   311    0     0  100   311      0    138  0:00:02  0:00:02 --:--:--   138100   311    0     0  100   311      0     95  0:00:03  0:00:03 --:--:--    95100   311    0     0  100   311      0     91  0:00:03  0:00:03 --:--:--    91
+@jenkins_destroy; 23:58:08; Your request has forwarded to Jenkins server.  Will check your request status in Jenkins now.
+@_jenkins_jobvalidation; 23:58:17; Last build number of Destroy is 13527.
+[1;33m@_jenkins_jobvalidation; 23:58:17; The next build number remain the same (13527).  Will check again in 20 seconds [0m
+@_jenkins_jobvalidation; 23:58:41; Last build number of Destroy is 13527.
+[1;33m@_jenkins_jobvalidation; 23:58:41; The next build number remain the same (13527).  Will check again in 20 seconds [0m
+@_jenkins_jobvalidation; 23:59:04; Last build number of Destroy is 13527.
+[1;33m@_jenkins_jobvalidation; 23:59:04; The next build number remain the same (13527).  Will check again in 20 seconds [0m
+@_jenkins_jobvalidation; 23:59:27; Last build number of Destroy is 13527.
+@_jenkins_jobvalidation; 23:59:31; The next build number of Destroy is 13528.  Checking the submitter name.
+[1;32m@_jenkins_jobvalidation; 23:59:31; Destroy job with build number 13528 is submitted by you [0m
+@_jenkins_jobstatuscheck; 23:59:54; The Destroy job with build number 13528 is still in progress.  Will check the status again in 2 minutes
+@_jenkins_jobstatuscheck; 00:01:58; The Destroy job with build number 13528 is still in progress.  Will check the status again in 2 minutes
+[1;32m@_jenkins_jobstatuscheck; 00:04:01; The Destroy job is completed successfully. Build number is 13528 [0m
+/home/stn/projects/bin/redis_clean.rb:29:in `block (2 levels) in command_line_options_parser': Missing option: --wfm_cloudappname (ArgumentError)
+	from /home/stn/projects/bin/redis_clean.rb:28:in `fetch'
+	from /home/stn/projects/bin/redis_clean.rb:28:in `block in command_line_options_parser'
+	from /home/stn/projects/bin/redis_clean.rb:27:in `map'
+	from /home/stn/projects/bin/redis_clean.rb:27:in `command_line_options_parser'
+	from /home/stn/projects/bin/redis_clean.rb:43:in `<main>'
+@db_get_db_dump; 00:04:01; Downloading the ppas_falcon_customer_multi.dump from artifactory:
+Pseudo-terminal will not be allocated because stdin is not a terminal.
+Warning: Permanently added 'keng01-prf01-wfm20-dbs02.int.prf.mykronos.com,10.3.95.239' (ECDSA) to the list of known hosts.
+[1;32m@db_get_db_dump; 00:04:01; ppas_falcon_customer_multi.dump is downloaded successfully  [0m
+@db_restore_db_from_dump; 00:04:20; Dropping the connection for cxseed-a:
+Pseudo-terminal will not be allocated because stdin is not a terminal.
+Warning: Permanently added 'keng01-prf01-wfm20-dbs02.int.prf.mykronos.com,10.3.95.239' (ECDSA) to the list of known hosts.
+ pg_terminate_backend 
+----------------------
+(0 rows)
+
+@db_restore_db_from_dump; 00:04:20; Remove all exisiting DB connection:
+@db_restore_db_from_dump; 00:04:20; Remove the cxseed-a :
+[1;32m@db_restore_db_from_dump; 00:04:20;  cxseed-a has removed from keng01-prf01-wfm20-dbs02.int.prf.mykronos.com [0m
+@db_restore_db_from_dump; 00:04:20; Re-create the cxseed-a :
+[1;32m@db_restore_db_from_dump; 00:04:20;  cxseed-a created in keng01-prf01-wfm20-dbs02.int.prf.mykronos.com [0m
+@db_restore_db_from_dump; 00:04:20; restore the cxseed-a from dump file, please wait:
+pg_restore: WARNING:  column "db_platform" has type "unknown"
+DETAIL:  Proceeding with relation creation anyway.
+pg_restore: WARNING:  column "db_platform" has type "unknown"
+DETAIL:  Proceeding with relation creation anyway.
+pg_restore: WARNING:  column "col1" has type "unknown"
+DETAIL:  Proceeding with relation creation anyway.
+pg_restore: WARNING:  column "db_platform" has type "unknown"
+DETAIL:  Proceeding with relation creation anyway.
+pg_restore: WARNING:  column "db_platform" has type "unknown"
+DETAIL:  Proceeding with relation creation anyway.
+pg_restore: WARNING:  column "db_platform" has type "unknown"
+DETAIL:  Proceeding with relation creation anyway.
+pg_restore: WARNING:  column "db_platform" has type "unknown"
+DETAIL:  Proceeding with relation creation anyway.
+pg_restore: WARNING:  column "db_platform" has type "unknown"
+DETAIL:  Proceeding with relation creation anyway.
+pg_restore: WARNING:  column "col1" has type "unknown"
+DETAIL:  Proceeding with relation creation anyway.
+pg_restore: WARNING:  column "db_platform" has type "unknown"
+DETAIL:  Proceeding with relation creation anyway.
+pg_restore: WARNING:  column "db_platform" has type "unknown"
+DETAIL:  Proceeding with relation creation anyway.
+pg_restore: WARNING:  column "db_platform" has type "unknown"
+DETAIL:  Proceeding with relation creation anyway.
+pg_restore: WARNING:  column "db_platform" has type "unknown"
+DETAIL:  Proceeding with relation creation anyway.
+pg_restore: WARNING:  column "db_platform" has type "unknown"
+DETAIL:  Proceeding with relation creation anyway.
+pg_restore: WARNING:  column "col1" has type "unknown"
+DETAIL:  Proceeding with relation creation anyway.
+pg_restore: WARNING:  column "db_platform" has type "unknown"
+DETAIL:  Proceeding with relation creation anyway.
+pg_restore: WARNING:  column "db_platform" has type "unknown"
+DETAIL:  Proceeding with relation creation anyway.
+pg_restore: WARNING:  column "db_platform" has type "unknown"
+DETAIL:  Proceeding with relation creation anyway.
+pg_restore: WARNING:  column "db_platform" has type "unknown"
+DETAIL:  Proceeding with relation creation anyway.
+pg_restore: WARNING:  column "db_platform" has type "unknown"
+DETAIL:  Proceeding with relation creation anyway.
+pg_restore: WARNING:  column "col1" has type "unknown"
+DETAIL:  Proceeding with relation creation anyway.
+pg_restore: WARNING:  column "db_platform" has type "unknown"
+DETAIL:  Proceeding with relation creation anyway.
+pg_restore: WARNING:  column "db_platform" has type "unknown"
+DETAIL:  Proceeding with relation creation anyway.
+pg_restore: WARNING:  column "db_platform" has type "unknown"
+DETAIL:  Proceeding with relation creation anyway.
+pg_restore: WARNING:  column "db_platform" has type "unknown"
+DETAIL:  Proceeding with relation creation anyway.
+pg_restore: WARNING:  column "db_platform" has type "unknown"
+DETAIL:  Proceeding with relation creation anyway.
+pg_restore: WARNING:  column "col1" has type "unknown"
+DETAIL:  Proceeding with relation creation anyway.
+pg_restore: WARNING:  column "db_platform" has type "unknown"
+DETAIL:  Proceeding with relation creation anyway.
+pg_restore: WARNING:  column "db_platform" has type "unknown"
+DETAIL:  Proceeding with relation creation anyway.
+pg_restore: WARNING:  column "db_platform" has type "unknown"
+DETAIL:  Proceeding with relation creation anyway.
+pg_restore: WARNING:  column "db_platform" has type "unknown"
+DETAIL:  Proceeding with relation creation anyway.
+pg_restore: WARNING:  column "db_platform" has type "unknown"
+DETAIL:  Proceeding with relation creation anyway.
+pg_restore: WARNING:  column "col1" has type "unknown"
+DETAIL:  Proceeding with relation creation anyway.
+pg_restore: WARNING:  column "db_platform" has type "unknown"
+DETAIL:  Proceeding with relation creation anyway.
+pg_restore: WARNING:  column "db_platform" has type "unknown"
+DETAIL:  Proceeding with relation creation anyway.
+pg_restore: WARNING:  column "db_platform" has type "unknown"
+DETAIL:  Proceeding with relation creation anyway.
+[1;32m@db_restore_db_from_dump; 00:04:20;  ppas_falcon_customer_multi.dump restored	in cxseed-a successfully [0m
+[[], []]
+@jenkins_deploy; 00:09:03; Processing WFM deploy process
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  2616    0     0  100  2616      0   2049  0:00:01  0:00:01 --:--:--  2050100  2616    0     0  100  2616      0   1148  0:00:02  0:00:02 --:--:--  1148100  2616    0     0  100  2616      0    797  0:00:03  0:00:03 --:--:--   797100  2616    0     0  100  2616      0    737  0:00:03  0:00:03 --:--:--   737
+@jenkins_deploy; 00:09:06; Your request has forwarded to Jenkins server.  Will check your request status in Jenkins now.
+@_jenkins_jobvalidation; 00:09:15; Last build number of WFM deployment is 11605.
+@_jenkins_jobvalidation; 00:09:18; The next build number of WFM deployment is 11606.  Checking the submitter name.
+[1;32m@_jenkins_jobvalidation; 00:09:18; WFM deployment job with build number 11606 is submitted by you [0m
+@_jenkins_jobstatuscheck; 00:09:41; The WFM deployment job with build number 11606 is still in progress.  Will check the status again in 2 minutes
+@_jenkins_jobstatuscheck; 00:11:45; The WFM deployment job with build number 11606 is still in progress.  Will check the status again in 2 minutes
+@_jenkins_jobstatuscheck; 00:13:48; The WFM deployment job with build number 11606 is still in progress.  Will check the status again in 2 minutes
+@_jenkins_jobstatuscheck; 00:15:51; The WFM deployment job with build number 11606 is still in progress.  Will check the status again in 2 minutes
+@_jenkins_jobstatuscheck; 00:17:55; The WFM deployment job with build number 11606 is still in progress.  Will check the status again in 2 minutes
+@_jenkins_jobstatuscheck; 00:19:58; The WFM deployment job with build number 11606 is still in progress.  Will check the status again in 2 minutes
+@_jenkins_jobstatuscheck; 00:22:02; The WFM deployment job with build number 11606 is still in progress.  Will check the status again in 2 minutes
+@_jenkins_jobstatuscheck; 00:24:05; The WFM deployment job with build number 11606 is still in progress.  Will check the status again in 2 minutes
+@_jenkins_jobstatuscheck; 00:26:09; The WFM deployment job with build number 11606 is still in progress.  Will check the status again in 2 minutes
+@_jenkins_jobstatuscheck; 00:28:13; The WFM deployment job with build number 11606 is still in progress.  Will check the status again in 2 minutes
+@_jenkins_jobstatuscheck; 00:30:16; The WFM deployment job with build number 11606 is still in progress.  Will check the status again in 2 minutes
+@_jenkins_jobstatuscheck; 00:32:20; The WFM deployment job with build number 11606 is still in progress.  Will check the status again in 2 minutes
+@_jenkins_jobstatuscheck; 00:34:23; The WFM deployment job with build number 11606 is still in progress.  Will check the status again in 2 minutes
+@_jenkins_jobstatuscheck; 00:36:27; The WFM deployment job with build number 11606 is still in progress.  Will check the status again in 2 minutes
+@_jenkins_jobstatuscheck; 00:38:31; The WFM deployment job with build number 11606 is still in progress.  Will check the status again in 2 minutes
+@_jenkins_jobstatuscheck; 00:40:35; The WFM deployment job with build number 11606 is still in progress.  Will check the status again in 2 minutes
+@_jenkins_jobstatuscheck; 00:42:38; The WFM deployment job with build number 11606 is still in progress.  Will check the status again in 2 minutes
+[1;32m@_jenkins_jobstatuscheck; 00:44:42; The WFM deployment job is completed successfully. Build number is 11606 [0m
+@jenkins_cancel; 00:44:45; Processing WFM Cancel stop process:
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   310    0     0  100   310      0    245  0:00:01  0:00:01 --:--:--   245100   310    0     0  100   310      0    136  0:00:02  0:00:02 --:--:--   136100   310    0     0  100   310      0     94  0:00:03  0:00:03 --:--:--    94100   310    0     0  100   310      0     89  0:00:03  0:00:03 --:--:--    89
+@jenkins_cancel; 00:44:48; Your request has forwarded to Jenkins server.  Will check your request status in Jenkins now.
+@_jenkins_jobvalidation; 00:44:57; Last build number of Cancel is 9813.
+@_jenkins_jobvalidation; 00:45:00; The next build number of Cancel is 9814.  Checking the submitter name.
+[1;32m@_jenkins_jobvalidation; 00:45:00; Cancel job with build number 9814 is submitted by you [0m
+[1;32m@_jenkins_jobstatuscheck; 00:45:24; The Cancel job is completed successfully. Build number is 9814 [0m
+@Main(); 00:45:24;  Version 1.0; Wait 5 minutes before checking WFM server status
+@Main(); 00:50:24;  Version 1.0; WFM deployed successfully.  Will process the system setup
+@_dynatrace_push; 00:50:24; Copying Dynatrace Installation in cxseed-a-back.int.prf.mykronos.com:
+Pseudo-terminal will not be allocated because stdin is not a terminal.
+Warning: Permanently added 'cxseed-a-back.int.prf.mykronos.com,10.3.80.90' (ECDSA) to the list of known hosts.
+[1;32m@_dynatrace_push; 00:50:27; Dynatrace file has been copied over to cxseed-a-back.int.prf.mykronos.com [0m
+@_dynatrace_install; 00:50:28; File moved successfully.  Processing to install Dynatrace in cxseed-a-back.int.prf.mykronos.com:
+Pseudo-terminal will not be allocated because stdin is not a terminal.
+Warning: Permanently added 'cxseed-a-back.int.prf.mykronos.com,10.3.80.90' (ECDSA) to the list of known hosts.
+[1;32m@_dynatrace_install; 00:50:28; Dynatrace installed successfully in cxseed-a-back.int.prf.mykronos.com[0m
+Pseudo-terminal will not be allocated because stdin is not a terminal.
+Warning: Permanently added 'cxseed-a-back.int.prf.mykronos.com,10.3.80.90' (ECDSA) to the list of known hosts.
+@_dynatrace_wfc_setup; 00:50:34; Setting up the wfc_var.sh in cxseed-a-back.int.prf.mykronos.com.  Please wait
+[1;32m @_dynatrace_wfc_setup; 00:50:34; Dynatrace information added to wfc_var.sh in cxseed-a-back.int.prf.mykronos.com[0m
+@Main(); 00:50:34;  Version 1.0; Dynatrace installed and setup successfully.  Will process the other system setup
+
+[1;32m@_wfm_log4j2_size; 00:50:35; cxseed-a-back.int.prf.mykronos.com log size increased to 500MB [0m
+
+[1;32m@_wfm_jdbc_connection; 00:50:36;  JDBC connection is modified to 50 in cxseed-a-back.int.prf.mykronos.com [0m
+[1;32m@_wfm_enable_cassandra_cluster_hookup; 00:50:37;  Cassandra cluster hookup is enabled in cxseed-a-back.int.prf.mykronos.com [0m
+[1;32m@wfm_disable_bgp; 00:50:38;  BGP is disabled in cxseed-a-back.int.prf.mykronos.com [0m
+@Main(); 00:50:38;  Version 1.0; System setup successfully.  Will restart WFC
+@wfm_stop; 00:50:38; Attempting to stop wfc in cxseed-a-back.int.prf.mykronos.com
+@_wfm_status; 00:50:41; Checking current wfc status in cxseed-a-back.int.prf.mykronos.com
+Pseudo-terminal will not be allocated because stdin is not a terminal.
+Warning: Permanently added 'cxseed-a-back.int.prf.mykronos.com,10.3.80.90' (ECDSA) to the list of known hosts.
+./wfc: line 28: /usr/local/nginx/nginx: No such file or directory
+[1;32m@_wfm_status; 00:50:42;  WFC is stopped [0m
+@wfm_start; 00:50:47; Attempting to start wfc in cxseed-a-back.int.prf.mykronos.com
+@_wfm_status; 00:50:51; Checking current wfc status in cxseed-a-back.int.prf.mykronos.com
+Pseudo-terminal will not be allocated because stdin is not a terminal.
+Warning: Permanently added 'cxseed-a-back.int.prf.mykronos.com,10.3.80.90' (ECDSA) to the list of known hosts.
+./wfc: line 28: /usr/local/nginx/nginx: No such file or directory
+@_wfm_status; 00:50:51;WFC is not yet online.  Will check again in 2 minutes
+@_wfm_status; 00:52:51; Checking current wfc status in cxseed-a-back.int.prf.mykronos.com
+Pseudo-terminal will not be allocated because stdin is not a terminal.
+Warning: Permanently added 'cxseed-a-back.int.prf.mykronos.com,10.3.80.90' (ECDSA) to the list of known hosts.
+./wfc: line 28: /usr/local/nginx/nginx: No such file or directory
+@_wfm_status; 00:52:52;WFC is not yet online.  Will check again in 2 minutes
+@_wfm_status; 00:54:52; Checking current wfc status in cxseed-a-back.int.prf.mykronos.com
+Pseudo-terminal will not be allocated because stdin is not a terminal.
+Warning: Permanently added 'cxseed-a-back.int.prf.mykronos.com,10.3.80.90' (ECDSA) to the list of known hosts.
+./wfc: line 28: /usr/local/nginx/nginx: No such file or directory
+@_wfm_status; 00:54:53;WFC is not yet online.  Will check again in 2 minutes
+@_wfm_status; 00:56:53; Checking current wfc status in cxseed-a-back.int.prf.mykronos.com
+Pseudo-terminal will not be allocated because stdin is not a terminal.
+Warning: Permanently added 'cxseed-a-back.int.prf.mykronos.com,10.3.80.90' (ECDSA) to the list of known hosts.
+./wfc: line 28: /usr/local/nginx/nginx: No such file or directory
+@_wfm_status; 00:56:53;WFC is not yet online.  Will check again in 2 minutes
+@_wfm_status; 00:58:53; Checking current wfc status in cxseed-a-back.int.prf.mykronos.com
+Pseudo-terminal will not be allocated because stdin is not a terminal.
+Warning: Permanently added 'cxseed-a-back.int.prf.mykronos.com,10.3.80.90' (ECDSA) to the list of known hosts.
+./wfc: line 28: /usr/local/nginx/nginx: No such file or directory
+@_wfm_status; 00:58:54;WFC is not yet online.  Will check again in 2 minutes
+@_wfm_status; 01:00:54; Checking current wfc status in cxseed-a-back.int.prf.mykronos.com
+Pseudo-terminal will not be allocated because stdin is not a terminal.
+Warning: Permanently added 'cxseed-a-back.int.prf.mykronos.com,10.3.80.90' (ECDSA) to the list of known hosts.
+./wfc: line 28: /usr/local/nginx/nginx: No such file or directory
+@_wfm_status; 01:00:54;WFC is not yet online.  Will check again in 2 minutes
+@_wfm_status; 01:02:54; Checking current wfc status in cxseed-a-back.int.prf.mykronos.com
+Pseudo-terminal will not be allocated because stdin is not a terminal.
+Warning: Permanently added 'cxseed-a-back.int.prf.mykronos.com,10.3.80.90' (ECDSA) to the list of known hosts.
+./wfc: line 28: /usr/local/nginx/nginx: No such file or directory
+@_wfm_status; 01:02:55;WFC is not yet online.  Will check again in 2 minutes
+@_wfm_status; 01:04:55; Checking current wfc status in cxseed-a-back.int.prf.mykronos.com
+Pseudo-terminal will not be allocated because stdin is not a terminal.
+Warning: Permanently added 'cxseed-a-back.int.prf.mykronos.com,10.3.80.90' (ECDSA) to the list of known hosts.
+./wfc: line 28: /usr/local/nginx/nginx: No such file or directory
+[1;32m@_wfm_status; 01:04:56;  WFC is online [0m
+@Main(); 01:04:56;  Version 1.0; Nmon file setup.  Please wait
+Warning: Permanently added 'cxseed-a-back.int.prf.mykronos.com,10.3.80.90' (ECDSA) to the list of known hosts.
+Warning: Permanently added 'cxseed-a-back.int.prf.mykronos.com,10.3.80.90' (ECDSA) to the list of known hosts.
+Warning: Permanently added 'cxseed-a-back.int.prf.mykronos.com,10.3.80.90' (ECDSA) to the list of known hosts.
+Warning: Permanently added 'cxseed-a-back.int.prf.mykronos.com,10.3.80.90' (ECDSA) to the list of known hosts.
+Warning: Permanently added 'cxseed-a-back.int.prf.mykronos.com,10.3.80.90' (ECDSA) to the list of known hosts.
+Warning: Permanently added 'cxseed-a-back.int.prf.mykronos.com,10.3.80.90' (ECDSA) to the list of known hosts.
+Warning: Permanently added 'cxseed-a-back.int.prf.mykronos.com,10.3.80.90' (ECDSA) to the list of known hosts.
+@monitor_nmon_installation; 01:04:59; Copying nmon file in cxseed-a.int.prf.mykronos.com
+Pseudo-terminal will not be allocated because stdin is not a terminal.
+Warning: Permanently added 'cxseed-a.int.prf.mykronos.com,10.3.80.91' (ECDSA) to the list of known hosts.
+[1;32m@monitor_nmon_installation; 01:05:00; Nmon file has been copied over to cxseed-a.int.prf.mykronos.com [0m
+@monitor_nmon_installation; 01:05:01; Copying nmon file in keng01-prf01-wfm20-dbs02.int.prf.mykronos.com
+Pseudo-terminal will not be allocated because stdin is not a terminal.
+Warning: Permanently added 'keng01-prf01-wfm20-dbs02.int.prf.mykronos.com,10.3.95.239' (ECDSA) to the list of known hosts.
+[1;32m@monitor_nmon_installation; 01:05:02; Nmon file has been copied over to keng01-prf01-wfm20-dbs02.int.prf.mykronos.com [0m
+@monitor_nmon_installation; 01:05:02; Copying nmon file in cxseed-a-back.int.prf.mykronos.com
+Pseudo-terminal will not be allocated because stdin is not a terminal.
+Warning: Permanently added 'cxseed-a-back.int.prf.mykronos.com,10.3.80.90' (ECDSA) to the list of known hosts.
+[1;32m@monitor_nmon_installation; 01:05:03; Nmon file has been copied over to cxseed-a-back.int.prf.mykronos.com [0m
+@monitor_nmon_installation; 01:05:03; Copying nmon file in keng01-prf01-ins01-dmc50-app01.int.prf.mykronos.com
+Pseudo-terminal will not be allocated because stdin is not a terminal.
+Warning: Permanently added 'keng01-prf01-ins01-dmc50-app01.int.prf.mykronos.com,10.3.80.116' (ECDSA) to the list of known hosts.
+[1;32m@monitor_nmon_installation; 01:05:04; Nmon file has been copied over to keng01-prf01-ins01-dmc50-app01.int.prf.mykronos.com [0m
+@monitor_nmon_installation; 01:05:05; Copying nmon file in keng01-prf01-ins01-dmc50-app02.int.prf.mykronos.com
+Pseudo-terminal will not be allocated because stdin is not a terminal.
+Warning: Permanently added 'keng01-prf01-ins01-dmc50-app02.int.prf.mykronos.com,10.3.80.77' (ECDSA) to the list of known hosts.
+[1;32m@monitor_nmon_installation; 01:05:06; Nmon file has been copied over to keng01-prf01-ins01-dmc50-app02.int.prf.mykronos.com [0m
+@monitor_nmon_installation; 01:05:06; Copying nmon file in keng01-prf01-ins01-dmc50-app03.int.prf.mykronos.com
+Pseudo-terminal will not be allocated because stdin is not a terminal.
+Warning: Permanently added 'keng01-prf01-ins01-dmc50-app03.int.prf.mykronos.com,10.3.80.92' (ECDSA) to the list of known hosts.
+[1;32m@monitor_nmon_installation; 01:05:07; Nmon file has been copied over to keng01-prf01-ins01-dmc50-app03.int.prf.mykronos.com [0m
+@monitor_nmon_installation; 01:05:08; Copying nmon file in keng01-prf01-ins01-dmq50-ilb01.int.prf.mykronos.com
+Pseudo-terminal will not be allocated because stdin is not a terminal.
+Warning: Permanently added 'keng01-prf01-ins01-dmq50-ilb01.int.prf.mykronos.com,10.3.80.85' (ECDSA) to the list of known hosts.
+[1;32m@monitor_nmon_installation; 01:05:09; Nmon file has been copied over to keng01-prf01-ins01-dmq50-ilb01.int.prf.mykronos.com [0m
+@Main(); 01:05:09;  Version 1.0; System setup is completed.  Thank you

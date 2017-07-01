@@ -1,0 +1,99 @@
+GATLING_HOME is set to /home/stn/Downloads/gatling-charts-highcharts-bundle-2.2.2
+02:50:33.204 [INFO ] i.g.h.a.HttpEngine - Start warm up
+02:50:33.339 [INFO ] i.g.h.a.HttpEngine - Warm up done
+Simulation util.LoginSimulation started...
+
+================================================================================
+2017-06-30 02:50:33                                           0s elapsed
+---- LoginLogout by SaraGriffin on tenant manufacturing ------------------------
+[##########################################################################]100%
+          waiting: 0      / active: 0      / done:1     
+---- LoginLogout by NancyMartin67 on tenant healthcare -------------------------
+[##########################################################################]100%
+          waiting: 0      / active: 0      / done:1     
+---- LoginLogout by HenryJamieson on tenant healthcare -------------------------
+[##########################################################################]100%
+          waiting: 0      / active: 0      / done:1     
+---- LoginLogout by NancyMartin on tenant healthcare ---------------------------
+[##########################################################################]100%
+          waiting: 0      / active: 0      / done:1     
+---- LoginLogout by KevinWheeler on tenant manufacturing -----------------------
+[##########################################################################]100%
+          waiting: 0      / active: 0      / done:1     
+---- LoginLogout by DavidReyes on tenant manufacturing -------------------------
+[##########################################################################]100%
+          waiting: 0      / active: 0      / done:1     
+---- LoginLogout by MarkEdwards on tenant manufacturing ------------------------
+[##########################################################################]100%
+          waiting: 0      / active: 0      / done:1     
+---- LoginLogout by MichaelMartin on tenant manufacturing ----------------------
+[##########################################################################]100%
+          waiting: 0      / active: 0      / done:1     
+---- LoginLogout by PointyheadBoss on tenant manufacturing ---------------------
+[##########################################################################]100%
+          waiting: 0      / active: 0      / done:1     
+---- LoginLogout by HollyIvan on tenant healthcare -----------------------------
+[##########################################################################]100%
+          waiting: 0      / active: 0      / done:1     
+---- LoginLogout by JacquelineSnyder on tenant manufacturing -------------------
+[##########################################################################]100%
+          waiting: 0      / active: 0      / done:1     
+---- LoginLogout by JustinWelch on tenant manufacturing ------------------------
+[##########################################################################]100%
+          waiting: 0      / active: 0      / done:1     
+---- LoginLogout by HollyIvan on tenant manufacturing --------------------------
+[##########################################################################]100%
+          waiting: 0      / active: 0      / done:1     
+---- LoginLogout by CindyMartin on tenant healthcare ---------------------------
+[##########################################################################]100%
+          waiting: 0      / active: 0      / done:1     
+---- LoginLogout by MollyEdwards on tenant manufacturing -----------------------
+[##########################################################################]100%
+          waiting: 0      / active: 0      / done:1     
+---- LoginLogout by SysAdmin on tenant healthcare ------------------------------
+[##########################################################################]100%
+          waiting: 0      / active: 0      / done:1     
+---- LoginLogout by SeanIvan on tenant healthcare ------------------------------
+[##########################################################################]100%
+          waiting: 0      / active: 0      / done:1     
+---- LoginLogout by PointyheadBoss on tenant healthcare ------------------------
+[##########################################################################]100%
+          waiting: 0      / active: 0      / done:1     
+---- LoginLogout by SeanIvan on tenant manufacturing ---------------------------
+[##########################################################################]100%
+          waiting: 0      / active: 0      / done:1     
+---- LoginLogout by PeterEdwards on tenant manufacturing -----------------------
+[##########################################################################]100%
+          waiting: 0      / active: 0      / done:1     
+---- Requests ------------------------------------------------------------------
+> Global                                                   (OK=60     KO=0     )
+> openAMLogin-healthcare-NancyMartin                       (OK=1      KO=0     )
+> openAMLogin-healthcare-NancyMartin67                     (OK=1      KO=0     )
+> openAMLogin-manufacturing-PointyheadBoss                 (OK=1      KO=0     )
+> openAMLogin-healthcare-CindyMartin                       (OK=1      KO=0     )
+> openAMLogin-healthcare-SysAdmin                          (OK=1      KO=0     )
+> openAMLogin-manufacturing-MollyEdwards                   (OK=1      KO=0     )
+> openAMLogin-manufacturing-SeanIvan                       (OK=1      KO=0     )
+> openAMLogin-manufacturing-MarkEdwards                    (OK=1      KO=0     )
+> openAMLogin-healthcare-HollyIvan                         (OK=1      KO=0     )
+> openAMLogin-manufacturing-SaraGriffin                    (OK=1      KO=0     )
+> openAMLogin-manufacturing-DavidReyes                     (OK=1      KO=0     )
+> openAMLogin-healthcare-HenryJamieson                     (OK=1      KO=0     )
+> openAMLogin-healthcare-PointyheadBoss                    (OK=1      KO=0     )
+> openAMLogin-manufacturing-PeterEdwards                   (OK=1      KO=0     )
+> openAMLogin-manufacturing-MichaelMartin                  (OK=1      KO=0     )
+> openAMLogin-manufacturing-JustinWelch                    (OK=1      KO=0     )
+> openAMLogin-manufacturing-KevinWheeler                   (OK=1      KO=0     )
+> openAMLogin-healthcare-SeanIvan                          (OK=1      KO=0     )
+> openAMLogin-manufacturing-JacquelineSnyder               (OK=1      KO=0     )
+> openAMLogin-manufacturing-HollyIvan                      (OK=1      KO=0     )
+> openAMTokenValidate                                      (OK=20     KO=0     )
+> openAMLogout                                             (OK=20     KO=0     )
+================================================================================
+
+Simulation util.LoginSimulation completed in 0 seconds
+==========
+last=/home/stn/Downloads/gatling-charts-highcharts-bundle-2.2.2/results/loginsimulation-1498805433012
+CACHEDIR is set to '/home/stn/cache/cxseed'
+Copy the results in CACHEDIR
+==========

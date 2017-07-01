@@ -1,0 +1,62 @@
+#!/usr/bin/env ruby
+# -*-Ruby-*-
+
+require_relative 'lib/confinjector'
+require 'net/ssh'
+require 'net/scp'
+require 'net/sftp'
+
+conf = ConfInjector.new
+
+class Integer
+  def to_filesize
+    {
+      'B'  => 1024,
+      'KB' => 1024 * 1024,
+      'MB' => 1024 * 1024 * 1024,
+      'GB' => 1024 * 1024 * 1024 * 1024,
+      'TB' => 1024 * 1024 * 1024 * 1024 * 1024
+    }.each_pair { |e, s| return "#{(self.to_f / (s / 1024)).round(2)}#{e}" if self < s }
+  end
+end
+
+def standard(sftp, curDir)
+  size_limit = 120000000
+  begin
+    sftp.dir.foreach(curDir) do |entry|
+      msg = "@harvest; " + entry.name
+      if [".nmon",
+          ".log",
+          ".txt",
+          ".out"].any?{ |s| entry.name.include?(s)}
+        s = entry.attributes.size
+        msg = msg + " (size=" + s.to_filesize.to_s + ", " + s.to_s + "B) "
+        if s < size_limit
+          sftp.download!(curDir + "/" + entry.name, ENV["CACHEDIR"]+ "/"+ entry.name)
+        else
+          msg = msg + "\t\t********** Size too large - SKIP download ********** "
+        end
+        puts msg
+      end
+    end
+  rescue Exception => e
+    puts "@Harvest; Problem retrieving the content of " + curDir
+    puts e.message
+    puts e.backtrace.inspect
+  end
+end
+
+Net::SFTP.start(conf.backend, "root", :password => "kronites") do |sftp|
+  standard(sftp, "/usr/local")
+  standard(sftp, "/usr/local/kronos/wfc/logs")
+  standard(sftp, "/usr/local/kronos/tomcat/logs")
+  standard(sftp, "/usr/local/kronos/tomcat/logs")
+end
+
+Net::SFTP.start(conf.frontend, "root", :password => "kronites") do |sftp|
+  standard(sftp, "/usr/local")
+end
+
+Net::SFTP.start(conf.db_server, "root", :password => "kronites") do |sftp|
+  standard(sftp, "/usr/local")
+end

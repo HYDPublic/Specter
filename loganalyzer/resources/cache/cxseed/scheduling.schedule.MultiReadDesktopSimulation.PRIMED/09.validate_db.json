@@ -1,0 +1,660 @@
+{
+  "/* healthcare    */  SELECT totalizationstatus, employeeinproc_sw, count(*) from totaleventts group by totalizationstatus, employeeinproc_sw order by totalizationstatus asc, employeeinproc_sw asc; ": [
+    {
+      "totalizationstatus": "0",
+      "employeeinproc_sw": "0",
+      "count": "132"
+    }
+  ],
+  "/* manufacturing */  SELECT totalizationstatus, employeeinproc_sw, count(*) from totaleventts group by totalizationstatus, employeeinproc_sw order by totalizationstatus asc, employeeinproc_sw asc; ": [
+    {
+      "totalizationstatus": "0",
+      "employeeinproc_sw": "0",
+      "count": "250"
+    }
+  ],
+  "/* healthcare    */  SELECT schedulettlend_dtm, count(*) as count from totaleventts group by schedulettlend_dtm order by schedulettlend_dtm asc; ": [
+    {
+      "schedulettlend_dtm": "04-JUL-17 00:00:00",
+      "count": "132"
+    }
+  ],
+  "/* manufacturing */  SELECT schedulettlend_dtm, count(*) as count from totaleventts group by schedulettlend_dtm order by schedulettlend_dtm asc; ": [
+    {
+      "schedulettlend_dtm": "04-JUL-17 00:00:00",
+      "count": "250"
+    }
+  ],
+  "/* healthcare    */  SELECT 1 as totalizationstatus, 0 as EmployeeInProc_SW, Count (*) as count from totaleventts where totalizationstatus = 1 and EmployeeInProc_SW = 0; ": [
+    {
+      "totalizationstatus": "1",
+      "employeeinproc_sw": "0",
+      "count": "0"
+    }
+  ],
+  "/* manufacturing */  SELECT 1 as totalizationstatus, 0 as EmployeeInProc_SW, Count (*) as count from totaleventts where totalizationstatus = 1 and EmployeeInProc_SW = 0; ": [
+    {
+      "totalizationstatus": "1",
+      "employeeinproc_sw": "0",
+      "count": "0"
+    }
+  ],
+  "/* healthcare    */ SELECT COUNT(*) AS COUNT FROM PERSON": [
+    {
+      "count": "169"
+    }
+  ],
+  "/* manufacturing */ SELECT COUNT(*) AS COUNT FROM PERSON": [
+    {
+      "count": "287"
+    }
+  ],
+  "/* healthcare    */ SELECT COUNT(*) AS COUNT FROM audititem": [
+    {
+      "count": "46624"
+    }
+  ],
+  "/* manufacturing */ SELECT COUNT(*) AS COUNT FROM audititem": [
+    {
+      "count": "43924"
+    }
+  ],
+  "/* healthcare    */ SELECT COUNT(*) AS COUNT FROM SCHEDULE_DAY_LOCK_SEGMENT": [
+    {
+      "count": "19"
+    }
+  ],
+  "/* manufacturing */ SELECT COUNT(*) AS COUNT FROM SCHEDULE_DAY_LOCK_SEGMENT": [
+    {
+      "count": "0"
+    }
+  ],
+  "/* healthcare    */ SELECT COUNT(*) AS COUNT FROM SCHEDULE_PAYCODE_EDIT_SEGMENT": [
+    {
+      "count": "124"
+    }
+  ],
+  "/* manufacturing */ SELECT COUNT(*) AS COUNT FROM SCHEDULE_PAYCODE_EDIT_SEGMENT": [
+    {
+      "count": "35"
+    }
+  ],
+  "/* healthcare    */ SELECT COUNT(*) AS COUNT FROM SCHEDULE_SHIFT_SEGMENT": [
+    {
+      "count": "29316"
+    }
+  ],
+  "/* manufacturing */ SELECT COUNT(*) AS COUNT FROM SCHEDULE_SHIFT_SEGMENT": [
+    {
+      "count": "12741"
+    }
+  ],
+  "/* healthcare    */ SELECT COUNT(*) AS COUNT FROM PUNCHEVENT": [
+    {
+      "count": "12"
+    }
+  ],
+  "/* manufacturing */ SELECT COUNT(*) AS COUNT FROM PUNCHEVENT": [
+    {
+      "count": "6850"
+    }
+  ],
+  "/* healthcare    */ SELECT COUNT(*) AS COUNT FROM reqsubmissioncontrol": [
+    {
+      "count": "6"
+    }
+  ],
+  "/* manufacturing */ SELECT COUNT(*) AS COUNT FROM reqsubmissioncontrol": [
+    {
+      "count": "9"
+    }
+  ],
+  "/* healthcare    */ SELECT COUNT(*) AS COUNT FROM reqcontrollocationmm": [
+    {
+      "count": "0"
+    }
+  ],
+  "/* manufacturing */ SELECT COUNT(*) AS COUNT FROM reqcontrollocationmm": [
+    {
+      "count": "0"
+    }
+  ],
+  "/* healthcare    */ SELECT COUNT(*) AS COUNT FROM reqempaccessormm": [
+    {
+      "count": "380"
+    }
+  ],
+  "/* manufacturing */ SELECT COUNT(*) AS COUNT FROM reqempaccessormm": [
+    {
+      "count": "1358"
+    }
+  ],
+  "/* healthcare    */ SELECT COUNT(*) AS COUNT FROM card_container_assignment": [
+    {
+      "count": "16"
+    }
+  ],
+  "/* manufacturing */ SELECT COUNT(*) AS COUNT FROM card_container_assignment": [
+    {
+      "count": "16"
+    }
+  ],
+  "/* healthcare    */ SELECT COUNT(*) AS COUNT FROM dashboard_assignment": [
+    {
+      "count": "628"
+    }
+  ],
+  "/* manufacturing */ SELECT COUNT(*) AS COUNT FROM dashboard_assignment": [
+    {
+      "count": "955"
+    }
+  ],
+  "/* healthcare    */ SELECT COUNT(*) AS COUNT FROM schedule_employee_schedule_pattern_process": [
+    {
+      "count": "0"
+    }
+  ],
+  "/* manufacturing */ SELECT COUNT(*) AS COUNT FROM schedule_employee_schedule_pattern_process": [
+    {
+      "count": "0"
+    }
+  ],
+  "/* healthcare    */ SELECT COUNT(*) AS COUNT FROM BATCHJOB": [
+    {
+      "count": "0"
+    }
+  ],
+  "/* manufacturing */ SELECT COUNT(*) AS COUNT FROM BATCHJOB": [
+    {
+      "count": "0"
+    }
+  ],
+  "/* healthcare    */ SELECT COUNT(*) AS COUNT FROM BATCHJOBTASK": [
+    {
+      "count": "0"
+    }
+  ],
+  "/* manufacturing */ SELECT COUNT(*) AS COUNT FROM BATCHJOBTASK": [
+    {
+      "count": "0"
+    }
+  ],
+  "/* healthcare    */ SELECT COUNT(*) AS COUNT FROM BATCHJOBTASKITM": [
+    {
+      "count": "0"
+    }
+  ],
+  "/* manufacturing */ SELECT COUNT(*) AS COUNT FROM BATCHJOBTASKITM": [
+    {
+      "count": "0"
+    }
+  ],
+  "/* healthcare    */  select (select count(*) from batchjob) as TotalBatchJob, (select count(*) from batchjobtask where inprocsw=1) as running, (select count(*) from batchjobtask where statusnum=1) as tally, (select count(*) from batchjobtask where statusnum>1) as failed, (select max(enddtm)-min(enddtm) from batchjobtask) as total_run_time; ": [
+    {
+      "totalbatchjob": "0",
+      "running": "0",
+      "tally": "0",
+      "failed": "0",
+      "total_run_time": null
+    }
+  ],
+  "/* manufacturing */  select (select count(*) from batchjob) as TotalBatchJob, (select count(*) from batchjobtask where inprocsw=1) as running, (select count(*) from batchjobtask where statusnum=1) as tally, (select count(*) from batchjobtask where statusnum>1) as failed, (select max(enddtm)-min(enddtm) from batchjobtask) as total_run_time; ": [
+    {
+      "totalbatchjob": "0",
+      "running": "0",
+      "tally": "0",
+      "failed": "0",
+      "total_run_time": null
+    }
+  ],
+  "/* healthcare    */ SELECT count(*), statusnum, errortxt from batchjobtaskitm group by statusnum, errortxt;": [
+
+  ],
+  "/* manufacturing */ SELECT count(*), statusnum, errortxt from batchjobtaskitm group by statusnum, errortxt;": [
+
+  ],
+  "/* healthcare    */ SELECT * from schedule_employee_schedule_pattern_process order by transaction_date_time desc limit 5;": [
+
+  ],
+  "/* manufacturing */ SELECT * from schedule_employee_schedule_pattern_process order by transaction_date_time desc limit 5;": [
+
+  ],
+  "/* healthcare    */  SELECT requestnm, hostnames, statusnum, count(batchjobid), min(enddtm), max(enddtm), (max(enddtm) - min(enddtm)) as duration from batchjob group by requestnm, hostnames, statusnum order by statusnum desc; ": [
+
+  ],
+  "/* manufacturing */  SELECT requestnm, hostnames, statusnum, count(batchjobid), min(enddtm), max(enddtm), (max(enddtm) - min(enddtm)) as duration from batchjob group by requestnm, hostnames, statusnum order by statusnum desc; ": [
+
+  ],
+  "/* healthcare    */ select requeststatusid, requeststatusnm from requeststatus;": [
+    {
+      "requeststatusid": "2",
+      "requeststatusnm": "SUBMITTED"
+    },
+    {
+      "requeststatusid": "3",
+      "requeststatusnm": "PENDING"
+    },
+    {
+      "requeststatusid": "4",
+      "requeststatusnm": "APPROVED"
+    },
+    {
+      "requeststatusid": "5",
+      "requeststatusnm": "REFUSED"
+    },
+    {
+      "requeststatusid": "6",
+      "requeststatusnm": "CANCELSUBMITTED"
+    },
+    {
+      "requeststatusid": "7",
+      "requeststatusnm": "SUSPENDED"
+    },
+    {
+      "requeststatusid": "8",
+      "requeststatusnm": "CANCELLED"
+    },
+    {
+      "requeststatusid": "1",
+      "requeststatusnm": "DRAFT"
+    }
+  ],
+  "/* manufacturing */ select requeststatusid, requeststatusnm from requeststatus;": [
+    {
+      "requeststatusid": "2",
+      "requeststatusnm": "SUBMITTED"
+    },
+    {
+      "requeststatusid": "3",
+      "requeststatusnm": "PENDING"
+    },
+    {
+      "requeststatusid": "4",
+      "requeststatusnm": "APPROVED"
+    },
+    {
+      "requeststatusid": "5",
+      "requeststatusnm": "REFUSED"
+    },
+    {
+      "requeststatusid": "6",
+      "requeststatusnm": "CANCELSUBMITTED"
+    },
+    {
+      "requeststatusid": "7",
+      "requeststatusnm": "SUSPENDED"
+    },
+    {
+      "requeststatusid": "8",
+      "requeststatusnm": "CANCELLED"
+    },
+    {
+      "requeststatusid": "1",
+      "requeststatusnm": "DRAFT"
+    }
+  ],
+  "/* healthcare    */ select requestsubtypid, requestsubtypnm from requestsubtype;": [
+    {
+      "requestsubtypid": "101",
+      "requestsubtypnm": "Leave of Absence Case"
+    },
+    {
+      "requestsubtypid": "102",
+      "requestsubtypnm": "PTO White Collar"
+    },
+    {
+      "requestsubtypid": "104",
+      "requestsubtypnm": "PTO Hourly"
+    },
+    {
+      "requestsubtypid": "105",
+      "requestsubtypnm": "Vacation"
+    },
+    {
+      "requestsubtypid": "103",
+      "requestsubtypnm": "Casual Leave"
+    }
+  ],
+  "/* manufacturing */ select requestsubtypid, requestsubtypnm from requestsubtype;": [
+    {
+      "requestsubtypid": "101",
+      "requestsubtypnm": "Leave of Absence Case"
+    },
+    {
+      "requestsubtypid": "103",
+      "requestsubtypnm": "Casual Leave"
+    },
+    {
+      "requestsubtypid": "104",
+      "requestsubtypnm": "PTO Hourly"
+    },
+    {
+      "requestsubtypid": "102",
+      "requestsubtypnm": "PTO White Collar"
+    },
+    {
+      "requestsubtypid": "105",
+      "requestsubtypnm": "Vacation"
+    }
+  ],
+  "/* healthcare    */ select count(*), requestsubtypid, requeststatusid from requestitem group by requestsubtypid, requeststatusid order by requeststatusid;": [
+    {
+      "count": "44",
+      "requestsubtypid": "104",
+      "requeststatusid": "2"
+    },
+    {
+      "count": "4",
+      "requestsubtypid": "104",
+      "requeststatusid": "3"
+    },
+    {
+      "count": "6",
+      "requestsubtypid": "104",
+      "requeststatusid": "4"
+    },
+    {
+      "count": "5",
+      "requestsubtypid": "104",
+      "requeststatusid": "5"
+    },
+    {
+      "count": "4",
+      "requestsubtypid": "104",
+      "requeststatusid": "8"
+    }
+  ],
+  "/* manufacturing */ select count(*), requestsubtypid, requeststatusid from requestitem group by requestsubtypid, requeststatusid order by requeststatusid;": [
+    {
+      "count": "31",
+      "requestsubtypid": "104",
+      "requeststatusid": "2"
+    },
+    {
+      "count": "27",
+      "requestsubtypid": "104",
+      "requeststatusid": "3"
+    },
+    {
+      "count": "11",
+      "requestsubtypid": "104",
+      "requeststatusid": "4"
+    },
+    {
+      "count": "11",
+      "requestsubtypid": "104",
+      "requeststatusid": "5"
+    },
+    {
+      "count": "5",
+      "requestsubtypid": "104",
+      "requeststatusid": "8"
+    }
+  ],
+  "/* healthcare    */  SELECT c.time_entity_item_type_id, p.full_name, count(*) from schedule_item as c, time_entity_item_type as p where p.id = c.time_entity_item_type_id group by c.time_entity_item_type_id, p.full_name order by c.time_entity_item_type_id asc; ": [
+    {
+      "time_entity_item_type_id": "1",
+      "full_name": "REGULAR_SHIFT",
+      "count": "9772"
+    },
+    {
+      "time_entity_item_type_id": "2",
+      "full_name": "PAY_CODE_EDIT",
+      "count": "124"
+    },
+    {
+      "time_entity_item_type_id": "3",
+      "full_name": "HOLIDAY",
+      "count": "123"
+    },
+    {
+      "time_entity_item_type_id": "14",
+      "full_name": "DAY_LOCK",
+      "count": "19"
+    }
+  ],
+  "/* manufacturing */  SELECT c.time_entity_item_type_id, p.full_name, count(*) from schedule_item as c, time_entity_item_type as p where p.id = c.time_entity_item_type_id group by c.time_entity_item_type_id, p.full_name order by c.time_entity_item_type_id asc; ": [
+    {
+      "time_entity_item_type_id": "1",
+      "full_name": "REGULAR_SHIFT",
+      "count": "4248"
+    },
+    {
+      "time_entity_item_type_id": "2",
+      "full_name": "PAY_CODE_EDIT",
+      "count": "35"
+    },
+    {
+      "time_entity_item_type_id": "3",
+      "full_name": "HOLIDAY",
+      "count": "30"
+    }
+  ],
+  "/* healthcare    */  SELECT c.time_entity_item_type_id, p.full_name, count(*) from schedule_item_employee_assignment as c, time_entity_item_type as p where p.id = c.time_entity_item_type_id group by c.time_entity_item_type_id, p.full_name order by c.time_entity_item_type_id asc; ": [
+    {
+      "time_entity_item_type_id": "1",
+      "full_name": "REGULAR_SHIFT",
+      "count": "9772"
+    },
+    {
+      "time_entity_item_type_id": "2",
+      "full_name": "PAY_CODE_EDIT",
+      "count": "124"
+    },
+    {
+      "time_entity_item_type_id": "3",
+      "full_name": "HOLIDAY",
+      "count": "123"
+    },
+    {
+      "time_entity_item_type_id": "14",
+      "full_name": "DAY_LOCK",
+      "count": "19"
+    }
+  ],
+  "/* manufacturing */  SELECT c.time_entity_item_type_id, p.full_name, count(*) from schedule_item_employee_assignment as c, time_entity_item_type as p where p.id = c.time_entity_item_type_id group by c.time_entity_item_type_id, p.full_name order by c.time_entity_item_type_id asc; ": [
+    {
+      "time_entity_item_type_id": "1",
+      "full_name": "REGULAR_SHIFT",
+      "count": "4245"
+    },
+    {
+      "time_entity_item_type_id": "2",
+      "full_name": "PAY_CODE_EDIT",
+      "count": "35"
+    },
+    {
+      "time_entity_item_type_id": "3",
+      "full_name": "HOLIDAY",
+      "count": "30"
+    }
+  ],
+  "/* healthcare    */  select date_trunc, sum(count) from (select count(*), date_trunc('month', start_date_time) from SCHEDULE_ITEM group by start_date_time order by start_date_time desc) group by date_trunc order by date_trunc desc; ": [
+    {
+      "date_trunc": "01-FEB-18 00:00:00",
+      "sum": "522"
+    },
+    {
+      "date_trunc": "01-JAN-18 00:00:00",
+      "sum": "938"
+    },
+    {
+      "date_trunc": "01-DEC-17 00:00:00",
+      "sum": "940"
+    },
+    {
+      "date_trunc": "01-NOV-17 00:00:00",
+      "sum": "908"
+    },
+    {
+      "date_trunc": "01-OCT-17 00:00:00",
+      "sum": "932"
+    },
+    {
+      "date_trunc": "01-SEP-17 00:00:00",
+      "sum": "916"
+    },
+    {
+      "date_trunc": "01-AUG-17 00:00:00",
+      "sum": "1478"
+    },
+    {
+      "date_trunc": "01-JUL-17 00:00:00",
+      "sum": "1753"
+    },
+    {
+      "date_trunc": "01-JUN-17 00:00:00",
+      "sum": "1438"
+    },
+    {
+      "date_trunc": "01-MAY-17 00:00:00",
+      "sum": "22"
+    },
+    {
+      "date_trunc": "01-APR-17 00:00:00",
+      "sum": "25"
+    },
+    {
+      "date_trunc": "01-MAR-17 00:00:00",
+      "sum": "18"
+    },
+    {
+      "date_trunc": "01-FEB-17 00:00:00",
+      "sum": "16"
+    },
+    {
+      "date_trunc": "01-JAN-17 00:00:00",
+      "sum": "19"
+    },
+    {
+      "date_trunc": "01-DEC-16 00:00:00",
+      "sum": "18"
+    },
+    {
+      "date_trunc": "01-NOV-16 00:00:00",
+      "sum": "17"
+    },
+    {
+      "date_trunc": "01-OCT-16 00:00:00",
+      "sum": "18"
+    },
+    {
+      "date_trunc": "01-SEP-16 00:00:00",
+      "sum": "18"
+    },
+    {
+      "date_trunc": "01-AUG-16 00:00:00",
+      "sum": "18"
+    },
+    {
+      "date_trunc": "01-JUL-16 00:00:00",
+      "sum": "18"
+    },
+    {
+      "date_trunc": "01-JUN-16 00:00:00",
+      "sum": "6"
+    }
+  ],
+  "/* manufacturing */  select date_trunc, sum(count) from (select count(*), date_trunc('month', start_date_time) from SCHEDULE_ITEM group by start_date_time order by start_date_time desc) group by date_trunc order by date_trunc desc; ": [
+    {
+      "date_trunc": "01-JUL-17 00:00:00",
+      "sum": "28"
+    },
+    {
+      "date_trunc": "01-JUN-17 00:00:00",
+      "sum": "2835"
+    },
+    {
+      "date_trunc": "01-MAY-17 00:00:00",
+      "sum": "1423"
+    },
+    {
+      "date_trunc": "01-APR-17 00:00:00",
+      "sum": "16"
+    },
+    {
+      "date_trunc": "01-JAN-17 00:00:00",
+      "sum": "9"
+    },
+    {
+      "date_trunc": "01-SEP-16 00:00:00",
+      "sum": "2"
+    }
+  ],
+  "/* healthcare    */  SELECT * from schedule_employee_schedule_pattern_configuration; ": [
+    {
+      "id": "1",
+      "run_rollout_on_startup": "f",
+      "process_batch_size": "10",
+      "retry_process_delay": "30",
+      "retry_process_max_attempts": "5",
+      "batch_resource_rating": "10",
+      "governed_days": "365",
+      "history_keep_days": "7",
+      "preserve_existing": "t",
+      "rollout_for_inactive_employees": "f",
+      "populated_through_date": "10-MAR-18 00:00:00",
+      "initial_populated_through_date": "04-MAY-17 00:00:00",
+      "autorun": "f",
+      "how_long_patterns_rolled_out_days": "30",
+      "allow_pattern_past_date_rollout": "f",
+      "adhoc_paycodes_to_override": "",
+      "shift_templates_to_override": "",
+      "tags_to_override": "",
+      "override_current_availability": "t",
+      "override_availability_type": ""
+    }
+  ],
+  "/* manufacturing */  SELECT * from schedule_employee_schedule_pattern_configuration; ": [
+    {
+      "id": "1",
+      "run_rollout_on_startup": "f",
+      "process_batch_size": "10",
+      "retry_process_delay": "30",
+      "retry_process_max_attempts": "5",
+      "batch_resource_rating": "10",
+      "governed_days": "260",
+      "history_keep_days": "7",
+      "preserve_existing": "t",
+      "rollout_for_inactive_employees": "f",
+      "populated_through_date": "10-MAR-18 00:00:00",
+      "initial_populated_through_date": "04-MAY-17 00:00:00",
+      "autorun": "f",
+      "how_long_patterns_rolled_out_days": "30",
+      "allow_pattern_past_date_rollout": "f",
+      "adhoc_paycodes_to_override": "",
+      "shift_templates_to_override": "",
+      "tags_to_override": "",
+      "override_current_availability": "t",
+      "override_availability_type": ""
+    }
+  ],
+  "/* healthcare    */  select populated_through_date, count(populated_through_date), date_trunc('second', (max(transaction_date_time) - min(transaction_date_time))) as delta, date_trunc('second', min(transaction_date_time)), date_trunc('second', max(transaction_date_time)) FROM schedule_employee_schedule_pattern Group by populated_through_date order by populated_through_date; ": [
+    {
+      "populated_through_date": "18-FEB-18 00:00:00",
+      "count": "48",
+      "delta": "00:02:25",
+      "date_trunc": "23-JUN-17 06:53:24"
+    }
+  ],
+  "/* manufacturing */  select populated_through_date, count(populated_through_date), date_trunc('second', (max(transaction_date_time) - min(transaction_date_time))) as delta, date_trunc('second', min(transaction_date_time)), date_trunc('second', max(transaction_date_time)) FROM schedule_employee_schedule_pattern Group by populated_through_date order by populated_through_date; ": [
+    {
+      "populated_through_date": "23-JUN-17 00:00:00",
+      "count": "184",
+      "delta": "00:06:10",
+      "date_trunc": "23-JUN-17 07:17:46"
+    }
+  ],
+  "/* healthcare    */  SELECT property_name, property_value from common.properties_baseline where property_name in ('site.BatchService.numberOfCPU', 'site.wtbgp.totalizer.maximumThreads') limit 10; ": [
+    {
+      "property_name": "site.wtbgp.totalizer.maximumThreads",
+      "property_value": "1"
+    }
+  ],
+  "/* manufacturing */  SELECT property_name, property_value from common.properties_baseline where property_name in ('site.BatchService.numberOfCPU', 'site.wtbgp.totalizer.maximumThreads') limit 10; ": [
+    {
+      "property_name": "site.wtbgp.totalizer.maximumThreads",
+      "property_value": "1"
+    }
+  ]
+}

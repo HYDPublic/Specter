@@ -1,0 +1,305 @@
+GATLING_HOME is set to /home/stn/Downloads/gatling-charts-highcharts-bundle-2.2.2
+@JdbcFeederBulk; columnLabels=Vector(weight, entity) *** expect Vector(weight, entity) ***
+@JdbcFeederBulk; columnLabels=Vector(weight, entity) *** expect Vector(weight, entity) ***
+03:00:50.374 [INFO ] i.g.h.a.HttpEngine - Start warm up
+03:00:50.515 [INFO ] i.g.h.a.HttpEngine - Warm up done
+Simulation scheduling.schedule.MultiReadDesktopSimulation started...
+@MultiReadHelper.common; start - 
+@MultiReadHelper.common;   tokenId=AQIC5wM2LY4SfcwyEyaDqSMMzacARNGELlQ9uvxroqRIQsI.*AAJTSQACMDEAAlNLABMxMDM5NjY3ODAxNTMzOTE4ODU5AAJTMQAA*
+@MultiReadHelper.common;   simulationName=desktop_28d
+@MultiReadHelper.common;   startDate=2017-06-25
+@MultiReadHelper.common;   endDate=2017-07-22
+@MultiReadHelper.chainBuilder; desktop_28d [2017-06-25 2017-07-22] ees. payload: 10 no. of shifts: 133
+
+================================================================================
+2017-06-30 03:00:55                                           5s elapsed
+---- multiRead desktop viewport by PointyheadBoss ------------------------------
+[--------------------------------------------------------------------------]  0%
+          waiting: 0      / active: 1      / done:0     
+---- Requests ------------------------------------------------------------------
+> Global                                                   (OK=2      KO=0     )
+> openAMLogin-healthcare-PointyheadBoss                    (OK=1      KO=0     )
+> openAMTokenValidate                                      (OK=1      KO=0     )
+================================================================================
+
+
+================================================================================
+2017-06-30 03:01:00                                          10s elapsed
+---- multiRead desktop viewport by PointyheadBoss ------------------------------
+[--------------------------------------------------------------------------]  0%
+          waiting: 0      / active: 1      / done:0     
+---- Requests ------------------------------------------------------------------
+> Global                                                   (OK=2      KO=0     )
+> openAMLogin-healthcare-PointyheadBoss                    (OK=1      KO=0     )
+> openAMTokenValidate                                      (OK=1      KO=0     )
+================================================================================
+
+
+================================================================================
+2017-06-30 03:01:05                                          15s elapsed
+---- multiRead desktop viewport by PointyheadBoss ------------------------------
+[--------------------------------------------------------------------------]  0%
+          waiting: 0      / active: 1      / done:0     
+---- Requests ------------------------------------------------------------------
+> Global                                                   (OK=2      KO=0     )
+> openAMLogin-healthcare-PointyheadBoss                    (OK=1      KO=0     )
+> openAMTokenValidate                                      (OK=1      KO=0     )
+================================================================================
+
+
+================================================================================
+2017-06-30 03:01:10                                          20s elapsed
+---- multiRead desktop viewport by PointyheadBoss ------------------------------
+[--------------------------------------------------------------------------]  0%
+          waiting: 0      / active: 1      / done:0     
+---- Requests ------------------------------------------------------------------
+> Global                                                   (OK=2      KO=0     )
+> openAMLogin-healthcare-PointyheadBoss                    (OK=1      KO=0     )
+> openAMTokenValidate                                      (OK=1      KO=0     )
+================================================================================
+
+
+================================================================================
+2017-06-30 03:01:15                                          25s elapsed
+---- multiRead desktop viewport by PointyheadBoss ------------------------------
+[--------------------------------------------------------------------------]  0%
+          waiting: 0      / active: 1      / done:0     
+---- Requests ------------------------------------------------------------------
+> Global                                                   (OK=2      KO=0     )
+> openAMLogin-healthcare-PointyheadBoss                    (OK=1      KO=0     )
+> openAMTokenValidate                                      (OK=1      KO=0     )
+================================================================================
+
+
+================================================================================
+2017-06-30 03:01:20                                          30s elapsed
+---- multiRead desktop viewport by PointyheadBoss ------------------------------
+[--------------------------------------------------------------------------]  0%
+          waiting: 0      / active: 1      / done:0     
+---- Requests ------------------------------------------------------------------
+> Global                                                   (OK=2      KO=0     )
+> openAMLogin-healthcare-PointyheadBoss                    (OK=1      KO=0     )
+> openAMTokenValidate                                      (OK=1      KO=0     )
+================================================================================
+
+
+================================================================================
+2017-06-30 03:01:25                                          35s elapsed
+---- multiRead desktop viewport by PointyheadBoss ------------------------------
+[--------------------------------------------------------------------------]  0%
+          waiting: 0      / active: 1      / done:0     
+---- Requests ------------------------------------------------------------------
+> Global                                                   (OK=2      KO=0     )
+> openAMLogin-healthcare-PointyheadBoss                    (OK=1      KO=0     )
+> openAMTokenValidate                                      (OK=1      KO=0     )
+================================================================================
+
+
+================================================================================
+2017-06-30 03:01:30                                          40s elapsed
+---- multiRead desktop viewport by PointyheadBoss ------------------------------
+[--------------------------------------------------------------------------]  0%
+          waiting: 0      / active: 1      / done:0     
+---- Requests ------------------------------------------------------------------
+> Global                                                   (OK=2      KO=0     )
+> openAMLogin-healthcare-PointyheadBoss                    (OK=1      KO=0     )
+> openAMTokenValidate                                      (OK=1      KO=0     )
+================================================================================
+
+
+================================================================================
+2017-06-30 03:01:35                                          45s elapsed
+---- multiRead desktop viewport by PointyheadBoss ------------------------------
+[--------------------------------------------------------------------------]  0%
+          waiting: 0      / active: 1      / done:0     
+---- Requests ------------------------------------------------------------------
+> Global                                                   (OK=2      KO=0     )
+> openAMLogin-healthcare-PointyheadBoss                    (OK=1      KO=0     )
+> openAMTokenValidate                                      (OK=1      KO=0     )
+================================================================================
+
+
+================================================================================
+2017-06-30 03:01:40                                          50s elapsed
+---- multiRead desktop viewport by PointyheadBoss ------------------------------
+[--------------------------------------------------------------------------]  0%
+          waiting: 0      / active: 1      / done:0     
+---- Requests ------------------------------------------------------------------
+> Global                                                   (OK=2      KO=0     )
+> openAMLogin-healthcare-PointyheadBoss                    (OK=1      KO=0     )
+> openAMTokenValidate                                      (OK=1      KO=0     )
+================================================================================
+
+
+================================================================================
+2017-06-30 03:01:45                                          55s elapsed
+---- multiRead desktop viewport by PointyheadBoss ------------------------------
+[--------------------------------------------------------------------------]  0%
+          waiting: 0      / active: 1      / done:0     
+---- Requests ------------------------------------------------------------------
+> Global                                                   (OK=2      KO=0     )
+> openAMLogin-healthcare-PointyheadBoss                    (OK=1      KO=0     )
+> openAMTokenValidate                                      (OK=1      KO=0     )
+================================================================================
+
+
+================================================================================
+2017-06-30 03:01:50                                          60s elapsed
+---- multiRead desktop viewport by PointyheadBoss ------------------------------
+[--------------------------------------------------------------------------]  0%
+          waiting: 0      / active: 1      / done:0     
+---- Requests ------------------------------------------------------------------
+> Global                                                   (OK=2      KO=0     )
+> openAMLogin-healthcare-PointyheadBoss                    (OK=1      KO=0     )
+> openAMTokenValidate                                      (OK=1      KO=0     )
+================================================================================
+
+03:01:51.814 [DEBUG] i.g.h.a.AsyncHandler - Request 'scheduleMultiRead' failed for user 1
+java.util.concurrent.TimeoutException: Request timeout to cxseed-a-back.int.prf.mykronos.com/10.3.80.90:80 after 60000ms
+	at org.asynchttpclient.netty.timeout.TimeoutTimerTask.expire(TimeoutTimerTask.java:43)
+	at org.asynchttpclient.netty.timeout.RequestTimeoutTimerTask.run(RequestTimeoutTimerTask.java:48)
+	at io.netty.util.HashedWheelTimer$HashedWheelTimeout.expire(HashedWheelTimer.java:581)
+	at io.netty.util.HashedWheelTimer$HashedWheelBucket.expireTimeouts(HashedWheelTimer.java:655)
+	at io.netty.util.HashedWheelTimer$Worker.run(HashedWheelTimer.java:367)
+	at java.lang.Thread.run(Thread.java:748)
+03:01:51.815 [WARN ] i.g.h.a.ResponseProcessor - Request 'scheduleMultiRead' failed: j.u.c.TimeoutException: Request timeout to cxseed-a-back.int.prf.mykronos.com/10.3.80.90:80 after 60000ms
+03:01:51.819 [DEBUG] i.g.h.a.ResponseProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+scheduleMultiRead: KO j.u.c.TimeoutException: Request timeout to cxseed-a-back.int.prf.mykronos.com/10.3.80.90:80 after 60000ms
+=========================
+Session:
+Session(multiRead desktop viewport by PointyheadBoss,1,Map(weight -> 133, entities -> "20106","20105","20104","20103","20096","20093","20092","20091","20090","20089", endDate -> 2017-07-22, gatling.http.cache.dns -> io.gatling.http.resolver.ShuffleJdkNameResolver@8b78165, total -> 10, simulationName -> desktop_28d, tokenId -> AQIC5wM2LY4SfcwyEyaDqSMMzacARNGELlQ9uvxroqRIQsI.*AAJTSQACMDEAAlNLABMxMDM5NjY3ODAxNTMzOTE4ODU5AAJTMQAA*, 3efe830a-9218-469b-bbd8-a24a6bc526d6 -> 0, startDate -> 2017-06-25, gatling.http.cookies -> CookieJar(Map(CookieKey(jwk_uri,int.prf.mykronos.com,/) -> StoredCookie(JWK_URI="aHR0cDovL2tlbmcwMS1wcmYwMS1hdGg1MC1vYW01MC5pbnQucHJmLm15a3Jvbm9zLmNvbTo4MDgwL2F1dGhuL29hdXRoMi9jb25uZWN0L2p3a191cmk="; domain=.int.prf.mykronos.com; path=/; HTTPOnly,false,false,1498806051732), CookieKey(amlbcookie,int.prf.mykronos.com,/) -> StoredCookie(amlbcookie=01; domain=.int.prf.mykronos.com; path=/,false,false,1498806051732), CookieKey(dtcookie,mykronos.com,/) -> StoredCookie(dtCookie=17D413E8D7771CE4DA9248874918DF20|X2RlZmF1bHR8MQ; domain=.mykronos.com; path=/,false,false,1498806051732), CookieKey(idp_uri,mykronos.com,/) -> StoredCookie(IDP_URI="aHR0cDovL2tlbmcwMS1wcmYwMS1hdGg1MC1vYW01MC5pbnQucHJmLm15a3Jvbm9zLmNvbTo4MDgwL2F1dGhuL2hlYWx0aGNhcmU="; domain=.mykronos.com; path=/; HTTPOnly,false,false,1498806051732), CookieKey(authn_token,int.prf.mykronos.com,/) -> StoredCookie(AUTHN_TOKEN=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwOi8va2VuZzAxLXByZjAxLWF0aDUwLW9hbTUwLmludC5wcmYubXlrcm9ub3MuY29tOjgwODAiLCJpYXQiOjE0OTg4MDYwNTEsImV4cCI6MTQ5ODgxMzI1MSwic3ViIjoiUG9pbnR5aGVhZEJvc3MiLCJub25jZSI6IjxEbi0wUzZfV3pBMk1qIiwicmVhbG0iOiIvaGVhbHRoY2FyZSJ9.p0eKFgVb_mpbPvLqG3aRLllMhLXshTb53Tm8vlz9TmqCeeUzYoAcMELKNbshF2MtDlJ-0vTwNttCsAapwll3msBUSKdV_tWHilaaqJodZHFyhVr_nVuo0aNCtByIezQgw0AEDnjGaRMvE_nABgJ5pX-RVbUTSuVALh9YkSD4HGOYDrgs924qR0lHzsbnsKYVHiIxMoFrmvdi7tTQuLTc9nUG_tAzwn4kIkwWZvkxATFnZYUm7kSGNbSOu_8MdpoBzOQIRzApp8z85ShPyl1IEzWpM5c5Jg9qbbulBYdOk_gFCLel3er_LUz2M3Pq4JI57udLEUjQI77gYKT3tLT70A|eFB6WmhHRktNUmxhcVVtWDlYYUlxQksvU1ZPYWhyOEQ1YzJOU0k0UmRFYVlwaFJaNlcwUERPM3dVUFdPKzRHbWpyNlVTRTg4ZFZQVVdrUkFWTFV5RXBYVTlocllsc2RCanVLU0twYWtFWnZML1QvZGVQbCs0MlZPWGNWZTNrVDBtWmQ3YjFVbnZZTW0yT2tQaEZEYTgwUmlycE9Zb2xNaFB6eGM3NUpMQTB6Ynl1dldIMHVQb2pQb0xuZVRxVDN5TUlVd3RmMU9WYUlmSXQwVnpFNmhwTTJSY2RsWmxkZDdMSGxsRThDMDhURXVoYXRHbTZOdDVyYzFHWTQ5NC9Za09BRXMwaVNIVjVEa1duZVVHYzNPNUdrM2F4Y0JWMVJPVll5b2pPM0pYMVkvMUhSOFRQZHUrNFhmV0dodXNTMGJ0S0N2cmJrQ0VMQUU2MTRiZEV2QzdCcUR4aWh6SkVobjNKKytMcUVlR2ZNazJWbCtGY0g2VFNsbnVUZGVJS0R1aTVGTS9oaXZsd1J6MWg0YkFJb2xxbDdiNDlsUW1UajRyRVJGamZ6ZUZYVzJ3N0Q1ZHoxY2JwcG5UNFVKSjRrOFNiSy9YQWxSRkExbElpWHFnOEFORURZOVV4NWIrL3pJREtwSnR3eEMyQUhKNmRHRzFkdkorNHdOamplMEhMMGlRL2JIR3R2Y2hoSStZbHBJRFpkakpwa1dtcGx3R283VFdrT1J1czVyMytXUzlpZnZyVGNCbDNMU25tSkhiOHFaY2lJd3ZXUVR6SXhVdVpkNzIwd0VHSzNMbFNJenl6VE5EUVhwZ2JEcFE5V0w1RXArU1dXUC9Wa1lTVi9IbDlsd25pWHRKRzVFaCtEUXMyVmJhbXlpbFN2TWpJYnRLYUJvVHN3clYrZlM5MTgt; domain=.int.prf.mykronos.com; path=/; HTTPOnly,false,false,1498806051732)))),1498806051596,42,KO,List(ExitOnCompleteLoopBlock(3efe830a-9218-469b-bbd8-a24a6bc526d6)),<function1>)
+=========================
+HTTP request:
+POST http://cxseed-a-back.int.prf.mykronos.com/wfc/restcall/v1/scheduling/schedule/multi_read
+headers=
+authn_ssid: AQIC5wM2LY4SfcwyEyaDqSMMzacARNGELlQ9uvxroqRIQsI.*AAJTSQACMDEAAlNLABMxMDM5NjY3ODAxNTMzOTE4ODU5AAJTMQAA*
+Accept: application/json
+Content-Type: application/json
+DNT: 1
+Accept-Language: en-US,en;q=0.5
+x-dynaTrace: VU=100;PC=scheduling/schedule/multi_read;ID=4;NA=scheduling_schedule_multi_read_desktop_28d_10e_133s
+Accept-Encoding: gzip,deflate
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:16.0) Gecko/20100101 Firefox/16.0
+Cookie: AUTHN_TOKEN=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwOi8va2VuZzAxLXByZjAxLWF0aDUwLW9hbTUwLmludC5wcmYubXlrcm9ub3MuY29tOjgwODAiLCJpYXQiOjE0OTg4MDYwNTEsImV4cCI6MTQ5ODgxMzI1MSwic3ViIjoiUG9pbnR5aGVhZEJvc3MiLCJub25jZSI6IjxEbi0wUzZfV3pBMk1qIiwicmVhbG0iOiIvaGVhbHRoY2FyZSJ9.p0eKFgVb_mpbPvLqG3aRLllMhLXshTb53Tm8vlz9TmqCeeUzYoAcMELKNbshF2MtDlJ-0vTwNttCsAapwll3msBUSKdV_tWHilaaqJodZHFyhVr_nVuo0aNCtByIezQgw0AEDnjGaRMvE_nABgJ5pX-RVbUTSuVALh9YkSD4HGOYDrgs924qR0lHzsbnsKYVHiIxMoFrmvdi7tTQuLTc9nUG_tAzwn4kIkwWZvkxATFnZYUm7kSGNbSOu_8MdpoBzOQIRzApp8z85ShPyl1IEzWpM5c5Jg9qbbulBYdOk_gFCLel3er_LUz2M3Pq4JI57udLEUjQI77gYKT3tLT70A|eFB6WmhHRktNUmxhcVVtWDlYYUlxQksvU1ZPYWhyOEQ1YzJOU0k0UmRFYVlwaFJaNlcwUERPM3dVUFdPKzRHbWpyNlVTRTg4ZFZQVVdrUkFWTFV5RXBYVTlocllsc2RCanVLU0twYWtFWnZML1QvZGVQbCs0MlZPWGNWZTNrVDBtWmQ3YjFVbnZZTW0yT2tQaEZEYTgwUmlycE9Zb2xNaFB6eGM3NUpMQTB6Ynl1dldIMHVQb2pQb0xuZVRxVDN5TUlVd3RmMU9WYUlmSXQwVnpFNmhwTTJSY2RsWmxkZDdMSGxsRThDMDhURXVoYXRHbTZOdDVyYzFHWTQ5NC9Za09BRXMwaVNIVjVEa1duZVVHYzNPNUdrM2F4Y0JWMVJPVll5b2pPM0pYMVkvMUhSOFRQZHUrNFhmV0dodXNTMGJ0S0N2cmJrQ0VMQUU2MTRiZEV2QzdCcUR4aWh6SkVobjNKKytMcUVlR2ZNazJWbCtGY0g2VFNsbnVUZGVJS0R1aTVGTS9oaXZsd1J6MWg0YkFJb2xxbDdiNDlsUW1UajRyRVJGamZ6ZUZYVzJ3N0Q1ZHoxY2JwcG5UNFVKSjRrOFNiSy9YQWxSRkExbElpWHFnOEFORURZOVV4NWIrL3pJREtwSnR3eEMyQUhKNmRHRzFkdkorNHdOamplMEhMMGlRL2JIR3R2Y2hoSStZbHBJRFpkakpwa1dtcGx3R283VFdrT1J1czVyMytXUzlpZnZyVGNCbDNMU25tSkhiOHFaY2lJd3ZXUVR6SXhVdVpkNzIwd0VHSzNMbFNJenl6VE5EUVhwZ2JEcFE5V0w1RXArU1dXUC9Wa1lTVi9IbDlsd25pWHRKRzVFaCtEUXMyVmJhbXlpbFN2TWpJYnRLYUJvVHN3clYrZlM5MTgt; IDP_URI="aHR0cDovL2tlbmcwMS1wcmYwMS1hdGg1MC1vYW01MC5pbnQucHJmLm15a3Jvbm9zLmNvbTo4MDgwL2F1dGhuL2hlYWx0aGNhcmU="; dtCookie=17D413E8D7771CE4DA9248874918DF20|X2RlZmF1bHR8MQ; amlbcookie=01; JWK_URI="aHR0cDovL2tlbmcwMS1wcmYwMS1hdGg1MC1vYW01MC5pbnQucHJmLm15a3Jvbm9zLmNvbTo4MDgwL2F1dGhuL29hdXRoMi9jb25uZWN0L2p3a191cmk="
+Content-Length: 296
+Host: cxseed-a-back.int.prf.mykronos.com
+compositeByteData={
+"select": ["shifts"],
+"where": {
+        "employees": {
+           "startDate": "2017-06-25",
+           "endDate": "2017-07-22",
+           "employeeRefs" : {"ids":[], "qualifiers":
+["20106","20105","20104","20103","20096","20093","20092","20091","20090","20089"]
+                         }}}}
+=========================
+HTTP response:
+
+<<<<<<<<<<<<<<<<<<<<<<<<<
+@MultiReadHelper.chainBuilder; desktop_28d [2017-06-25 2017-07-22] ees. payload: 15 no. of shifts: 239
+
+================================================================================
+2017-06-30 03:01:55                                          65s elapsed
+---- multiRead desktop viewport by PointyheadBoss ------------------------------
+[--------------------------------------------------------------------------]  0%
+          waiting: 0      / active: 1      / done:0     
+---- Requests ------------------------------------------------------------------
+> Global                                                   (OK=2      KO=1     )
+> openAMLogin-healthcare-PointyheadBoss                    (OK=1      KO=0     )
+> openAMTokenValidate                                      (OK=1      KO=0     )
+> scheduleMultiRead                                        (OK=0      KO=1     )
+---- Errors --------------------------------------------------------------------
+> j.u.c.TimeoutException: Request timeout to cxseed-a-back.int.p      1 (100.0%)
+rf.mykronos.com/10.3.80.90:80 after 60000ms
+================================================================================
+
+
+================================================================================
+2017-06-30 03:02:00                                          70s elapsed
+---- multiRead desktop viewport by PointyheadBoss ------------------------------
+[--------------------------------------------------------------------------]  0%
+          waiting: 0      / active: 1      / done:0     
+---- Requests ------------------------------------------------------------------
+> Global                                                   (OK=2      KO=1     )
+> openAMLogin-healthcare-PointyheadBoss                    (OK=1      KO=0     )
+> openAMTokenValidate                                      (OK=1      KO=0     )
+> scheduleMultiRead                                        (OK=0      KO=1     )
+---- Errors --------------------------------------------------------------------
+> j.u.c.TimeoutException: Request timeout to cxseed-a-back.int.p      1 (100.0%)
+rf.mykronos.com/10.3.80.90:80 after 60000ms
+================================================================================
+
+@MultiReadHelper.chainBuilder; desktop_28d [2017-06-25 2017-07-22] ees. payload: 20 no. of shifts: 323
+@MultiReadHelper.chainBuilder; desktop_28d [2017-06-25 2017-07-22] ees. payload: 25 no. of shifts: 392
+
+================================================================================
+2017-06-30 03:02:05                                          75s elapsed
+---- multiRead desktop viewport by PointyheadBoss ------------------------------
+[--------------------------------------------------------------------------]  0%
+          waiting: 0      / active: 1      / done:0     
+---- Requests ------------------------------------------------------------------
+> Global                                                   (OK=4      KO=1     )
+> openAMLogin-healthcare-PointyheadBoss                    (OK=1      KO=0     )
+> openAMTokenValidate                                      (OK=1      KO=0     )
+> scheduleMultiRead                                        (OK=2      KO=1     )
+---- Errors --------------------------------------------------------------------
+> j.u.c.TimeoutException: Request timeout to cxseed-a-back.int.p      1 (100.0%)
+rf.mykronos.com/10.3.80.90:80 after 60000ms
+================================================================================
+
+@MultiReadHelper.chainBuilder; desktop_28d [2017-06-25 2017-07-22] ees. payload: 15 no. of shifts: 235
+
+================================================================================
+2017-06-30 03:02:10                                          80s elapsed
+---- multiRead desktop viewport by PointyheadBoss ------------------------------
+[--------------------------------------------------------------------------]  0%
+          waiting: 0      / active: 1      / done:0     
+---- Requests ------------------------------------------------------------------
+> Global                                                   (OK=5      KO=1     )
+> openAMLogin-healthcare-PointyheadBoss                    (OK=1      KO=0     )
+> openAMTokenValidate                                      (OK=1      KO=0     )
+> scheduleMultiRead                                        (OK=3      KO=1     )
+---- Errors --------------------------------------------------------------------
+> j.u.c.TimeoutException: Request timeout to cxseed-a-back.int.p      1 (100.0%)
+rf.mykronos.com/10.3.80.90:80 after 60000ms
+================================================================================
+
+03:02:11.155 [ERROR] i.g.c.a.SingletonFeed - Injection failed: Feeder is now empty, stopping engine, please report.
+@MultiReadHelper.chainBuilder; desktop_28d [2017-06-25 2017-07-22] ees. payload: 15 no. of shifts: 235
+
+================================================================================
+2017-06-30 03:02:11                                          80s elapsed
+---- multiRead desktop viewport by PointyheadBoss ------------------------------
+[--------------------------------------------------------------------------]  0%
+          waiting: 0      / active: 1      / done:0     
+---- Requests ------------------------------------------------------------------
+> Global                                                   (OK=6      KO=1     )
+> openAMLogin-healthcare-PointyheadBoss                    (OK=1      KO=0     )
+> openAMTokenValidate                                      (OK=1      KO=0     )
+> scheduleMultiRead                                        (OK=4      KO=1     )
+---- Errors --------------------------------------------------------------------
+> j.u.c.TimeoutException: Request timeout to cxseed-a-back.int.p      1 (100.0%)
+rf.mykronos.com/10.3.80.90:80 after 60000ms
+================================================================================
+
+Simulation scheduling.schedule.MultiReadDesktopSimulation completed in 80 seconds
+Exception in thread "main" java.lang.IllegalStateException: Feeder is now empty, stopping engine
+	at io.gatling.core.action.SingletonFeed$$anonfun$receive$1.applyOrElse(SingletonFeed.scala:61)
+	at akka.actor.Actor$class.aroundReceive(Actor.scala:484)
+	at io.gatling.core.akka.BaseActor.aroundReceive(BaseActor.scala:23)
+	at akka.actor.ActorCell.receiveMessage(ActorCell.scala:526)
+	at akka.actor.ActorCell.invoke(ActorCell.scala:495)
+	at akka.dispatch.Mailbox.processMailbox(Mailbox.scala:257)
+	at akka.dispatch.Mailbox.run(Mailbox.scala:224)
+	at akka.dispatch.Mailbox.exec(Mailbox.scala:234)
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260)
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339)
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979)
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107)
+==========
+last=/home/stn/Downloads/gatling-charts-highcharts-bundle-2.2.2/results/multireaddesktopsimulation-1498806050179
+CACHEDIR is set to '/home/stn/cache/cxseed'
+Copy the results in CACHEDIR
+==========

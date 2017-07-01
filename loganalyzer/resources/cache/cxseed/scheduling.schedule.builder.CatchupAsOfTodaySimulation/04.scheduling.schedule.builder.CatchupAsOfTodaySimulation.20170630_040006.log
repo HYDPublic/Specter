@@ -1,0 +1,150 @@
+GATLING_HOME is set to /home/stn/Downloads/gatling-charts-highcharts-bundle-2.2.2
+04:00:49.892 [INFO ] i.g.h.a.HttpEngine - Start warm up
+04:00:50.003 [INFO ] i.g.h.a.HttpEngine - Warm up done
+Simulation scheduling.schedule.builder.CatchupAsOfTodaySimulation started...
+@Scrathpad.postTransactionhealthcare); scratchpad-id -> 057c1b1d-150f-4d22-8339-e3b30179314d
+
+================================================================================
+2017-06-30 04:00:54                                           5s elapsed
+---- @CatchupSimulation; shiftBuilder SeanIvan on multiplle tenants ------------
+[--------------------------------------------------------------------------]  0%
+          waiting: 0      / active: 1      / done:0     
+---- Requests ------------------------------------------------------------------
+> Global                                                   (OK=3      KO=0     )
+> openAMLogin-healthcare-SeanIvan                          (OK=1      KO=0     )
+> openAMTokenValidate                                      (OK=1      KO=0     )
+> scratchpad-post                                          (OK=1      KO=0     )
+================================================================================
+
+
+================================================================================
+2017-06-30 04:00:59                                          10s elapsed
+---- @CatchupSimulation; shiftBuilder SeanIvan on multiplle tenants ------------
+[--------------------------------------------------------------------------]  0%
+          waiting: 0      / active: 1      / done:0     
+---- Requests ------------------------------------------------------------------
+> Global                                                   (OK=3      KO=0     )
+> openAMLogin-healthcare-SeanIvan                          (OK=1      KO=0     )
+> openAMTokenValidate                                      (OK=1      KO=0     )
+> scratchpad-post                                          (OK=1      KO=0     )
+================================================================================
+
+
+================================================================================
+2017-06-30 04:01:04                                          15s elapsed
+---- @CatchupSimulation; shiftBuilder SeanIvan on multiplle tenants ------------
+[--------------------------------------------------------------------------]  0%
+          waiting: 0      / active: 1      / done:0     
+---- Requests ------------------------------------------------------------------
+> Global                                                   (OK=3      KO=0     )
+> openAMLogin-healthcare-SeanIvan                          (OK=1      KO=0     )
+> openAMTokenValidate                                      (OK=1      KO=0     )
+> scratchpad-post                                          (OK=1      KO=0     )
+================================================================================
+
+
+================================================================================
+2017-06-30 04:01:09                                          20s elapsed
+---- @CatchupSimulation; shiftBuilder SeanIvan on multiplle tenants ------------
+[--------------------------------------------------------------------------]  0%
+          waiting: 0      / active: 1      / done:0     
+---- Requests ------------------------------------------------------------------
+> Global                                                   (OK=3      KO=0     )
+> openAMLogin-healthcare-SeanIvan                          (OK=1      KO=0     )
+> openAMTokenValidate                                      (OK=1      KO=0     )
+> scratchpad-post                                          (OK=1      KO=0     )
+================================================================================
+
+
+================================================================================
+2017-06-30 04:01:14                                          25s elapsed
+---- @CatchupSimulation; shiftBuilder SeanIvan on multiplle tenants ------------
+[--------------------------------------------------------------------------]  0%
+          waiting: 0      / active: 1      / done:0     
+---- Requests ------------------------------------------------------------------
+> Global                                                   (OK=3      KO=0     )
+> openAMLogin-healthcare-SeanIvan                          (OK=1      KO=0     )
+> openAMTokenValidate                                      (OK=1      KO=0     )
+> scratchpad-post                                          (OK=1      KO=0     )
+================================================================================
+
+
+================================================================================
+2017-06-30 04:01:19                                          30s elapsed
+---- @CatchupSimulation; shiftBuilder SeanIvan on multiplle tenants ------------
+[--------------------------------------------------------------------------]  0%
+          waiting: 0      / active: 1      / done:0     
+---- Requests ------------------------------------------------------------------
+> Global                                                   (OK=3      KO=0     )
+> openAMLogin-healthcare-SeanIvan                          (OK=1      KO=0     )
+> openAMTokenValidate                                      (OK=1      KO=0     )
+> scratchpad-post                                          (OK=1      KO=0     )
+================================================================================
+
+
+================================================================================
+2017-06-30 04:01:24                                          35s elapsed
+---- @CatchupSimulation; shiftBuilder SeanIvan on multiplle tenants ------------
+[--------------------------------------------------------------------------]  0%
+          waiting: 0      / active: 1      / done:0     
+---- Requests ------------------------------------------------------------------
+> Global                                                   (OK=4      KO=0     )
+> openAMLogin-healthcare-SeanIvan                          (OK=1      KO=0     )
+> openAMTokenValidate                                      (OK=1      KO=0     )
+> scratchpad-post                                          (OK=1      KO=0     )
+> shiftBuilderRollout                                      (OK=1      KO=0     )
+================================================================================
+
+
+================================================================================
+2017-06-30 04:01:29                                          40s elapsed
+---- @CatchupSimulation; shiftBuilder SeanIvan on multiplle tenants ------------
+[--------------------------------------------------------------------------]  0%
+          waiting: 0      / active: 1      / done:0     
+---- Requests ------------------------------------------------------------------
+> Global                                                   (OK=5      KO=0     )
+> openAMLogin-healthcare-SeanIvan                          (OK=1      KO=0     )
+> openAMTokenValidate                                      (OK=1      KO=0     )
+> scratchpad-post                                          (OK=1      KO=0     )
+> shiftBuilderRollout                                      (OK=1      KO=0     )
+> openAMLogout                                             (OK=1      KO=0     )
+================================================================================
+
+
+================================================================================
+2017-06-30 04:01:34                                          45s elapsed
+---- @CatchupSimulation; shiftBuilder SeanIvan on multiplle tenants ------------
+[--------------------------------------------------------------------------]  0%
+          waiting: 0      / active: 1      / done:0     
+---- Requests ------------------------------------------------------------------
+> Global                                                   (OK=8      KO=0     )
+> openAMLogin-healthcare-SeanIvan                          (OK=1      KO=0     )
+> openAMTokenValidate                                      (OK=2      KO=0     )
+> scratchpad-post                                          (OK=1      KO=0     )
+> shiftBuilderRollout                                      (OK=2      KO=0     )
+> openAMLogout                                             (OK=1      KO=0     )
+> openAMLogin-manufacturing-SeanIvan                       (OK=1      KO=0     )
+================================================================================
+
+
+================================================================================
+2017-06-30 04:01:37                                          47s elapsed
+---- @CatchupSimulation; shiftBuilder SeanIvan on multiplle tenants ------------
+[##########################################################################]100%
+          waiting: 0      / active: 0      / done:1     
+---- Requests ------------------------------------------------------------------
+> Global                                                   (OK=9      KO=0     )
+> openAMLogin-healthcare-SeanIvan                          (OK=1      KO=0     )
+> openAMTokenValidate                                      (OK=2      KO=0     )
+> scratchpad-post                                          (OK=1      KO=0     )
+> shiftBuilderRollout                                      (OK=2      KO=0     )
+> openAMLogout                                             (OK=2      KO=0     )
+> openAMLogin-manufacturing-SeanIvan                       (OK=1      KO=0     )
+================================================================================
+
+Simulation scheduling.schedule.builder.CatchupAsOfTodaySimulation completed in 47 seconds
+==========
+last=/home/stn/Downloads/gatling-charts-highcharts-bundle-2.2.2/results/catchupasoftodaysimulation-1498809649711
+CACHEDIR is set to '/home/stn/cache/cxseed'
+Copy the results in CACHEDIR
+==========

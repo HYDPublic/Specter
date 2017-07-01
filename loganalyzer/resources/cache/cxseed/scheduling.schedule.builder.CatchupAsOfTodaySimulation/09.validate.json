@@ -1,0 +1,180 @@
+{
+  "SanityArtifact": {
+    "status": "USABLE",
+    "message": "WFM is there",
+    "startupInfo": {
+      "ts": "06 30 2017 05:03:34.725",
+      "th": "Thread-28",
+      "tenant": "",
+      "user": "null",
+      "trxid": "",
+      "level": "INFO",
+      "logger": "WFC.STARTUP",
+      "msg": "StartupServiceInvoker / startup(): *** WFC Server has been started in Online Mode *** "
+    }
+  },
+  "TenantsArtifact": [
+    "manufacturing",
+    "healthcare",
+    "retail",
+    "combined",
+    "empty",
+    "tkcsowner"
+  ],
+  "URIsArtifact": [
+    {
+      "code": "HTTP-302",
+      "uri": "http://cxseed-a.int.prf.mykronos.com/dashboard?tenantId=healthcare"
+    },
+    {
+      "code": "HTTP-404",
+      "uri": "http://cxseed-a-back.int.prf.mykronos.com/wfc/logon?tenantId=healthcare"
+    },
+    {
+      "code": "HTTP-404",
+      "uri": "http://cxseed-a-back.int.prf.mykronos.com/wfc/swagger/swagger.yaml"
+    },
+    {
+      "code": "HTTP-200",
+      "uri": "http://keng01-prf01-ath50-oam50.int.prf.mykronos.com:8080/authn/XUI/#login/"
+    }
+  ],
+  "LatenciesArtifact": {
+    "Frontend": {
+      "fails": 0,
+      "min": 34.24,
+      "mean": 34.73,
+      "stddev": 0.4,
+      "max": 35.05,
+      "sample size": 5
+    },
+    "backend": {
+      "fails": 0,
+      "min": 34.96,
+      "mean": 35.65,
+      "stddev": 0.85,
+      "max": 36.95,
+      "sample size": 5
+    },
+    "db_server": {
+      "fails": 0,
+      "min": 34.61,
+      "mean": 35.07,
+      "stddev": 0.28,
+      "max": 35.34,
+      "sample size": 5
+    }
+  },
+  "TomcatArtifact": {
+    "hosts": {
+      "Frontend": "cxseed-a.int.prf.mykronos.com",
+      "backend": "cxseed-a-back.int.prf.mykronos.com",
+      "db_server": "keng01-prf01-wfm20-dbs02.int.prf.mykronos.com",
+      "openam_host": "keng01-prf01-ath50-oam50.int.prf.mykronos.com",
+      "ums.server.host": "keng01-prf01-ins01-ums50.int.prf.mykronos.com",
+      "reporting.host.name": "keng01-prf01-ins01-rpt50.int.prf.mykronos.com",
+      "mq.hostname": "keng01-prf01-ins01-dmq50-ilb01.int.prf.mykronos.com",
+      "redis.url": "keng01-prf01-ins01-dmc50-app01.int.prf.mykronos.com"
+    },
+    "pings": {
+      "Frontend": true,
+      "backend": true,
+      "db_server": true,
+      "openam_host": true,
+      "ums.server.host": true,
+      "reporting.host.name": false,
+      "mq.hostname": true,
+      "redis.url": true
+    },
+    "uptimes": {
+      "Frontend": {
+        "raw": " 08:17:52 up  3:41,  0 users,  load average: 0.03, 0.03, 0.05\n",
+        "up": "3:41",
+        "users": 0,
+        "load": [
+          0.03,
+          0.03,
+          0.05
+        ]
+      },
+      "backend": {
+        "raw": " 08:17:52 up  3:52,  0 users,  load average: 5.45, 6.37, 4.90\n",
+        "up": "3:52",
+        "users": 0,
+        "load": [
+          5.45,
+          6.37,
+          4.9
+        ]
+      },
+      "db_server": {
+        "raw": " 08:17:53 up 85 days, 12:44,  1 user,  load average: 0.96, 0.97, 0.84\n",
+        "up": "85 days 12:44  1 user",
+        "users": 0,
+        "load": [
+          0.96,
+          0.97,
+          0.84
+        ]
+      },
+      "openam_host": {
+        "raw": " 08:17:53 up 50 days, 11:19,  1 user,  load average: 0.00, 0.01, 0.05\n",
+        "up": "50 days 11:19  1 user",
+        "users": 0,
+        "load": [
+          0.0,
+          0.01,
+          0.05
+        ]
+      },
+      "ums.server.host": {
+        "raw": " 08:17:54 up 50 days, 10:56,  0 users,  load average: 0.00, 0.01, 0.05\n",
+        "up": "50 days 10:56",
+        "users": 0,
+        "load": [
+          0.0,
+          0.01,
+          0.05
+        ]
+      },
+      "reporting.host.name": {
+        "error": "Unable to ping"
+      },
+      "mq.hostname": {
+        "raw": " 08:17:55 up 50 days, 12:01,  0 users,  load average: 0.06, 0.03, 0.05\n",
+        "up": "50 days 12:01",
+        "users": 0,
+        "load": [
+          0.06,
+          0.03,
+          0.05
+        ]
+      },
+      "redis.url": {
+        "raw": " 08:17:55 up 50 days, 12:01,  0 users,  load average: 0.10, 0.05, 0.05\n",
+        "up": "50 days 12:01",
+        "users": 0,
+        "load": [
+          0.1,
+          0.05,
+          0.05
+        ]
+      }
+    },
+    "products": {
+      "WFP.Register.Build": "1248",
+      "WTBGP.Register.Build": "1108",
+      "WTK.Register.Build": "1108"
+    },
+    "wba": {
+      "wba.processengine.server.url": "http://keng01-prf01-ins01-wfl50-app50.int.prf.mykronos.com:8080/bpm-designer",
+      "wba.designerapp.server.url": "http://keng01-prf01-ins01-wfl50-app50.int.prf.mykronos.com:8080/bpm-designer",
+      "wba.bpmadmin.server.url": "http://keng01-prf01-ins01-wfl50-mgt50.int.prf.mykronos.com:8080/bpm-admin",
+      "PRIVATE-ATOM-CLOUD-NAME": "KronosPerfAtom50",
+      "PRIVATE-ATOM-CLOUD-URL": "http://keng01-prf01-hub50.int.prf.mykronos.com"
+    },
+    "sdm": {
+      "sdm.host.name": "http://keng01-prf01-sdm50.int.prf.mykronos.com"
+    }
+  }
+}

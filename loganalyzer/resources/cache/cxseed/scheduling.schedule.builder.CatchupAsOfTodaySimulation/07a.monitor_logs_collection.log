@@ -1,0 +1,50 @@
+Warning: Permanently added 'cxseed-a-back.int.prf.mykronos.com,10.3.80.90' (ECDSA) to the list of known hosts.
+Warning: Permanently added 'cxseed-a-back.int.prf.mykronos.com,10.3.80.90' (ECDSA) to the list of known hosts.
+Warning: Permanently added 'cxseed-a-back.int.prf.mykronos.com,10.3.80.90' (ECDSA) to the list of known hosts.
+Warning: Permanently added 'cxseed-a-back.int.prf.mykronos.com,10.3.80.90' (ECDSA) to the list of known hosts.
+Warning: Permanently added 'cxseed-a-back.int.prf.mykronos.com,10.3.80.90' (ECDSA) to the list of known hosts.
+Warning: Permanently added 'cxseed-a-back.int.prf.mykronos.com,10.3.80.90' (ECDSA) to the list of known hosts.
+Warning: Permanently added 'cxseed-a-back.int.prf.mykronos.com,10.3.80.90' (ECDSA) to the list of known hosts.
+@monitor_logs_collection; 04:16:46; Collecting logs from cxseed-a.int.prf.mykronos.com:
+Warning: Permanently added 'cxseed-a.int.prf.mykronos.com,10.3.80.91' (ECDSA) to the list of known hosts.
+grep: access: No such file or directory
+Warning: Permanently added 'cxseed-a.int.prf.mykronos.com,10.3.80.91' (ECDSA) to the list of known hosts.
+ls: cannot access /data/PostgresPlus/9.5AS/data/pg_log/*: No such file or directory
+/home/stn/projects/bin/util.monitor.bash: line 176: [: too many arguments
+[1;32m@monitor_logs_collection; 04:16:52; Log(s) cxseed-a.int.prf.mykronos.com successfully copied[0m
+@monitor_logs_collection; 04:16:52; Collecting logs from keng01-prf01-wfm20-dbs02.int.prf.mykronos.com:
+Warning: Permanently added 'keng01-prf01-wfm20-dbs02.int.prf.mykronos.com,10.3.95.239' (ECDSA) to the list of known hosts.
+grep: access: No such file or directory
+Warning: Permanently added 'keng01-prf01-wfm20-dbs02.int.prf.mykronos.com,10.3.95.239' (ECDSA) to the list of known hosts.
+[1;32m@monitor_logs_collection; 04:16:58; Log(s) keng01-prf01-wfm20-dbs02.int.prf.mykronos.com successfully copied[0m
+@monitor_logs_collection; 04:16:58; Collecting logs from cxseed-a-back.int.prf.mykronos.com:
+Warning: Permanently added 'cxseed-a-back.int.prf.mykronos.com,10.3.80.90' (ECDSA) to the list of known hosts.
+grep: access: No such file or directory
+Warning: Permanently added 'cxseed-a-back.int.prf.mykronos.com,10.3.80.90' (ECDSA) to the list of known hosts.
+ls: cannot access /data/PostgresPlus/9.5AS/data/pg_log/*: No such file or directory
+/home/stn/projects/bin/util.monitor.bash: line 176: [: too many arguments
+[1;32m@monitor_logs_collection; 04:17:06; Log(s) cxseed-a-back.int.prf.mykronos.com successfully copied[0m
+@monitor_logs_collection; 04:17:06; Collecting logs from keng01-prf01-ins01-dmc50-app01.int.prf.mykronos.com:
+Warning: Permanently added 'keng01-prf01-ins01-dmc50-app01.int.prf.mykronos.com,10.3.80.116' (ECDSA) to the list of known hosts.
+grep: access: No such file or directory
+Warning: Permanently added 'keng01-prf01-ins01-dmc50-app01.int.prf.mykronos.com,10.3.80.116' (ECDSA) to the list of known hosts.
+ls: cannot access /data/PostgresPlus/9.5AS/data/pg_log/*: No such file or directory
+[1;31m@monitor_logs_collection; 04:17:12; Log(s) cannot copied from keng01-prf01-ins01-dmc50-app01.int.prf.mykronos.com. Output file can be found in /home/stn/cache/cxseed/scheduling.schedule.builder.CatchupAsOfTodaySimulation/frontendlog[0m
+@monitor_logs_collection; 04:17:12; Collecting logs from keng01-prf01-ins01-dmc50-app02.int.prf.mykronos.com:
+Warning: Permanently added 'keng01-prf01-ins01-dmc50-app02.int.prf.mykronos.com,10.3.80.77' (ECDSA) to the list of known hosts.
+grep: access: No such file or directory
+Warning: Permanently added 'keng01-prf01-ins01-dmc50-app02.int.prf.mykronos.com,10.3.80.77' (ECDSA) to the list of known hosts.
+ls: cannot access /data/PostgresPlus/9.5AS/data/pg_log/*: No such file or directory
+[1;31m@monitor_logs_collection; 04:17:19; Log(s) cannot copied from keng01-prf01-ins01-dmc50-app02.int.prf.mykronos.com. Output file can be found in /home/stn/cache/cxseed/scheduling.schedule.builder.CatchupAsOfTodaySimulation/frontendlog[0m
+@monitor_logs_collection; 04:17:19; Collecting logs from keng01-prf01-ins01-dmc50-app03.int.prf.mykronos.com:
+Warning: Permanently added 'keng01-prf01-ins01-dmc50-app03.int.prf.mykronos.com,10.3.80.92' (ECDSA) to the list of known hosts.
+grep: access: No such file or directory
+Warning: Permanently added 'keng01-prf01-ins01-dmc50-app03.int.prf.mykronos.com,10.3.80.92' (ECDSA) to the list of known hosts.
+ls: cannot access /data/PostgresPlus/9.5AS/data/pg_log/*: No such file or directory
+[1;31m@monitor_logs_collection; 04:17:26; Log(s) cannot copied from keng01-prf01-ins01-dmc50-app03.int.prf.mykronos.com. Output file can be found in /home/stn/cache/cxseed/scheduling.schedule.builder.CatchupAsOfTodaySimulation/frontendlog[0m
+@monitor_logs_collection; 04:17:26; Collecting logs from keng01-prf01-ins01-dmq50-ilb01.int.prf.mykronos.com:
+Warning: Permanently added 'keng01-prf01-ins01-dmq50-ilb01.int.prf.mykronos.com,10.3.80.85' (ECDSA) to the list of known hosts.
+grep: access: No such file or directory
+Warning: Permanently added 'keng01-prf01-ins01-dmq50-ilb01.int.prf.mykronos.com,10.3.80.85' (ECDSA) to the list of known hosts.
+ls: cannot access /data/PostgresPlus/9.5AS/data/pg_log/*: No such file or directory
+[1;31m@monitor_logs_collection; 04:17:32; Log(s) cannot copied from keng01-prf01-ins01-dmq50-ilb01.int.prf.mykronos.com. Output file can be found in /home/stn/cache/cxseed/scheduling.schedule.builder.CatchupAsOfTodaySimulation/frontendlog[0m

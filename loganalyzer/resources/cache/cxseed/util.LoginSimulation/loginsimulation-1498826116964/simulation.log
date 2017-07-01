@@ -1,0 +1,111 @@
+RUN	util.LoginSimulation		loginsimulation	1498826116964	 	2.0
+USER	LoginLogout by MollyEdwards on tenant manufacturing	1	START	1498826117458	1498826117458
+USER	LoginLogout by HenryJamieson on tenant healthcare	2	START	1498826117568	1498826117568
+USER	LoginLogout by CharlesPrinceton on tenant healthcare	3	START	1498826117570	1498826117570
+USER	LoginLogout by PointyheadBoss on tenant healthcare	4	START	1498826117573	1498826117573
+USER	LoginLogout by DavidReyes on tenant manufacturing	5	START	1498826117585	1498826117585
+USER	LoginLogout by MarkEdwards on tenant manufacturing	6	START	1498826117587	1498826117587
+USER	LoginLogout by PointyheadBoss on tenant manufacturing	7	START	1498826117595	1498826117595
+USER	LoginLogout by NancyMartin67 on tenant healthcare	8	START	1498826117596	1498826117596
+USER	LoginLogout by NancyMartin on tenant healthcare	9	START	1498826117598	1498826117598
+USER	LoginLogout by SeanIvan on tenant healthcare	10	START	1498826117599	1498826117599
+USER	LoginLogout by SeanIvan on tenant manufacturing	11	START	1498826117599	1498826117599
+USER	LoginLogout by CindyMartin on tenant healthcare	12	START	1498826117600	1498826117600
+USER	LoginLogout by PeterEdwards on tenant manufacturing	13	START	1498826117600	1498826117600
+USER	LoginLogout by HollyIvan on tenant manufacturing	14	START	1498826117601	1498826117601
+USER	LoginLogout by JustinWelch on tenant manufacturing	15	START	1498826117601	1498826117601
+USER	LoginLogout by MichaelMartin on tenant manufacturing	16	START	1498826117608	1498826117608
+USER	LoginLogout by HollyIvan on tenant healthcare	17	START	1498826117609	1498826117609
+USER	LoginLogout by JacquelineSnyder on tenant manufacturing	18	START	1498826117609	1498826117609
+USER	LoginLogout by SaraGriffin on tenant manufacturing	19	START	1498826117609	1498826117609
+USER	LoginLogout by KevinWheeler on tenant manufacturing	20	START	1498826117610	1498826117610
+USER	LoginLogout by CharlesPrinceton on tenant manufacturing	21	START	1498826117610	1498826117610
+USER	LoginLogout by SysAdmin on tenant healthcare	22	START	1498826117610	1498826117610
+REQUEST	LoginLogout by PointyheadBoss on tenant healthcare	4		openAMLogin-healthcare-PointyheadBoss	1498826117573	1498826120699	OK	 
+REQUEST	LoginLogout by HenryJamieson on tenant healthcare	2		openAMLogin-healthcare-HenryJamieson	1498826117569	1498826120663	OK	 
+REQUEST	LoginLogout by MarkEdwards on tenant manufacturing	6		openAMLogin-manufacturing-MarkEdwards	1498826117588	1498826120697	OK	 
+REQUEST	LoginLogout by MollyEdwards on tenant manufacturing	1		openAMLogin-manufacturing-MollyEdwards	1498826117475	1498826120672	OK	 
+REQUEST	LoginLogout by NancyMartin67 on tenant healthcare	8		openAMLogin-healthcare-NancyMartin67	1498826117596	1498826120698	OK	 
+REQUEST	LoginLogout by CharlesPrinceton on tenant manufacturing	21		openAMLogin-manufacturing-CharlesPrinceton	1498826117610	1498826120706	KO	status.find.is(200), but actually found 401
+REQUEST	LoginLogout by CharlesPrinceton on tenant healthcare	3		openAMLogin-healthcare-CharlesPrinceton	1498826117570	1498826120687	KO	status.find.is(200), but actually found 401
+GROUP	Failed to build request openAMTokenValidate: No attribute named 'tokenId' is defined 	1498826120739
+GROUP	Failed to build request openAMTokenValidate: No attribute named 'tokenId' is defined 	1498826120739
+REQUEST	LoginLogout by PointyheadBoss on tenant manufacturing	7		openAMLogin-manufacturing-PointyheadBoss	1498826117595	1498826120776	OK	 
+REQUEST	LoginLogout by CindyMartin on tenant healthcare	12		openAMLogin-healthcare-CindyMartin	1498826117600	1498826120778	OK	 
+REQUEST	LoginLogout by JustinWelch on tenant manufacturing	15		openAMLogin-manufacturing-JustinWelch	1498826117601	1498826120779	OK	 
+REQUEST	LoginLogout by MichaelMartin on tenant manufacturing	16		openAMLogin-manufacturing-MichaelMartin	1498826117608	1498826120779	OK	 
+REQUEST	LoginLogout by HollyIvan on tenant healthcare	17		openAMLogin-healthcare-HollyIvan	1498826117609	1498826120780	OK	 
+REQUEST	LoginLogout by HollyIvan on tenant manufacturing	14		openAMLogin-manufacturing-HollyIvan	1498826117601	1498826120772	OK	 
+REQUEST	LoginLogout by NancyMartin on tenant healthcare	9		openAMLogin-healthcare-NancyMartin	1498826117599	1498826120783	OK	 
+REQUEST	LoginLogout by SysAdmin on tenant healthcare	22		openAMLogin-healthcare-SysAdmin	1498826117611	1498826120783	OK	 
+REQUEST	LoginLogout by SeanIvan on tenant healthcare	10		openAMLogin-healthcare-SeanIvan	1498826117599	1498826120786	OK	 
+REQUEST	LoginLogout by KevinWheeler on tenant manufacturing	20		openAMLogin-manufacturing-KevinWheeler	1498826117610	1498826120783	OK	 
+GROUP	Failed to build request openAMLogout: No attribute named 'tokenId' is defined 	1498826120790
+REQUEST	LoginLogout by PointyheadBoss on tenant healthcare	4		openAMTokenValidate	1498826120737	1498826120798	OK	 
+GROUP	Failed to build request openAMLogout: No attribute named 'tokenId' is defined 	1498826120799
+REQUEST	LoginLogout by MarkEdwards on tenant manufacturing	6		openAMTokenValidate	1498826120736	1498826120799	OK	 
+USER	LoginLogout by CharlesPrinceton on tenant manufacturing	21	END	1498826117610	1498826120802
+USER	LoginLogout by CharlesPrinceton on tenant healthcare	3	END	1498826117570	1498826120803
+REQUEST	LoginLogout by DavidReyes on tenant manufacturing	5		openAMLogin-manufacturing-DavidReyes	1498826117586	1498826120803	OK	 
+REQUEST	LoginLogout by PeterEdwards on tenant manufacturing	13		openAMLogin-manufacturing-PeterEdwards	1498826117600	1498826120807	OK	 
+REQUEST	LoginLogout by SaraGriffin on tenant manufacturing	19		openAMLogin-manufacturing-SaraGriffin	1498826117609	1498826120809	OK	 
+REQUEST	LoginLogout by SeanIvan on tenant manufacturing	11		openAMLogin-manufacturing-SeanIvan	1498826117600	1498826120811	OK	 
+REQUEST	LoginLogout by JacquelineSnyder on tenant manufacturing	18		openAMLogin-manufacturing-JacquelineSnyder	1498826117609	1498826120812	OK	 
+REQUEST	LoginLogout by HenryJamieson on tenant healthcare	2		openAMTokenValidate	1498826120737	1498826120830	OK	 
+REQUEST	LoginLogout by PointyheadBoss on tenant manufacturing	7		openAMTokenValidate	1498826120778	1498826120838	OK	 
+REQUEST	LoginLogout by JustinWelch on tenant manufacturing	15		openAMTokenValidate	1498826120780	1498826120840	OK	 
+REQUEST	LoginLogout by MollyEdwards on tenant manufacturing	1		openAMTokenValidate	1498826120736	1498826120842	OK	 
+REQUEST	LoginLogout by NancyMartin67 on tenant healthcare	8		openAMTokenValidate	1498826120736	1498826120844	OK	 
+REQUEST	LoginLogout by CindyMartin on tenant healthcare	12		openAMTokenValidate	1498826120780	1498826120854	OK	 
+REQUEST	LoginLogout by HollyIvan on tenant healthcare	17		openAMTokenValidate	1498826120782	1498826120858	OK	 
+REQUEST	LoginLogout by NancyMartin on tenant healthcare	9		openAMTokenValidate	1498826120784	1498826120860	OK	 
+REQUEST	LoginLogout by SysAdmin on tenant healthcare	22		openAMTokenValidate	1498826120784	1498826120848	OK	 
+REQUEST	LoginLogout by MichaelMartin on tenant manufacturing	16		openAMTokenValidate	1498826120780	1498826120861	OK	 
+REQUEST	LoginLogout by HollyIvan on tenant manufacturing	14		openAMTokenValidate	1498826120782	1498826120862	OK	 
+REQUEST	LoginLogout by DavidReyes on tenant manufacturing	5		openAMTokenValidate	1498826120804	1498826120868	OK	 
+REQUEST	LoginLogout by KevinWheeler on tenant manufacturing	20		openAMTokenValidate	1498826120788	1498826120866	OK	 
+REQUEST	LoginLogout by PeterEdwards on tenant manufacturing	13		openAMTokenValidate	1498826120808	1498826120877	OK	 
+REQUEST	LoginLogout by SeanIvan on tenant healthcare	10		openAMTokenValidate	1498826120787	1498826120880	OK	 
+REQUEST	LoginLogout by SaraGriffin on tenant manufacturing	19		openAMTokenValidate	1498826120810	1498826120878	OK	 
+REQUEST	LoginLogout by SeanIvan on tenant manufacturing	11		openAMTokenValidate	1498826120823	1498826120889	OK	 
+REQUEST	LoginLogout by JacquelineSnyder on tenant manufacturing	18		openAMTokenValidate	1498826120827	1498826120896	OK	 
+REQUEST	LoginLogout by PointyheadBoss on tenant manufacturing	7		openAMLogout	1498826120839	1498826120897	OK	 
+REQUEST	LoginLogout by MollyEdwards on tenant manufacturing	1		openAMLogout	1498826120844	1498826120903	OK	 
+REQUEST	LoginLogout by HenryJamieson on tenant healthcare	2		openAMLogout	1498826120832	1498826120899	OK	 
+REQUEST	LoginLogout by MarkEdwards on tenant manufacturing	6		openAMLogout	1498826120802	1498826120864	OK	 
+USER	LoginLogout by MollyEdwards on tenant manufacturing	1	END	1498826117458	1498826120928
+REQUEST	LoginLogout by HollyIvan on tenant healthcare	17		openAMLogout	1498826120859	1498826120928	OK	 
+USER	LoginLogout by HollyIvan on tenant healthcare	17	END	1498826117609	1498826120929
+REQUEST	LoginLogout by NancyMartin67 on tenant healthcare	8		openAMLogout	1498826120845	1498826120903	OK	 
+USER	LoginLogout by NancyMartin67 on tenant healthcare	8	END	1498826117596	1498826120930
+REQUEST	LoginLogout by NancyMartin on tenant healthcare	9		openAMLogout	1498826120860	1498826120930	OK	 
+USER	LoginLogout by NancyMartin on tenant healthcare	9	END	1498826117598	1498826120931
+USER	LoginLogout by PointyheadBoss on tenant manufacturing	7	END	1498826117595	1498826120931
+USER	LoginLogout by HenryJamieson on tenant healthcare	2	END	1498826117568	1498826120934
+REQUEST	LoginLogout by MichaelMartin on tenant manufacturing	16		openAMLogout	1498826120862	1498826120930	OK	 
+USER	LoginLogout by MichaelMartin on tenant manufacturing	16	END	1498826117608	1498826120935
+REQUEST	LoginLogout by DavidReyes on tenant manufacturing	5		openAMLogout	1498826120872	1498826120934	OK	 
+USER	LoginLogout by DavidReyes on tenant manufacturing	5	END	1498826117585	1498826120936
+REQUEST	LoginLogout by PointyheadBoss on tenant healthcare	4		openAMLogout	1498826120799	1498826120877	OK	 
+USER	LoginLogout by PointyheadBoss on tenant healthcare	4	END	1498826117573	1498826120936
+REQUEST	LoginLogout by CindyMartin on tenant healthcare	12		openAMLogout	1498826120863	1498826120937	OK	 
+USER	LoginLogout by CindyMartin on tenant healthcare	12	END	1498826117600	1498826120938
+REQUEST	LoginLogout by KevinWheeler on tenant manufacturing	20		openAMLogout	1498826120876	1498826120938	OK	 
+USER	LoginLogout by KevinWheeler on tenant manufacturing	20	END	1498826117610	1498826120939
+REQUEST	LoginLogout by PeterEdwards on tenant manufacturing	13		openAMLogout	1498826120878	1498826120940	OK	 
+USER	LoginLogout by MarkEdwards on tenant manufacturing	6	END	1498826117587	1498826120928
+USER	LoginLogout by PeterEdwards on tenant manufacturing	13	END	1498826117600	1498826120941
+REQUEST	LoginLogout by JustinWelch on tenant manufacturing	15		openAMLogout	1498826120840	1498826120932	OK	 
+USER	LoginLogout by JustinWelch on tenant manufacturing	15	END	1498826117601	1498826120942
+REQUEST	LoginLogout by SysAdmin on tenant healthcare	22		openAMLogout	1498826120861	1498826120941	OK	 
+REQUEST	LoginLogout by SeanIvan on tenant healthcare	10		openAMLogout	1498826120882	1498826120941	OK	 
+USER	LoginLogout by SeanIvan on tenant healthcare	10	END	1498826117599	1498826120942
+USER	LoginLogout by SysAdmin on tenant healthcare	22	END	1498826117610	1498826120942
+REQUEST	LoginLogout by SaraGriffin on tenant manufacturing	19		openAMLogout	1498826120882	1498826120942	OK	 
+REQUEST	LoginLogout by HollyIvan on tenant manufacturing	14		openAMLogout	1498826120863	1498826120942	OK	 
+USER	LoginLogout by SaraGriffin on tenant manufacturing	19	END	1498826117609	1498826120943
+USER	LoginLogout by HollyIvan on tenant manufacturing	14	END	1498826117601	1498826120943
+REQUEST	LoginLogout by SeanIvan on tenant manufacturing	11		openAMLogout	1498826120890	1498826120947	OK	 
+USER	LoginLogout by SeanIvan on tenant manufacturing	11	END	1498826117599	1498826120953
+REQUEST	LoginLogout by JacquelineSnyder on tenant manufacturing	18		openAMLogout	1498826120897	1498826120955	OK	 
+USER	LoginLogout by JacquelineSnyder on tenant manufacturing	18	END	1498826117609	1498826120957

@@ -1,0 +1,9 @@
+RUN	scheduling.schedule.MultiReadDesktopSimulation		multireaddesktopsimulation	1498806050179	 	2.0
+USER	multiRead desktop viewport by PointyheadBoss	1	START	1498806051596	1498806051596
+REQUEST	multiRead desktop viewport by PointyheadBoss	1		openAMLogin-healthcare-PointyheadBoss	1498806051609	1498806051693	OK	 
+REQUEST	multiRead desktop viewport by PointyheadBoss	1		openAMTokenValidate	1498806051738	1498806051797	OK	 
+REQUEST	multiRead desktop viewport by PointyheadBoss	1		scheduleMultiRead	1498806051805	1498806111812	KO	j.u.c.TimeoutException: Request timeout to cxseed-a-back.int.prf.mykronos.com/10.3.80.90:80 after 60000ms
+REQUEST	multiRead desktop viewport by PointyheadBoss	1		scheduleMultiRead	1498806111820	1498806122290	OK	 
+REQUEST	multiRead desktop viewport by PointyheadBoss	1		scheduleMultiRead	1498806122293	1498806124679	OK	 
+REQUEST	multiRead desktop viewport by PointyheadBoss	1		scheduleMultiRead	1498806124704	1498806129723	OK	 
+REQUEST	multiRead desktop viewport by PointyheadBoss	1		scheduleMultiRead	1498806129754	1498806131123	OK	 
