@@ -1,19 +1,0 @@
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   318  100   318    0     0   1901      0 --:--:-- --:--:-- --:--:--  1904
-<html>
-<head>
-<meta http-equiv="Content-Type" content="text/html;charset=ISO-8859-1"/>
-<title>Error 404 </title>
-</head>
-<body>
-<h2>HTTP ERROR: 404</h2>
-<p>Problem accessing /rest/management/profiles//storepurepaths. Reason:
-<pre>    Not Found</pre></p>
-<hr /><i><small>Powered by Jetty://</small></i>
-</body>
-</html>
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   148  100   148    0     0    972      0 --:--:-- --:--:-- --:--:--   973
-[1;32m@dynatrace_session_export; 03:03:17; Dynatrace session export successfully.  Output file can be found in  /home/stn/cache/cxseed/scheduling.schedule.MultiReadDesktopSimulation/dynatrace [0m

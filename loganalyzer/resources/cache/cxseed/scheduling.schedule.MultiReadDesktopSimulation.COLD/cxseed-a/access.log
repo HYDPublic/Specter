@@ -1,2 +1,0 @@
-10.129.62.6 - - [30/Jun/2017:06:50:25 +0000] "GET /dashboard?tenantId=healthcare HTTP/1.1" 302 0 "-" "Ruby"
-10.129.62.6 - - [30/Jun/2017:07:00:22 +0000] "GET /dashboard?tenantId=healthcare HTTP/1.1" 302 0 "-" "Ruby"

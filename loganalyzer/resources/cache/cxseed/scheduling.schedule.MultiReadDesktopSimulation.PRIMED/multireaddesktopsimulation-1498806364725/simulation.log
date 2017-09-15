@@ -1,9 +1,0 @@
-RUN	scheduling.schedule.MultiReadDesktopSimulation		multireaddesktopsimulation	1498806364725	 	2.0
-USER	multiRead desktop viewport by PointyheadBoss	1	START	1498806366148	1498806366148
-REQUEST	multiRead desktop viewport by PointyheadBoss	1		openAMLogin-healthcare-PointyheadBoss	1498806366161	1498806366263	OK	 
-REQUEST	multiRead desktop viewport by PointyheadBoss	1		openAMTokenValidate	1498806366307	1498806366366	OK	 
-REQUEST	multiRead desktop viewport by PointyheadBoss	1		scheduleMultiRead	1498806366375	1498806367186	OK	 
-REQUEST	multiRead desktop viewport by PointyheadBoss	1		scheduleMultiRead	1498806367190	1498806367404	OK	 
-REQUEST	multiRead desktop viewport by PointyheadBoss	1		scheduleMultiRead	1498806367430	1498806367650	OK	 
-REQUEST	multiRead desktop viewport by PointyheadBoss	1		scheduleMultiRead	1498806367679	1498806367881	OK	 
-REQUEST	multiRead desktop viewport by PointyheadBoss	1		scheduleMultiRead	1498806367921	1498806368086	OK	 
