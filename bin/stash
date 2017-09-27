@@ -5,9 +5,9 @@
 # Stash was the previous version of bitbucket.
 # I created this utility while using it, so now you know the reason.
 
-export WORKDIR=~/projects
+WORKDIR=~/projects
 
-export REPOS="$(find ${WORKDIR}/ -name .git)"
+REPOS="$(find ${WORKDIR}/ -name .git)"
 
 for repo in ${REPOS};do
     cd ${repo};cd ..;echo " ";echo " * $(pwd)"
